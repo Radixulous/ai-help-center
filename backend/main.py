@@ -322,6 +322,26 @@ async def test_openai():
     except Exception as e:
         return {"status": "failed", "error": str(e)}
 
+@app.get("/debug-articles")
+async def debug_articles():
+    """Debug article loading"""
+    try:
+        articles = load_articles()
+        return {
+            "total_articles": len(articles),
+            "by_product": {
+                "radix": len([a for a in articles if a['product'] == 'radix']),
+                "rediq": len([a for a in articles if a['product'] == 'rediq'])
+            },
+            "sample_article": articles[0] if articles else None,
+            "article_paths_checked": [
+                "../data/radix/articles/*.md",
+                "../data/rediq/articles/*.md"
+            ]
+        }
+    except Exception as e:
+        return {"error": str(e), "error_type": type(e).__name__}
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
