@@ -407,11 +407,21 @@ Context from knowledge base:
 {context}
 
 Instructions:
-- Answer based on the provided context
-- If you reference images, they are already properly formatted with URLs
+- Answer based on the provided context from the knowledge base
+- Use rich formatting to make your responses more readable:
+  - Use **bold text** for important terms and concepts
+  - Use *italic text* for emphasis
+  - Use `code` for technical terms, file names, or commands
+  - Include [clickable links](url) when referencing external resources
+  - Include ![alt text](image_url) for images when relevant
+- DO NOT suggest links to legacy help sites (help.radix.com, rediq.zendesk.com)
+- You can include links to other external resources when helpful (documentation, APIs, etc.)
+- Use the information from the knowledge base to provide direct answers
+- If you need to reference specific features or procedures, describe them based on the context provided
 - Be helpful and specific
 - If the context doesn't contain enough information, say so
-- Include step-by-step guidance when appropriate"""
+- Include step-by-step guidance when appropriate
+- Format lists and instructions clearly"""
             }
         ]
         
@@ -432,7 +442,6 @@ Instructions:
         
         return {
             "response": response.choices[0].message.content,
-            "sources": sources,
             "product_filter": request.product
         }
     

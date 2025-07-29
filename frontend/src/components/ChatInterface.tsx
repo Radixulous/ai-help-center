@@ -1,10 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
-import { Send, MessageCircle, Search, Book, Zap, Database, Calculator, RefreshCw, Users, BarChart3, Code, HelpCircle, ChevronDown, ChevronUp } from 'lucide-react';
+import { Send, MessageCircle, Search, Book, Zap, Database, Calculator, RefreshCw, Users, BarChart3, Code, HelpCircle, ChevronDown, ChevronUp, ExternalLink } from 'lucide-react';
 
 interface Message {
   role: 'user' | 'assistant';
   content: string;
-  sources?: Array<{ title: string; product: string }>;
 }
 
 interface Category {
@@ -15,6 +14,227 @@ interface Category {
   color: string;
   sections: string[];
 }
+
+// Component to render rich text content
+const RichTextContent = ({ content }: { content: string }) => {
+  // Function to render markdown-like content with links and images
+  const renderContent = (text: string) => {
+    // Split content into lines to process each line
+    const lines = text.split('\n');
+    
+    return lines.map((line, lineIndex) => {
+      // Handle headings: ### Heading
+      const headingMatch = line.match(/^(#{1,6})\s+(.+)$/);
+      if (headingMatch) {
+        const [, hashes, headingText] = headingMatch;
+        const level = hashes.length;
+        
+        // Process the heading text for inline formatting
+        const processedHeading = processInlineFormatting(headingText);
+        
+        const headingClasses = {
+          1: "text-2xl font-extrabold text-[#333333] mb-4 mt-6",
+          2: "text-xl font-extrabold text-[#333333] mb-3 mt-5",
+          3: "text-lg font-extrabold text-[#333333] mb-2 mt-4",
+          4: "text-base font-extrabold text-[#333333] mb-2 mt-3",
+          5: "text-sm font-extrabold text-[#333333] mb-1 mt-2",
+          6: "text-xs font-extrabold text-[#333333] mb-1 mt-2"
+        };
+        
+        const HeadingComponent = `h${level}` as keyof React.JSX.IntrinsicElements;
+        return React.createElement(
+          HeadingComponent,
+          { 
+            key: lineIndex, 
+            className: headingClasses[level as keyof typeof headingClasses] 
+          },
+          processedHeading
+        );
+      }
+      
+      // Handle image references: ![alt](url) - can be inline or block
+      const imageMatch = line.match(/!\[([^\]]*)\]\(([^)]+)\)/);
+      if (imageMatch) {
+        const [, altText, imageUrl] = imageMatch;
+        
+        // Check if this is a standalone image line (no other text)
+        const isStandaloneImage = line.trim() === `![${altText}](${imageUrl})`;
+        
+        if (isStandaloneImage) {
+          // Block image
+          return (
+            <div key={lineIndex} className="my-4">
+              <img 
+                src={imageUrl} 
+                alt={altText} 
+                className="max-w-full h-auto rounded-lg shadow-sm"
+                onError={(e) => {
+                  e.currentTarget.style.display = 'none';
+                }}
+              />
+              {altText && (
+                <p className="text-xs text-[#707174] mt-1 text-center">{altText}</p>
+              )}
+            </div>
+          );
+        } else {
+          // Inline image - replace the image syntax with an img element
+          const beforeImage = line.substring(0, line.indexOf(`![${altText}](${imageUrl})`));
+          const afterImage = line.substring(line.indexOf(`![${altText}](${imageUrl})`) + `![${altText}](${imageUrl})`.length);
+          
+          return (
+            <div key={lineIndex} className="my-1">
+              {beforeImage && <span>{processInlineFormatting(beforeImage)}</span>}
+              <img 
+                src={imageUrl} 
+                alt={altText} 
+                className="inline-block max-h-6 w-auto mx-1 align-middle"
+                onError={(e) => {
+                  e.currentTarget.style.display = 'none';
+                }}
+              />
+              {afterImage && <span>{processInlineFormatting(afterImage)}</span>}
+            </div>
+          );
+        }
+      }
+      
+      // Handle links: [text](url)
+      const linkMatch = line.match(/\[([^\]]+)\]\(([^)]+)\)/);
+      if (linkMatch) {
+        const [, linkText, linkUrl] = linkMatch;
+        return (
+          <div key={lineIndex} className="my-1">
+            <a 
+              href={linkUrl} 
+              target="_blank" 
+              rel="noopener noreferrer"
+              className="text-[#008CD5] hover:text-[#0076B4] underline inline-flex items-center gap-1"
+            >
+              {linkText}
+              <ExternalLink className="w-3 h-3" />
+            </a>
+          </div>
+        );
+      }
+      
+      // Regular text with inline formatting
+      return <div key={lineIndex}>{processInlineFormatting(line)}</div>;
+    });
+  };
+
+  // Helper function to process inline formatting (bold, italic, code)
+  const processInlineFormatting = (text: string): (string | React.ReactElement)[] => {
+    const result: (string | React.ReactElement)[] = [];
+    const currentText = text;
+    let elementIndex = 0;
+
+    // Process bold text: **text**
+    const boldMatches = [...currentText.matchAll(/\*\*([^*]+)\*\*/g)];
+    if (boldMatches.length > 0) {
+      let lastIndex = 0;
+      
+      boldMatches.forEach((match) => {
+        const [fullMatch, boldText] = match;
+        const matchIndex = match.index!;
+        
+        // Add text before the bold part
+        if (matchIndex > lastIndex) {
+          result.push(currentText.slice(lastIndex, matchIndex));
+        }
+        
+        // Add the bold text
+        result.push(
+          <strong key={`bold-${elementIndex++}`} className="font-extrabold">
+            {boldText}
+          </strong>
+        );
+        
+        lastIndex = matchIndex + fullMatch.length;
+      });
+      
+      // Add remaining text
+      if (lastIndex < currentText.length) {
+        result.push(currentText.slice(lastIndex));
+      }
+      
+      return result;
+    }
+
+    // Process italic text: *text*
+    const italicMatches = [...currentText.matchAll(/\*([^*]+)\*/g)];
+    if (italicMatches.length > 0) {
+      let lastIndex = 0;
+      
+      italicMatches.forEach((match) => {
+        const [fullMatch, italicText] = match;
+        const matchIndex = match.index!;
+        
+        // Add text before the italic part
+        if (matchIndex > lastIndex) {
+          result.push(currentText.slice(lastIndex, matchIndex));
+        }
+        
+        // Add the italic text
+        result.push(
+          <em key={`italic-${elementIndex++}`} className="italic">
+            {italicText}
+          </em>
+        );
+        
+        lastIndex = matchIndex + fullMatch.length;
+      });
+      
+      // Add remaining text
+      if (lastIndex < currentText.length) {
+        result.push(currentText.slice(lastIndex));
+      }
+      
+      return result;
+    }
+
+    // Process code blocks: `code`
+    const codeMatches = [...currentText.matchAll(/`([^`]+)`/g)];
+    if (codeMatches.length > 0) {
+      let lastIndex = 0;
+      
+      codeMatches.forEach((match) => {
+        const [fullMatch, codeText] = match;
+        const matchIndex = match.index!;
+        
+        // Add text before the code part
+        if (matchIndex > lastIndex) {
+          result.push(currentText.slice(lastIndex, matchIndex));
+        }
+        
+        // Add the code text
+        result.push(
+          <code key={`code-${elementIndex++}`} className="bg-[#F6F7F8] px-1 py-0.5 rounded text-sm font-mono">
+            {codeText}
+          </code>
+        );
+        
+        lastIndex = matchIndex + fullMatch.length;
+      });
+      
+      // Add remaining text
+      if (lastIndex < currentText.length) {
+        result.push(currentText.slice(lastIndex));
+      }
+      
+      return result;
+    }
+
+    // No formatting found, return the text as is
+    return [text];
+  };
+
+  return (
+    <div className="font-normal text-base leading-6">
+      {renderContent(content)}
+    </div>
+  );
+};
 
 const ChatInterface = () => {
   const [messages, setMessages] = useState<Message[]>([]);
@@ -223,8 +443,7 @@ const ChatInterface = () => {
       if (response.ok) {
         const assistantMessage: Message = {
           role: 'assistant',
-          content: data.response,
-          sources: data.sources || []
+          content: data.response
         };
         setMessages([...newMessages, assistantMessage]);
       } else {
@@ -233,8 +452,7 @@ const ChatInterface = () => {
     } catch (error) {
       const errorMessage: Message = {
         role: 'assistant',
-        content: `Sorry, I encountered an error: ${error.message}. Please try again.`,
-        sources: []
+        content: `Sorry, I encountered an error: ${error.message}. Please try again.`
       };
       setMessages([...newMessages, errorMessage]);
     }
@@ -406,22 +624,7 @@ const ChatInterface = () => {
                     ? 'bg-[#008CD5] text-white' 
                     : 'bg-white border border-[#E6E7E8] text-[#333333]'
                 }`}>
-                  <div className="whitespace-pre-wrap font-normal text-base leading-6">{message.content}</div>
-                  
-                  {/* Sources */}
-                  {message.sources && message.sources.length > 0 && (
-                    <div className="mt-3 pt-3 border-t border-[#E6E7E8]">
-                      <p className="text-xs text-[#707174] mb-2 font-normal">Sources:</p>
-                      <div className="space-y-1">
-                        {message.sources.map((source, idx) => (
-                          <div key={idx} className="text-xs text-[#008CD5] bg-[#E8F8FF] px-2 py-1 rounded font-normal">
-                            <span className="font-extrabold">{source.title}</span>
-                            <span className="text-[#707174] ml-2">({source.product})</span>
-                          </div>
-                        ))}
-                      </div>
-                    </div>
-                  )}
+                  <RichTextContent content={message.content} />
                 </div>
               </div>
             ))}
