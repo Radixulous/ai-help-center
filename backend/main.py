@@ -461,6 +461,46 @@ async def debug_embeddings():
     except Exception as e:
         return {"error": str(e), "error_type": type(e).__name__}
 
+@app.get("/debug-long-articles")
+async def debug_long_articles():
+    """Find articles that are unusually long"""
+    try:
+        articles = []
+        products = ['radix', 'rediq']
+        
+        for product in products:
+            article_path = f"../data/{product}/articles/*.md"
+            files = glob.glob(article_path)
+            
+            for file_path in files:
+                try:
+                    with open(file_path, 'r', encoding='utf-8') as f:
+                        content = f.read()
+                        
+                    title_match = re.search(r'^#\s+(.+)$', content, re.MULTILINE)
+                    title = title_match.group(1) if title_match else os.path.basename(file_path).replace('.md', '')
+                    
+                    articles.append({
+                        'filename': os.path.basename(file_path),
+                        'title': title,
+                        'length': len(content),
+                        'word_count': len(content.split()),
+                        'product': product
+                    })
+                except Exception as e:
+                    print(f"Error reading {file_path}: {e}")
+        
+        # Sort by length, show longest first
+        articles.sort(key=lambda x: x['length'], reverse=True)
+        
+        return {
+            "longest_articles": articles[:10],  # Top 10 longest
+            "articles_over_50k": [a for a in articles if a['length'] > 50000],
+            "articles_over_100k": [a for a in articles if a['length'] > 100000]
+        }
+    except Exception as e:
+        return {"error": str(e)}
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
