@@ -10,6 +10,47 @@ from pinecone import Pinecone, ServerlessSpec
 import openai
 import re
 from typing import List, Optional
+import hashlib
+import re
+
+# Better text chunking instead of truncation
+def chunk_text(text: str, max_chars: int = 7000) -> List[str]:
+    """Split long text into chunks while preserving meaning"""
+    if len(text) <= max_chars:
+        return [text]
+    
+    # Try to split on paragraphs first
+    paragraphs = text.split('\n\n')
+    chunks = []
+    current_chunk = ""
+    
+    for para in paragraphs:
+        if len(current_chunk + para) <= max_chars:
+            current_chunk += para + "\n\n"
+        else:
+            if current_chunk:
+                chunks.append(current_chunk.strip())
+            current_chunk = para + "\n\n"
+    
+    if current_chunk:
+        chunks.append(current_chunk.strip())
+    
+    return chunks
+
+# Generate clean ASCII IDs
+def generate_clean_id(original_id: str) -> str:
+    """Generate ASCII-only ID from filename"""
+    # Remove file extension and clean up
+    clean_id = re.sub(r'[^\w\-_]', '_', original_id)
+    clean_id = re.sub(r'_+', '_', clean_id)  # Multiple underscores to single
+    clean_id = clean_id.strip('_')
+    
+    # If still too long or problematic, use hash
+    if len(clean_id) > 50:
+        hash_suffix = hashlib.md5(original_id.encode()).hexdigest()[:8]
+        clean_id = clean_id[:40] + "_" + hash_suffix
+    
+    return clean_id
 
 load_dotenv()
 
@@ -71,53 +112,26 @@ def init_pinecone():
 def get_embeddings(texts: List[str]) -> List[List[float]]:
     try:
         all_embeddings = []
-        batch_size = 20  # Even smaller batches
+        batch_size = 20
         
         for i in range(0, len(texts), batch_size):
             batch = texts[i:i + batch_size]
-            print(f"Processing batch {i//batch_size + 1}/{(len(texts)-1)//batch_size + 1} ({len(batch)} texts)")
+            print(f"Processing batch {i//batch_size + 1}/{(len(texts)-1)//batch_size + 1}")
             
-            # Check for text length issues
-            for j, text in enumerate(batch):
-                if len(text) > 8000:  # OpenAI limit is ~8192 tokens
-                    print(f"Warning: Text {i+j} is {len(text)} characters, truncating...")
-                    batch[j] = text[:8000]
+            response = openai.embeddings.create(
+                model="text-embedding-3-small",
+                input=batch
+            )
             
-            try:
-                response = openai.embeddings.create(
-                    model="text-embedding-3-small",
-                    input=batch
-                )
-                
-                batch_embeddings = [item.embedding for item in response.data]
-                all_embeddings.extend(batch_embeddings)
-                print(f"Batch {i//batch_size + 1} completed successfully")
-                
-            except Exception as batch_error:
-                print(f"Batch {i//batch_size + 1} failed: {batch_error}")
-                # Try individual texts if batch fails
-                for text in batch:
-                    try:
-                        single_response = openai.embeddings.create(
-                            model="text-embedding-3-small",
-                            input=[text[:8000]]  # Truncate to be safe
-                        )
-                        all_embeddings.extend([single_response.data[0].embedding])
-                    except Exception as single_error:
-                        print(f"Single text failed: {single_error}")
-                        # Add a zero vector as placeholder
-                        all_embeddings.append([0.0] * 1536)
+            batch_embeddings = [item.embedding for item in response.data]
+            all_embeddings.extend(batch_embeddings)
             
-            # Delay between batches
             import time
-            time.sleep(1)
+            time.sleep(0.5)
         
-        print(f"Total embeddings generated: {len(all_embeddings)}")
         return all_embeddings
-        
     except Exception as e:
-        print(f"Critical error in get_embeddings: {e}")
-        print(f"Error type: {type(e).__name__}")
+        print(f"Error getting embeddings: {e}")
         return []
 
 # Generate S3 URL for images
@@ -165,17 +179,30 @@ def load_articles():
                 with open(file_path, 'r', encoding='utf-8') as f:
                     content = f.read()
                     
-                # Extract title (first # heading or filename)
+                # Extract title
                 title_match = re.search(r'^#\s+(.+)$', content, re.MULTILINE)
                 title = title_match.group(1) if title_match else os.path.basename(file_path).replace('.md', '')
                 
-                articles.append({
-                    'id': f"{product}_{os.path.basename(file_path)}",
-                    'title': title,
-                    'content': content,
-                    'product': product,
-                    'file_path': file_path
-                })
+                # Generate clean ID
+                base_id = f"{product}_{os.path.basename(file_path)}"
+                clean_id = generate_clean_id(base_id)
+                
+                # Chunk long articles
+                full_text = f"{title}\n\n{content}"
+                text_chunks = chunk_text(full_text)
+                
+                # Create separate entries for each chunk
+                for i, chunk in enumerate(text_chunks):
+                    chunk_id = f"{clean_id}_chunk_{i}" if len(text_chunks) > 1 else clean_id
+                    articles.append({
+                        'id': chunk_id,
+                        'title': title,
+                        'content': chunk,
+                        'product': product,
+                        'file_path': file_path,
+                        'chunk_index': i,
+                        'total_chunks': len(text_chunks)
+                    })
             except Exception as e:
                 print(f"Error loading {file_path}: {e}")
     
