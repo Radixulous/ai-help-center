@@ -510,111 +510,111 @@ const ChatInterface = () => {
       <div className="flex-1 overflow-hidden">
         <div className="max-w-4xl mx-auto h-full flex flex-col">
           
-          {/* Messages Area */}
-          <div className="flex-1 overflow-y-auto p-4 space-y-4">
-            
-            {/* Welcome Message & Input */}
-            {messages.length === 0 && (
-              <div className="text-center py-8">
-                <MessageCircle className="w-16 h-16 text-[#008CD5] mx-auto mb-4" />
-                <h2 className="text-2xl font-extrabold text-[#333333] mb-2 leading-8">How can I help you today?</h2>
-                <p className="text-[#707174] mb-8 font-normal text-base leading-6">
-                  {selectedProduct === 'radix' 
-                    ? 'Ask me anything about Radix products, or choose a category below to get started.'
-                    : selectedProduct === 'rediq'
-                    ? 'Ask me anything about redIQ products, or choose a category below to get started.'
-                    : 'Ask me anything about Radix or redIQ, or choose a category below to get started.'
-                  }
-                </p>
-                
-                {/* Chat Input */}
-                <div className="max-w-3xl mx-auto mb-8">
-                  <div className="flex items-end space-x-2">
-                    <div className="flex-1 relative">
-                      <textarea
-                        value={input}
-                        onChange={(e) => setInput(e.target.value)}
-                        onKeyPress={handleKeyPress}
-                        placeholder="Ask me anything about your help center..."
-                        className="w-full px-4 py-3 border border-[#D5D8DB] rounded-lg resize-none focus:outline-none focus:ring-2 focus:ring-[#008CD5] focus:border-transparent font-normal text-base leading-6 text-[#333333] placeholder-[#707174] bg-white shadow-sm"
-                        rows={2}
-                        style={{ minHeight: '60px', maxHeight: '120px' }}
-                      />
-                    </div>
-                    <button
-                      onClick={() => handleSend()}
-                      disabled={!input.trim() || isLoading}
-                      className="bg-[#008CD5] text-white p-3 rounded-lg hover:bg-[#0076B4] disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
-                    >
-                      <Send className="w-5 h-5" />
-                    </button>
-                  </div>
-                  
-                  {selectedProduct && (
-                    <div className="mt-2 text-xs text-[#707174] font-normal text-center">
-                      Searching in: <span className="font-extrabold capitalize">{selectedProduct}</span>
-                    </div>
-                  )}
-                </div>
-
-                {/* Suggested Queries */}
-                {showSuggestions && (
-                  <div className="max-w-3xl mx-auto mb-8">
-                    <div className="bg-white rounded-lg border border-[#E6E7E8] p-4 shadow-sm">
-                      <div className="flex items-center justify-between mb-3">
-                        <h3 className="font-extrabold text-[#333333] text-base">Suggested Questions</h3>
-                        <button
-                          onClick={() => setShowSuggestions(false)}
-                          className="text-[#707174] hover:text-[#333333] transition-colors"
-                        >
-                          <ChevronUp className="w-5 h-5" />
-                        </button>
-                      </div>
-                      
-                      {generatingQueries ? (
-                        <div className="flex items-center justify-center py-4">
-                          <div className="flex space-x-1">
-                            <div className="w-2 h-2 bg-[#008CD5] rounded-full animate-bounce"></div>
-                            <div className="w-2 h-2 bg-[#008CD5] rounded-full animate-bounce" style={{animationDelay: '0.1s'}}></div>
-                            <div className="w-2 h-2 bg-[#008CD5] rounded-full animate-bounce" style={{animationDelay: '0.2s'}}></div>
-                          </div>
-                          <span className="text-sm text-[#707174] font-normal ml-2">Generating questions...</span>
-                        </div>
-                      ) : (
-                        <div className="space-y-2">
-                          {suggestedQueries.map((query, index) => (
-                            <div
-                              key={index}
-                              onClick={() => handleSuggestedQueryClick(query)}
-                              className="w-full text-left px-4 py-3 rounded-lg border border-[#E6E7E8] hover:border-[#008CD5] hover:bg-[#E8F8FF] transition-all duration-200 cursor-pointer"
-                            >
-                              <div className="text-sm text-[#333333] font-normal leading-5 break-words whitespace-normal">{query}</div>
-                            </div>
-                          ))}
-                        </div>
-                      )}
-                    </div>
-                  </div>
-                )}
-                
-                {/* Suggested Categories */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-3xl mx-auto">
-                  {suggestedCategories.map((category, index) => (
-                    <button
-                      key={index}
-                      onClick={() => handleCategoryClick(category)}
-                      className="p-4 bg-white rounded-lg border border-[#E6E7E8] hover:border-[#008CD5] hover:shadow-md transition-all duration-200 text-left group"
-                    >
-                      <div className={`w-12 h-12 ${category.color} rounded-lg flex items-center justify-center mb-3 text-white group-hover:scale-110 transition-transform`}>
-                        {category.icon}
-                      </div>
-                      <h3 className="font-extrabold text-[#333333] mb-1 text-base leading-6">{category.name}</h3>
-                      <p className="text-sm text-[#707174] font-normal leading-5 line-clamp-2">{category.description}</p>
-                    </button>
-                  ))}
-                </div>
-              </div>
-            )}
+                             {/* Messages Area */}
+                   <div className="flex-1 overflow-y-auto p-4 space-y-4">
+                     
+                     {/* Welcome Message & Categories (only when no messages) */}
+                     {messages.length === 0 && (
+                       <div className="text-center py-8">
+                         <MessageCircle className="w-16 h-16 text-[#008CD5] mx-auto mb-4" />
+                         <h2 className="text-2xl font-extrabold text-[#333333] mb-2 leading-8">How can I help you today?</h2>
+                         <p className="text-[#707174] mb-8 font-normal text-base leading-6">
+                           {selectedProduct === 'radix' 
+                             ? 'Ask me anything about Radix products, or choose a category below to get started.'
+                             : selectedProduct === 'rediq'
+                             ? 'Ask me anything about redIQ products, or choose a category below to get started.'
+                             : 'Ask me anything about Radix or redIQ, or choose a category below to get started.'
+                           }
+                         </p>
+                         
+                         {/* Initial Chat Input */}
+                         <div className="max-w-3xl mx-auto mb-8">
+                           <div className="flex items-end space-x-2">
+                             <div className="flex-1 relative">
+                               <textarea
+                                 value={input}
+                                 onChange={(e) => setInput(e.target.value)}
+                                 onKeyPress={handleKeyPress}
+                                 placeholder="Ask me anything about your help center..."
+                                 className="w-full px-4 py-3 border border-[#D5D8DB] rounded-lg resize-none focus:outline-none focus:ring-2 focus:ring-[#008CD5] focus:border-transparent font-normal text-base leading-6 text-[#333333] placeholder-[#707174] bg-white shadow-sm"
+                                 rows={2}
+                                 style={{ minHeight: '60px', maxHeight: '120px' }}
+                               />
+                             </div>
+                             <button
+                               onClick={() => handleSend()}
+                               disabled={!input.trim() || isLoading}
+                               className="bg-[#008CD5] text-white p-3 rounded-lg hover:bg-[#0076B4] disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                             >
+                               <Send className="w-5 h-5" />
+                             </button>
+                           </div>
+                           
+                           {selectedProduct && (
+                             <div className="mt-2 text-xs text-[#707174] font-normal text-center">
+                               Searching in: <span className="font-extrabold capitalize">{selectedProduct}</span>
+                             </div>
+                           )}
+                         </div>
+                         
+                         {/* Suggested Queries */}
+                         {showSuggestions && (
+                           <div className="max-w-3xl mx-auto mb-8">
+                             <div className="bg-white rounded-lg border border-[#E6E7E8] p-4 shadow-sm">
+                               <div className="flex items-center justify-between mb-3">
+                                 <h3 className="font-extrabold text-[#333333] text-base">Suggested Questions</h3>
+                                 <button
+                                   onClick={() => setShowSuggestions(false)}
+                                   className="text-[#707174] hover:text-[#333333] transition-colors"
+                                 >
+                                   <ChevronUp className="w-5 h-5" />
+                                 </button>
+                               </div>
+                               
+                               {generatingQueries ? (
+                                 <div className="flex items-center justify-center py-4">
+                                   <div className="flex space-x-1">
+                                     <div className="w-2 h-2 bg-[#008CD5] rounded-full animate-bounce"></div>
+                                     <div className="w-2 h-2 bg-[#008CD5] rounded-full animate-bounce" style={{animationDelay: '0.1s'}}></div>
+                                     <div className="w-2 h-2 bg-[#008CD5] rounded-full animate-bounce" style={{animationDelay: '0.2s'}}></div>
+                                   </div>
+                                   <span className="text-sm text-[#707174] font-normal ml-2">Generating questions...</span>
+                                 </div>
+                               ) : (
+                                 <div className="space-y-2">
+                                   {suggestedQueries.map((query, index) => (
+                                     <div
+                                       key={index}
+                                       onClick={() => handleSuggestedQueryClick(query)}
+                                       className="w-full text-left px-4 py-3 rounded-lg border border-[#E6E7E8] hover:border-[#008CD5] hover:bg-[#E8F8FF] transition-all duration-200 cursor-pointer"
+                                     >
+                                       <div className="text-sm text-[#333333] font-normal leading-5 break-words whitespace-normal">{query}</div>
+                                     </div>
+                                   ))}
+                                 </div>
+                               )}
+                             </div>
+                           </div>
+                         )}
+                         
+                         {/* Suggested Categories */}
+                         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4 max-w-3xl mx-auto">
+                           {suggestedCategories.map((category, index) => (
+                             <button
+                               key={index}
+                               onClick={() => handleCategoryClick(category)}
+                               className="p-4 bg-white rounded-lg border border-[#E6E7E8] hover:border-[#008CD5] hover:shadow-md transition-all duration-200 text-left group"
+                             >
+                               <div className={`w-12 h-12 ${category.color} rounded-lg flex items-center justify-center mb-3 text-white group-hover:scale-110 transition-transform`}>
+                                 {category.icon}
+                               </div>
+                               <h3 className="font-extrabold text-[#333333] mb-1 text-base leading-6">{category.name}</h3>
+                               <p className="text-sm text-[#707174] font-normal leading-5 line-clamp-2">{category.description}</p>
+                             </button>
+                           ))}
+                         </div>
+                       </div>
+                     )}
 
             {/* Chat Messages */}
             {messages.map((message, index) => (
@@ -647,7 +647,40 @@ const ChatInterface = () => {
 
             <div ref={messagesEndRef} />
           </div>
-
+          
+          {/* Persistent Chat Input */}
+          {messages.length > 0 && (
+            <div className="border-t border-[#E6E7E8] bg-white p-4">
+              <div className="max-w-4xl mx-auto">
+                <div className="flex items-end space-x-2">
+                  <div className="flex-1 relative">
+                    <textarea
+                      value={input}
+                      onChange={(e) => setInput(e.target.value)}
+                      onKeyPress={handleKeyPress}
+                      placeholder="Ask a follow-up question..."
+                      className="w-full px-4 py-3 border border-[#D5D8DB] rounded-lg resize-none focus:outline-none focus:ring-2 focus:ring-[#008CD5] focus:border-transparent font-normal text-base leading-6 text-[#333333] placeholder-[#707174] bg-white shadow-sm"
+                      rows={1}
+                      style={{ minHeight: '48px', maxHeight: '120px' }}
+                    />
+                  </div>
+                  <button
+                    onClick={() => handleSend()}
+                    disabled={!input.trim() || isLoading}
+                    className="bg-[#008CD5] text-white p-3 rounded-lg hover:bg-[#0076B4] disabled:opacity-50 disabled:cursor-not-allowed transition-colors"
+                  >
+                    <Send className="w-5 h-5" />
+                  </button>
+                </div>
+                
+                {selectedProduct && (
+                  <div className="mt-2 text-xs text-[#707174] font-normal">
+                    Searching in: <span className="font-extrabold capitalize">{selectedProduct}</span>
+                  </div>
+                )}
+              </div>
+            </div>
+          )}
         </div>
       </div>
     </div>
