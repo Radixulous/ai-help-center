@@ -12,6 +12,35 @@ import re
 from typing import List, Optional
 import hashlib
 import re
+import base64
+
+def clean_base64_from_content(content: str) -> str:
+    """Remove base64 encoded data from markdown content"""
+    
+    # Pattern for base64 image data URLs
+    base64_pattern = r'data:image/[^;]+;base64,[A-Za-z0-9+/]+=*'
+    
+    # Pattern for standalone base64 blocks (long strings of base64 characters)
+    standalone_base64_pattern = r'[A-Za-z0-9+/]{100,}=*'
+    
+    # Remove base64 image data URLs
+    content = re.sub(base64_pattern, '[IMAGE REMOVED]', content)
+    
+    # Remove standalone base64 blocks
+    content = re.sub(standalone_base64_pattern, '[DATA REMOVED]', content)
+    
+    # Clean up multiple consecutive newlines
+    content = re.sub(r'\n{3,}', '\n\n', content)
+    
+    return content
+
+def is_base64_heavy(content: str) -> bool:
+    """Check if content has a lot of base64 data"""
+    base64_chars = len(re.findall(r'[A-Za-z0-9+/=]', content))
+    total_chars = len(content)
+    
+    # If more than 70% of content is base64-like characters, it's probably data
+    return (base64_chars / total_chars) > 0.7 if total_chars > 0 else False
 
 # Better text chunking instead of truncation
 def chunk_text(text: str, max_chars: int = 7000) -> List[str]:
@@ -500,6 +529,7 @@ async def debug_long_articles():
         }
     except Exception as e:
         return {"error": str(e)}
+
 
 if __name__ == "__main__":
     import uvicorn
