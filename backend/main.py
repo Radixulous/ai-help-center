@@ -500,9 +500,8 @@ Return only the questions, one per line, without numbering or additional text.""
         # Clean up questions (remove numbering if present)
         cleaned_questions = []
         for question in questions:
-            # Remove common numbering patterns
+            # Remove common numbering patterns (only numbers, not letters)
             question = re.sub(r'^\d+\.?\s*', '', question)
-            question = re.sub(r'^[A-Z]\.?\s*', '', question)
             question = question.strip()
             if question:
                 cleaned_questions.append(question)

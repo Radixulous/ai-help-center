@@ -261,7 +261,7 @@ const ChatInterface = () => {
   const suggestedCategories = getSuggestedCategories();
 
   return (
-    <div className="flex flex-col h-screen bg-[#F6F7F8] font-[var(--font-figtree)]">
+    <div className="flex flex-col h-screen bg-[#F6F7F8] font-[var(--font-figtree)] overflow-hidden">
       {/* Header */}
       <div className="bg-white border-b border-[#E6E7E8] p-4">
         <div className="max-w-4xl mx-auto flex items-center justify-between">
@@ -365,13 +365,13 @@ const ChatInterface = () => {
                       ) : (
                         <div className="space-y-2">
                           {suggestedQueries.map((query, index) => (
-                            <button
+                            <div
                               key={index}
                               onClick={() => handleSuggestedQueryClick(query)}
-                              className="w-full text-left p-3 rounded-lg border border-[#E6E7E8] hover:border-[#008CD5] hover:bg-[#E8F8FF] transition-all duration-200"
+                              className="w-full text-left px-4 py-3 rounded-lg border border-[#E6E7E8] hover:border-[#008CD5] hover:bg-[#E8F8FF] transition-all duration-200 cursor-pointer"
                             >
-                              <p className="text-sm text-[#333333] font-normal leading-5">{query}</p>
-                            </button>
+                              <div className="text-sm text-[#333333] font-normal leading-5 break-words whitespace-normal">{query}</div>
+                            </div>
                           ))}
                         </div>
                       )}
