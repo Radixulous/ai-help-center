@@ -165,7 +165,7 @@ def process_content_images(content: str, product: str) -> str:
     
     return re.sub(image_pattern, replace_image, content)
 
-# Load articles from markdown files
+# Updated load_articles with proper chunking
 def load_articles():
     articles = []
     products = ['radix', 'rediq']
@@ -187,25 +187,41 @@ def load_articles():
                 base_id = f"{product}_{os.path.basename(file_path)}"
                 clean_id = generate_clean_id(base_id)
                 
-                # Chunk long articles
+                # Create the full text for embedding
                 full_text = f"{title}\n\n{content}"
-                text_chunks = chunk_text(full_text)
                 
-                # Create separate entries for each chunk
-                for i, chunk in enumerate(text_chunks):
-                    chunk_id = f"{clean_id}_chunk_{i}" if len(text_chunks) > 1 else clean_id
+                # IMPORTANT: Actually use the chunking function
+                if len(full_text) > 7000:  # If text is long, chunk it
+                    print(f"Chunking long article: {title} ({len(full_text)} chars)")
+                    text_chunks = chunk_text(full_text, max_chars=6000)  # Smaller chunks
+                    
+                    for i, chunk in enumerate(text_chunks):
+                        chunk_id = f"{clean_id}_chunk_{i}"
+                        articles.append({
+                            'id': chunk_id,
+                            'title': f"{title} (Part {i+1})",
+                            'content': chunk,
+                            'product': product,
+                            'file_path': file_path,
+                            'chunk_index': i,
+                            'total_chunks': len(text_chunks)
+                        })
+                else:
+                    # Article is short enough, use as-is
                     articles.append({
-                        'id': chunk_id,
+                        'id': clean_id,
                         'title': title,
-                        'content': chunk,
+                        'content': full_text,
                         'product': product,
                         'file_path': file_path,
-                        'chunk_index': i,
-                        'total_chunks': len(text_chunks)
+                        'chunk_index': 0,
+                        'total_chunks': 1
                     })
+                    
             except Exception as e:
                 print(f"Error loading {file_path}: {e}")
     
+    print(f"Loaded {len(articles)} article chunks total")
     return articles
 
 @app.get("/")
@@ -224,8 +240,16 @@ async def ingest_articles():
         if not articles:
             raise HTTPException(status_code=404, detail="No articles found")
         
-        # Prepare data for vectorization
-        texts = [f"{article['title']}\n\n{article['content']}" for article in articles]
+        print(f"Processing {len(articles)} article chunks for embeddings...")
+        
+        # Prepare data for vectorization - using the content that was already chunked
+        texts = [article['content'] for article in articles]  # This should now be chunked
+        
+        # Check text lengths before sending to OpenAI
+        for i, text in enumerate(texts):
+            if len(text) > 8000:
+                print(f"WARNING: Text {i} is still {len(text)} chars - this will fail!")
+        
         embeddings = get_embeddings(texts)
         
         if not embeddings:
@@ -240,7 +264,9 @@ async def ingest_articles():
                 'metadata': {
                     'title': article['title'],
                     'content': article['content'][:8000],  # Limit metadata size
-                    'product': article['product']
+                    'product': article['product'],
+                    'chunk_index': article.get('chunk_index', 0),
+                    'total_chunks': article.get('total_chunks', 1)
                 }
             })
         
@@ -251,7 +277,9 @@ async def ingest_articles():
             index.upsert(vectors=batch)
         
         return {
-            "message": f"Successfully ingested {len(articles)} articles",
+            "message": f"Successfully ingested {len(articles)} article chunks",
+            "original_articles": len(glob.glob("../data/*/articles/*.md")),
+            "total_chunks": len(articles),
             "articles_by_product": {
                 "radix": len([a for a in articles if a['product'] == 'radix']),
                 "rediq": len([a for a in articles if a['product'] == 'rediq'])
