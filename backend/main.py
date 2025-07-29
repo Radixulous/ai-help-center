@@ -67,14 +67,29 @@ def init_pinecone():
         print(f"Error initializing Pinecone: {e}")
         return None
 
-# Get embeddings from OpenAI
+# Get embeddings from OpenAI with batching
 def get_embeddings(texts: List[str]) -> List[List[float]]:
     try:
-        response = openai.embeddings.create(
-            model="text-embedding-3-small",
-            input=texts
-        )
-        return [item.embedding for item in response.data]
+        all_embeddings = []
+        batch_size = 50  # Process 50 articles at a time
+        
+        for i in range(0, len(texts), batch_size):
+            batch = texts[i:i + batch_size]
+            print(f"Processing batch {i//batch_size + 1}/{(len(texts)-1)//batch_size + 1}")
+            
+            response = openai.embeddings.create(
+                model="text-embedding-3-small",
+                input=batch
+            )
+            
+            batch_embeddings = [item.embedding for item in response.data]
+            all_embeddings.extend(batch_embeddings)
+            
+            # Small delay to avoid rate limits
+            import time
+            time.sleep(0.5)
+        
+        return all_embeddings
     except Exception as e:
         print(f"Error getting embeddings: {e}")
         return []
