@@ -67,31 +67,57 @@ def init_pinecone():
         print(f"Error initializing Pinecone: {e}")
         return None
 
-# Get embeddings from OpenAI with batching
+# Get embeddings from OpenAI with detailed error handling
 def get_embeddings(texts: List[str]) -> List[List[float]]:
     try:
         all_embeddings = []
-        batch_size = 50  # Process 50 articles at a time
+        batch_size = 20  # Even smaller batches
         
         for i in range(0, len(texts), batch_size):
             batch = texts[i:i + batch_size]
-            print(f"Processing batch {i//batch_size + 1}/{(len(texts)-1)//batch_size + 1}")
+            print(f"Processing batch {i//batch_size + 1}/{(len(texts)-1)//batch_size + 1} ({len(batch)} texts)")
             
-            response = openai.embeddings.create(
-                model="text-embedding-3-small",
-                input=batch
-            )
+            # Check for text length issues
+            for j, text in enumerate(batch):
+                if len(text) > 8000:  # OpenAI limit is ~8192 tokens
+                    print(f"Warning: Text {i+j} is {len(text)} characters, truncating...")
+                    batch[j] = text[:8000]
             
-            batch_embeddings = [item.embedding for item in response.data]
-            all_embeddings.extend(batch_embeddings)
+            try:
+                response = openai.embeddings.create(
+                    model="text-embedding-3-small",
+                    input=batch
+                )
+                
+                batch_embeddings = [item.embedding for item in response.data]
+                all_embeddings.extend(batch_embeddings)
+                print(f"Batch {i//batch_size + 1} completed successfully")
+                
+            except Exception as batch_error:
+                print(f"Batch {i//batch_size + 1} failed: {batch_error}")
+                # Try individual texts if batch fails
+                for text in batch:
+                    try:
+                        single_response = openai.embeddings.create(
+                            model="text-embedding-3-small",
+                            input=[text[:8000]]  # Truncate to be safe
+                        )
+                        all_embeddings.extend([single_response.data[0].embedding])
+                    except Exception as single_error:
+                        print(f"Single text failed: {single_error}")
+                        # Add a zero vector as placeholder
+                        all_embeddings.append([0.0] * 1536)
             
-            # Small delay to avoid rate limits
+            # Delay between batches
             import time
-            time.sleep(0.5)
+            time.sleep(1)
         
+        print(f"Total embeddings generated: {len(all_embeddings)}")
         return all_embeddings
+        
     except Exception as e:
-        print(f"Error getting embeddings: {e}")
+        print(f"Critical error in get_embeddings: {e}")
+        print(f"Error type: {type(e).__name__}")
         return []
 
 # Generate S3 URL for images
