@@ -310,6 +310,18 @@ async def health_check():
         "s3": "configured" if os.getenv('S3_BUCKET') else "not configured"
     }
 
+@app.get("/test-openai")
+async def test_openai():
+    """Test OpenAI API connection"""
+    try:
+        response = openai.embeddings.create(
+            model="text-embedding-3-small",
+            input=["test"]
+        )
+        return {"status": "success", "embedding_length": len(response.data[0].embedding)}
+    except Exception as e:
+        return {"status": "failed", "error": str(e)}
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
