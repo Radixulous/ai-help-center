@@ -119,6 +119,12 @@ class ChatRequest(BaseModel):
     product: Optional[str] = None
     conversation_history: List[dict] = []
 
+class GenerateQueriesRequest(BaseModel):
+    category_name: str
+    category_description: str
+    sections: List[str]
+    product: str
+
 # Initialize Pinecone index
 def init_pinecone():
     try:
@@ -453,6 +459,79 @@ async def test_openai():
         return {"status": "success", "embedding_length": len(response.data[0].embedding)}
     except Exception as e:
         return {"status": "failed", "error": str(e)}
+
+@app.post("/generate-queries")
+async def generate_suggested_queries(request: GenerateQueriesRequest):
+    """Generate suggested queries based on category and sections"""
+    try:
+        # Build context about the category and its sections
+        sections_text = "\n".join([f"- {section}" for section in request.sections])
+        
+        prompt = f"""Based on the following help center category information, generate 4 relevant and specific questions that users might ask about this category.
+
+Category: {request.category_name}
+Description: {request.category_description}
+Product: {request.product}
+Available Sections: {sections_text}
+
+Generate 4 questions that are:
+1. Specific to the category and its sections
+2. Common user questions that would be helpful
+3. Varied in complexity (from basic to advanced)
+4. Focused on practical usage and problem-solving
+
+Return only the questions, one per line, without numbering or additional text."""
+
+        # Get OpenAI response
+        response = openai.chat.completions.create(
+            model="gpt-4o-mini",
+            messages=[
+                {"role": "system", "content": "You are a help center assistant that generates relevant user questions based on category information."},
+                {"role": "user", "content": prompt}
+            ],
+            max_tokens=300,
+            temperature=0.7
+        )
+        
+        # Parse the response into individual questions
+        questions_text = response.choices[0].message.content.strip()
+        questions = [q.strip() for q in questions_text.split('\n') if q.strip()]
+        
+        # Clean up questions (remove numbering if present)
+        cleaned_questions = []
+        for question in questions:
+            # Remove common numbering patterns
+            question = re.sub(r'^\d+\.?\s*', '', question)
+            question = re.sub(r'^[A-Z]\.?\s*', '', question)
+            question = question.strip()
+            if question:
+                cleaned_questions.append(question)
+        
+        # Ensure we have exactly 4 questions
+        if len(cleaned_questions) > 4:
+            cleaned_questions = cleaned_questions[:4]
+        elif len(cleaned_questions) < 4:
+            # Add fallback questions if we don't have enough
+            fallback_questions = [
+                f"How do I get started with {request.category_name}?",
+                f"What are the main features of {request.category_name}?",
+                f"How can I troubleshoot issues with {request.category_name}?",
+                f"What are the best practices for using {request.category_name}?"
+            ]
+            while len(cleaned_questions) < 4:
+                cleaned_questions.append(fallback_questions[len(cleaned_questions)])
+        
+        return {"queries": cleaned_questions}
+    
+    except Exception as e:
+        # Return fallback questions if API fails
+        fallback_questions = [
+            f"How do I get started with {request.category_name}?",
+            f"What are the main features of {request.category_name}?",
+            f"How can I troubleshoot issues with {request.category_name}?",
+            f"What are the best practices for using {request.category_name}?"
+        ]
+        return {"queries": fallback_questions}
 
 @app.get("/debug-articles")
 async def debug_articles():
