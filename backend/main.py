@@ -194,7 +194,6 @@ def process_content_images(content: str, product: str) -> str:
     
     return re.sub(image_pattern, replace_image, content)
 
-# Updated load_articles with proper chunking
 def load_articles():
     articles = []
     products = ['radix', 'rediq']
@@ -207,7 +206,15 @@ def load_articles():
             try:
                 with open(file_path, 'r', encoding='utf-8') as f:
                     content = f.read()
-                    
+                
+                # Clean base64 data from content
+                original_length = len(content)
+                content = clean_base64_from_content(content)
+                cleaned_length = len(content)
+                
+                if original_length > cleaned_length * 2:  # Significant reduction
+                    print(f"Cleaned {os.path.basename(file_path)}: {original_length} -> {cleaned_length} chars")
+                
                 # Extract title
                 title_match = re.search(r'^#\s+(.+)$', content, re.MULTILINE)
                 title = title_match.group(1) if title_match else os.path.basename(file_path).replace('.md', '')
@@ -219,10 +226,10 @@ def load_articles():
                 # Create the full text for embedding
                 full_text = f"{title}\n\n{content}"
                 
-                # IMPORTANT: Actually use the chunking function
-                if len(full_text) > 7000:  # If text is long, chunk it
-                    print(f"Chunking long article: {title} ({len(full_text)} chars)")
-                    text_chunks = chunk_text(full_text, max_chars=6000)  # Smaller chunks
+                # Check if still too long after cleaning
+                if len(full_text) > 7000:
+                    print(f"Chunking article: {title} ({len(full_text)} chars)")
+                    text_chunks = chunk_text(full_text, max_chars=6000)
                     
                     for i, chunk in enumerate(text_chunks):
                         chunk_id = f"{clean_id}_chunk_{i}"
@@ -236,7 +243,7 @@ def load_articles():
                             'total_chunks': len(text_chunks)
                         })
                 else:
-                    # Article is short enough, use as-is
+                    # Article is good size after cleaning
                     articles.append({
                         'id': clean_id,
                         'title': title,
