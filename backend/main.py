@@ -342,6 +342,29 @@ async def debug_articles():
     except Exception as e:
         return {"error": str(e), "error_type": type(e).__name__}
 
+@app.get("/debug-embeddings")
+async def debug_embeddings():
+    """Debug embedding generation with small batch"""
+    try:
+        articles = load_articles()[:5]  # Just first 5 articles
+        texts = [f"{article['title']}\n\n{article['content']}" for article in articles]
+        
+        # Check text lengths
+        text_lengths = [len(text) for text in texts]
+        
+        # Try generating embeddings for small batch
+        embeddings = get_embeddings(texts)
+        
+        return {
+            "articles_tested": len(articles),
+            "text_lengths": text_lengths,
+            "max_length": max(text_lengths),
+            "embeddings_generated": len(embeddings),
+            "embedding_dimension": len(embeddings[0]) if embeddings else 0
+        }
+    except Exception as e:
+        return {"error": str(e), "error_type": type(e).__name__}
+
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run(app, host="0.0.0.0", port=8000)
