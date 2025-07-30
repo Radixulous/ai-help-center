@@ -1,4 +1,12 @@
 ---
+id: 26798199106573
+title: Model, Admin, Down (MAD) Units  (PMS Integrations)
+product: Radix
+category: Benchmark
+section: Data Dictionary
+attachments: []
+created_at: '2024-05-17T10:06:28Z'
+updated_at: '2024-05-17T12:18:46Z'
 suggested_queries:
 - - "What are MAD units in PMS integrations for Radix?"
 - - "How is rent calculated for properties with MAD units?"

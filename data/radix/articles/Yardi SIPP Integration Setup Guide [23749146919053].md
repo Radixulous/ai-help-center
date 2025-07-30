@@ -1,5 +1,16 @@
 ---
-attachments: 
+id: 23749146919053
+title: Yardi SIPP Integration Setup Guide
+product: Radix
+category: API & Integrations
+section: Integrations
+attachments:
+- 23751375008653.png
+- 23751375028493.png
+- 23938426444941.png
+- 27002693649037.png
+created_at: '2024-02-01T22:50:13Z'
+updated_at: '2024-08-22T19:10:24Z'
 suggested_queries:
 - - "What are the steps to set up Yardi SIPP integration with Radix?"
 - - "What requirements does my Voyager instance need for Yardi SIPP integration?"

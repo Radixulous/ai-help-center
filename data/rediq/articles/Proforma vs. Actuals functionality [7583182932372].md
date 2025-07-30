@@ -1,5 +1,15 @@
 ---
-attachments: 
+id: 7583182932372
+title: Proforma vs. Actuals functionality
+product: redIQ
+category: dataIQ
+section: Operating Statements
+attachments:
+- 7583060212244.png
+- 7583078145812.png
+- 7583122004500.png
+created_at: '2022-07-06T18:57:21Z'
+updated_at: '2023-11-03T17:07:21Z'
 suggested_queries:
 - - "What is the difference between Proforma and Actuals in redIQ?"
 - - "How do I upload a Proforma financial report in redIQ?"

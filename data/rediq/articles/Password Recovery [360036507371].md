@@ -1,5 +1,14 @@
 ---
-attachments: 
+id: 360036507371
+title: Password Recovery
+product: redIQ
+category: dataIQ
+section: Settings and Admin
+attachments:
+- 4406786721044.png
+- 4406826351380.png
+created_at: '2019-11-21T16:43:09Z'
+updated_at: '2024-10-07T16:41:57Z'
 suggested_queries:
 - - "How do I reset my redIQ password if I forgot it?"
 - - "What should I do if I didn't receive a password reset email from redIQ?"

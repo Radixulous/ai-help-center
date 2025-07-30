@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 38068774461453
+title: Web-Scraped Property Survey Data
+product: Radix
+category: Benchmark
+section: Updating your Market Survey now on RealRents
+attachments:
+- 38068751602957.png
+created_at: '2025-07-15T12:26:14Z'
+updated_at: '2025-07-16T17:05:26Z'
 suggested_queries:
 - - "What is web-scraped property survey data in Radix?"
 - - "How can I identify surveys with web-scraped data?"

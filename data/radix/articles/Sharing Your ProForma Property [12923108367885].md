@@ -1,5 +1,18 @@
 ---
-attachments: 
+id: 12923108367885
+title: Sharing Your ProForma Property
+product: Radix
+category: ProForma
+section: ProForma
+attachments:
+- 16427128668685.png
+- 16427226321933.png
+- 16427910890637.png
+- 16428445847693.png
+- 16428777416845.png
+- 16429601567245.png
+created_at: '2023-02-07T22:42:28Z'
+updated_at: '2024-08-22T20:27:20Z'
 suggested_queries:
 - - "How do I share a custom ProForma property with my team?"
 - - "What permissions can I grant when sharing ProForma properties?"

@@ -1,4 +1,12 @@
 ---
+id: 360036141412
+title: Why are there fewer floor plans than expected?
+product: redIQ
+category: dataIQ
+section: Rent Rolls
+attachments: []
+created_at: '2019-11-21T17:11:13Z'
+updated_at: '2020-04-21T16:35:17Z'
 suggested_queries:
 - - "Why are there fewer unique floor plans in redIQ after uploading the rent roll?"
 - - "How can I view units by unique floor plan size in redIQ?"

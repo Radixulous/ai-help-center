@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 18605482796941
+title: Available Research Markets
+product: Radix
+category: Research
+section: Research
+attachments:
+- 24512684313997.png
+created_at: '2023-08-16T23:35:30Z'
+updated_at: '2024-08-22T18:21:41Z'
 suggested_queries:
 - - "What research markets are available in Radix?"
 - - "How can I access market performance insights for different states?"

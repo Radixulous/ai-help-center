@@ -1,4 +1,12 @@
 ---
+id: 360036139932
+title: What does "mapping" mean?
+product: redIQ
+category: dataIQ
+section: Settings and Admin
+attachments: []
+created_at: '2019-11-21T16:45:53Z'
+updated_at: '2022-10-31T16:00:42Z'
 suggested_queries:
 - - "What is the meaning of mapping in data categorization?"
 - - "How do I map historical data to the Chart of Accounts?"

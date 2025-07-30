@@ -1,5 +1,17 @@
 ---
-attachments: 
+id: 18300039293581
+title: Property Ranking Report Overview
+product: Radix
+category: Reports
+section: Report Overviews
+attachments:
+- 26011974376333.png
+- 26012224530957.png
+- 26012536768269.png
+- 26012822350989.png
+- 26012786814605.png
+created_at: '2023-08-07T17:32:02Z'
+updated_at: '2024-08-22T19:10:23Z'
 suggested_queries:
 - How do I access the Property Ranking Report in Radix?
 - What metrics can I customize in the Property Ranking Report?

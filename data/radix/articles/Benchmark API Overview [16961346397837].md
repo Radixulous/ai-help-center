@@ -1,4 +1,12 @@
 ---
+id: 16961346397837
+title: Benchmark API Overview
+product: Radix
+category: API & Integrations
+section: API
+attachments: []
+created_at: '2023-06-21T22:12:43Z'
+updated_at: '2024-03-05T23:01:25Z'
 suggested_queries:
 - - "What is the Benchmark API and how do I use it?"
 - - "How can I retrieve property data using the Benchmark API?"

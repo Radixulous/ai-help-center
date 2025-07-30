@@ -1,5 +1,18 @@
 ---
-attachments: 
+id: 15328580922637
+title: Standardizing Reporting With an Organization Template
+product: Radix
+category: Reports
+section: Customizing Reports
+attachments:
+- 29128812005517.png
+- 15334264156045.png
+- 15334365481997.png
+- 15334438261261.png
+- 15334509695117.png
+- 15334512459021.png
+created_at: '2023-04-28T22:47:12Z'
+updated_at: '2024-08-22T19:34:28Z'
 suggested_queries:
 - - "How can I create an Organization Template for standardized reporting in Radix?"
 - - "What are the steps to share a report as an Organization Template in Radix?"

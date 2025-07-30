@@ -1,4 +1,12 @@
 ---
+id: 360040724591
+title: Best Practices and Tips
+product: redIQ
+category: QuickSync
+section: Best Practices and Tips
+attachments: []
+created_at: '2020-03-09T14:13:12Z'
+updated_at: '2024-10-07T16:41:53Z'
 suggested_queries:
 - - "What are the best practices for organizing data tables in redIQ?"
 - - "How should I format reports in redIQ to match my workbook's theme?"

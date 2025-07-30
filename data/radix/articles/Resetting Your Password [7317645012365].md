@@ -1,5 +1,17 @@
 ---
-attachments: 
+id: 7317645012365
+title: Resetting Your Password
+product: Radix
+category: Benchmark
+section: Managing Users
+attachments:
+- 33035728752397.png
+- 33035728753805.png
+- 33035764800269.png
+- 33035764800909.png
+- 33035728768525.png
+created_at: '2022-06-30T14:42:51Z'
+updated_at: '2025-06-24T10:20:31Z'
 suggested_queries:
 - - "How do I reset my Radix password?"
 - - "What steps do I follow to recover my Radix account password?"

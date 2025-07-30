@@ -1,5 +1,15 @@
 ---
-attachments: 
+id: 37606411992973
+title: Property Update Reminder Emails
+product: Radix
+category: RealRents
+section: General
+attachments:
+- 38035846166925.png
+- 37606411991949.png
+- 37606411992205.png
+created_at: '2025-06-25T08:55:50Z'
+updated_at: '2025-07-14T10:25:20Z'
 suggested_queries:
 - - "What are Property Update Reminder emails in Radix?"
 - - "How to disable Property Update Reminder emails in Radix?"

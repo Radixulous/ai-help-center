@@ -1,5 +1,16 @@
 ---
-attachments: 
+id: 15158782070413
+title: Property Data Report Overview
+product: Radix
+category: Reports
+section: Report Overviews
+attachments:
+- 29127992440717.png
+- 15159081858061.png
+- 15159241260813.png
+- 19001836722957.png
+created_at: '2023-04-24T03:04:26Z'
+updated_at: '2024-08-22T18:08:39Z'
 suggested_queries:
 - - "What metrics can I include in a Property Data Report?"
 - - "How do I customize my Property Data Report in Radix?"

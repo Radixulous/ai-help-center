@@ -1,5 +1,16 @@
 ---
-attachments: 
+id: 28868353600269
+title: How to Edit Property Information
+product: Radix
+category: Benchmark
+section: Managing Properties
+attachments:
+- 32947678062733.png
+- 28869070050957.png
+- 28869070055693.png
+- 28869070066701.png
+created_at: '2024-07-31T15:04:44Z'
+updated_at: '2024-12-23T13:44:21Z'
 suggested_queries:
 - - "How can I edit property information in Radix?"
 - - "What steps do I take to update amenities and fees for a property?"

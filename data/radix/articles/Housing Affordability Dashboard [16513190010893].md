@@ -1,5 +1,14 @@
 ---
-attachments: 
+id: 16513190010893
+title: Housing Affordability Dashboard
+product: Radix
+category: Research
+section: Research
+attachments:
+- 16513221139085.png
+- 16517319171725.png
+created_at: '2023-06-07T20:27:38Z'
+updated_at: '2024-08-22T19:34:28Z'
 suggested_queries:
 - - "What is the Housing Affordability dashboard in Radix?"
 - - "How can I access the Share of Wallet data for housing?"

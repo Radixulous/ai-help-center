@@ -1,5 +1,16 @@
 ---
-attachments: 
+id: 28870249500045
+title: How to Manage Fees and Deposits
+product: Radix
+category: Benchmark
+section: Managing Properties
+attachments:
+- 32947698686861.png
+- 28870606138509.png
+- 28870606142093.png
+- 28870583202957.png
+created_at: '2024-07-31T15:51:40Z'
+updated_at: '2024-12-23T13:45:38Z'
 suggested_queries:
 - - "How do I track custom fees and deposits in Radix?"
 - - "What are the steps to edit fees and deposits for a property in Radix?"

@@ -1,4 +1,12 @@
 ---
+id: 360035704731
+title: Rent Roll Capture Compatibility
+product: redIQ
+category: dataIQ
+section: Rent Rolls
+attachments: []
+created_at: '2019-10-30T18:14:47Z'
+updated_at: '2024-10-07T16:42:40Z'
 suggested_queries:
 - - "Which property management systems are compatible with redIQ's Rent Roll Capture?"
 - - "What types of rent roll reports can redIQ recognize from Excel or PDF?"

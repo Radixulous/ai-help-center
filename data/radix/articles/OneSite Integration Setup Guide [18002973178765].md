@@ -1,5 +1,14 @@
 ---
-attachments: 
+id: 18002973178765
+title: OneSite Integration Setup Guide
+product: Radix
+category: API & Integrations
+section: Integrations
+attachments:
+- 18200042435725.png
+- 18138173726605.png
+created_at: '2023-07-27T23:45:13Z'
+updated_at: '2024-08-22T11:30:05Z'
 suggested_queries:
 - - "What are the steps to set up OneSite integration with Radix?"
 - - "How do I enable Radix integrations in RealPage's Integration Marketplace?"

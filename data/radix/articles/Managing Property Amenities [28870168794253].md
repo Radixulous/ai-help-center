@@ -1,5 +1,18 @@
 ---
-attachments: 
+id: 28870168794253
+title: Managing Property Amenities
+product: Radix
+category: Benchmark
+section: Managing Properties
+attachments:
+- 32947779061005.png
+- 28870183078541.png
+- 28886351382541.png
+- 28870168776845.png
+- 28870183089421.png
+- 28870183091213.png
+created_at: '2024-07-31T15:47:44Z'
+updated_at: '2024-12-23T13:47:37Z'
 suggested_queries:
 - - "How do I edit community and location amenities in Radix?"
 - - "What steps are needed to update unit amenities for a property?"

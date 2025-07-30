@@ -1,4 +1,12 @@
 ---
+id: 6069148172180
+title: Callout Block Examples
+product: redIQ
+category: Support and Training
+section: Training Resources
+attachments: []
+created_at: '2022-05-05T14:03:24Z'
+updated_at: '2023-10-31T12:47:19Z'
 suggested_queries:
 - - "What are the different types of callout blocks in Rediq?"
 - - "Can you provide examples of success and warning callouts?"

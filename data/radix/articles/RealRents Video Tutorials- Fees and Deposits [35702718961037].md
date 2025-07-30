@@ -1,4 +1,12 @@
 ---
+id: 35702718961037
+title: 'RealRents Video Tutorials: Fees and Deposits'
+product: Radix
+category: RealRents
+section: Fees, Deposits and Concessions
+attachments: []
+created_at: '2025-04-09T07:26:40Z'
+updated_at: '2025-06-23T12:35:50Z'
 suggested_queries:
 - - "How do I manage application fees in RealRents?"
 - - "What video tutorials are available for setting up fees and deposits in RealRents?"

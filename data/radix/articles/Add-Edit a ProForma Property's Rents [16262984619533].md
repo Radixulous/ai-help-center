@@ -1,5 +1,16 @@
 ---
-attachments: 
+id: 16262984619533
+title: 'Add/Edit a ProForma Property's Rents'
+product: Radix
+category: ProForma
+section: ProForma
+attachments:
+- 33466626414989.png
+- 33466626424205.png
+- 16339115191821.png
+- 16339109535501.png
+created_at: '2023-05-30T19:27:34Z'
+updated_at: '2025-01-14T14:23:34Z'
 suggested_queries:
 - - "How can I edit a ProForma property's rents in Radix?"
 - - "What steps do I follow to add rents for a custom property?"

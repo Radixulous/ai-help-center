@@ -1,5 +1,15 @@
 ---
-attachments: 
+id: 37551625959309
+title: Viewing PMS Imported Survey Data
+product: Radix
+category: RealRents
+section: General
+attachments:
+- 37551637965069.png
+- 37551637965453.png
+- 37551625957645.png
+created_at: '2025-06-23T12:31:03Z'
+updated_at: '2025-06-23T12:40:35Z'
 suggested_queries:
 - - "How can I view the calculations for imported survey data in Radix?"
 - - "What details are available in the Integration Details for my property survey?"

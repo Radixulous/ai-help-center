@@ -1,4 +1,12 @@
 ---
+id: 9287090963213
+title: Property Surveys Terminology and Formulas [Video]
+product: Radix
+category: Benchmark
+section: Data Dictionary
+attachments: []
+created_at: '2022-09-19T23:39:06Z'
+updated_at: '2023-11-01T17:57:20Z'
 suggested_queries:
 - - "What are the key terms and formulas in property surveys?"
 - - "How do I understand property survey terminology?"

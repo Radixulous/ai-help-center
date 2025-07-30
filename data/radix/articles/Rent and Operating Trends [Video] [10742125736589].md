@@ -1,4 +1,12 @@
 ---
+id: 10742125736589
+title: Rent and Operating Trends [Video]
+product: Radix
+category: Research
+section: Research
+attachments: []
+created_at: '2022-11-18T21:33:51Z'
+updated_at: '2023-11-01T17:57:20Z'
 suggested_queries:
 - - "What are the latest rent and operating trends in Radix?"
 - - "Where can I find the Rent & Operating Trends Report video?"

@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 360036506511
+title: Delete a Batch of Operating Statements
+product: redIQ
+category: dataIQ
+section: Operating Statements
+attachments:
+- 25816306520084.png
+created_at: '2019-11-21T16:26:43Z'
+updated_at: '2024-10-07T16:40:49Z'
 suggested_queries:
 - - "How do I delete a batch of Operating Statements in redIQ?"
 - - "What steps are needed to remove a batch from the Source Data in redIQ?"

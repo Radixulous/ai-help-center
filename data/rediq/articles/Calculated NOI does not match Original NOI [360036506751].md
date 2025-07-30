@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 360036506751
+title: Calculated NOI does not match Original NOI
+product: redIQ
+category: dataIQ
+section: Operating Statements
+attachments:
+- 25816543370388.png
+created_at: '2019-11-21T16:28:54Z'
+updated_at: '2024-10-07T16:40:48Z'
 suggested_queries:
 - - "Why does my calculated NOI differ from the original NOI in redIQ?"
 - - "What should I check if calculated NOI does not match original NOI?"

@@ -1,5 +1,18 @@
 ---
-attachments: 
+id: 37874525132941
+title: Updating Competitor Surveys
+product: Radix
+category: RealRents
+section: General
+attachments:
+- 37875079541517.png
+- 37875102107021.png
+- 37875102109581.png
+- 37875102113549.png
+- 37880483856397.png
+- 37875079553549.png
+created_at: '2025-07-07T13:33:06Z'
+updated_at: '2025-07-16T11:58:17Z'
 suggested_queries:
 - - "How do I update competitor surveys in RealRents?"
 - - "What are the steps to identify and update outdated competitor surveys in Radix?"

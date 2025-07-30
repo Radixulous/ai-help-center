@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 16951814442253
+title: Introduction to Radix API
+product: Radix
+category: API & Integrations
+section: API
+attachments:
+- 17285006567693.png
+created_at: '2023-06-21T17:35:24Z'
+updated_at: '2024-08-22T11:30:05Z'
 suggested_queries:
 - - "What is the Radix API and how can I access it?"
 - - "How does the Radix API integrate with business intelligence tools?"

@@ -1,5 +1,14 @@
 ---
-attachments: 
+id: 22586467899021
+title: Properties to Review
+product: Radix
+category: Benchmark
+section: 'Evaluating Your Portfolio's Performance'
+attachments:
+- 26574817928973.png
+- 22586735551629.png
+created_at: '2023-12-21T23:19:26Z'
+updated_at: '2024-08-22T21:38:33Z'
 suggested_queries:
 - - "What is the Properties to Review feature in Radix?"
 - - "How can I find properties trailing competitors in my portfolio?"

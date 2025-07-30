@@ -1,4 +1,12 @@
 ---
+id: 9060154685965
+title: Property Benchmark Reputation & Map [Video]
+product: Radix
+category: Benchmark
+section: 'Evaluating Your Property's Performance'
+attachments: []
+created_at: '2022-09-09T23:03:04Z'
+updated_at: '2023-11-01T17:57:19Z'
 suggested_queries:
 - - "Where can I find the Reputation & Map features in Property Benchmark?"
 - - "What is the Property Benchmark Reputation and Map video about?"

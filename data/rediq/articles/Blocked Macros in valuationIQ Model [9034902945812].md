@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 9034902945812
+title: Blocked Macros in valuationIQ Model
+product: redIQ
+category: valuationIQ
+section: Troubleshooting
+attachments:
+- 9034871750804.jpg
+created_at: '2022-09-02T16:29:05Z'
+updated_at: '2024-11-21T00:29:45Z'
 suggested_queries:
 - - "How do I unblock macros in valuationIQ model in Excel?"
 - - "What are trusted locations for enabling VBA macros in valuationIQ?"

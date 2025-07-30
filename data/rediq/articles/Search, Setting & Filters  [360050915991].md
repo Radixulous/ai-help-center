@@ -1,5 +1,16 @@
 ---
-attachments: 
+id: 360050915991
+title: Search, Setting & Filters 
+product: redIQ
+category: dataIQ
+section: Deals
+attachments:
+- 360072448912.png
+- 360072690251.png
+- 360072690291.png
+- 360072690371.png
+created_at: '2020-10-13T14:47:30Z'
+updated_at: '2024-10-07T16:42:41Z'
 suggested_queries:
 - - "How can I filter deals by category in rediq?"
 - - "What are the steps to use the search bar for deals in rediq?"

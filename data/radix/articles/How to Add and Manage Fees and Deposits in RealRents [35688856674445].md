@@ -1,5 +1,18 @@
 ---
-attachments: 
+id: 35688856674445
+title: How to Add and Manage Fees and Deposits in RealRents
+product: Radix
+category: RealRents
+section: Fees, Deposits and Concessions
+attachments:
+- 35702593775629.png
+- 35702593775885.png
+- 35702593776141.png
+- 35702609547405.png
+- 35702609547661.png
+- 35702593776781.png
+created_at: '2025-04-08T18:25:45Z'
+updated_at: '2025-06-23T12:35:50Z'
 suggested_queries:
 - How do I add fees and deposits to my property in RealRents?
 - What steps are involved in managing fees for my rental units?

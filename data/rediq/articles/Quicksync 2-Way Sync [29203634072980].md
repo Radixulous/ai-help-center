@@ -1,5 +1,17 @@
 ---
-attachments: 
+id: 29203634072980
+title: Quicksync 2-Way Sync
+product: redIQ
+category: QuickSync
+section: Getting Started
+attachments:
+- 29203627849108.png
+- 29203634065812.png
+- 29203627853204.png
+- 29203634069396.png
+- 29203627855252.png
+created_at: '2024-08-07T19:49:47Z'
+updated_at: '2024-08-15T18:41:20Z'
 suggested_queries:
 - - "What is QuickSync 2-Way Sync in redIQ?"
 - - "How do I sync data from Excel to redIQ using QuickSync?"

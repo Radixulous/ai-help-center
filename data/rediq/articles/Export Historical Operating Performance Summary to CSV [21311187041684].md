@@ -1,4 +1,12 @@
 ---
+id: 21311187041684
+title: Export Historical Operating Performance Summary to CSV
+product: redIQ
+category: dataIQ
+section: Operating Statements
+attachments: []
+created_at: '2023-11-27T22:18:14Z'
+updated_at: '2023-11-27T22:28:04Z'
 suggested_queries:
 - - "How can I export the Historical Operating Performance Summary to CSV in rediq?"
 - - "What steps do I follow to download data from the Operating Statement dashboard?"

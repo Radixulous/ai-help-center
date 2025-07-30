@@ -1,5 +1,18 @@
 ---
-attachments: 
+id: 360050449232
+title: Deal Action Menu
+product: redIQ
+category: dataIQ
+section: Deals
+attachments:
+- 360072446112.png
+- 360072446472.png
+- 360072446432.png
+- 360072689491.png
+- 360072688411.png
+- 360072688291.png
+created_at: '2020-10-13T14:31:20Z'
+updated_at: '2024-10-07T16:41:48Z'
 suggested_queries:
 - - "What actions can I take from the deal action menu in Rediq?"
 - - "How do I edit deal and property information in Rediq?"

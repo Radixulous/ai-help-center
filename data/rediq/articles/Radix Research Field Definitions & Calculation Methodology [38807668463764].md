@@ -1,4 +1,12 @@
 ---
+id: 38807668463764
+title: Radix Research Field Definitions & Calculation Methodology
+product: redIQ
+category: dataIQ
+section: Radix Research
+attachments: []
+created_at: '2025-06-27T15:04:45Z'
+updated_at: '2025-07-02T18:19:48Z'
 suggested_queries:
 - - "What are the definitions and calculations for Radix Research metrics?"
 - - "How is Net Effective Rent calculated in Radix Analytics?"

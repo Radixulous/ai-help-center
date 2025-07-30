@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 360036139712
+title: Add/Manage Users
+product: redIQ
+category: dataIQ
+section: Settings and Admin
+attachments:
+- 25816764528788.png
+created_at: '2019-11-21T16:42:21Z'
+updated_at: '2024-07-01T20:22:08Z'
 suggested_queries:
 - - "How can I manage users in redIQ as a Corporate Admin?"
 - - "What are the steps to add a new user in redIQ?"

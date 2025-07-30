@@ -1,5 +1,15 @@
 ---
-attachments: 
+id: 360052540851
+title: Operating Statement Format Upload
+product: redIQ
+category: dataIQ
+section: Operating Statements
+attachments:
+- 360079451612.png
+- 360079451912.png
+- 360079452412.png
+created_at: '2020-11-13T17:11:29Z'
+updated_at: '2023-10-31T12:47:19Z'
 suggested_queries:
 - - "What is the correct format for uploading historical financial data in redIQ?"
 - - "How do I ensure my Excel spreadsheet meets the requirements for redIQ historical uploads?"

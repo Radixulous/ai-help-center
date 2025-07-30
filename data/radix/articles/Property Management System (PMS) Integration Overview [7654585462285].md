@@ -1,4 +1,12 @@
 ---
+id: 7654585462285
+title: Property Management System (PMS) Integration Overview
+product: Radix
+category: API & Integrations
+section: Integrations
+attachments: []
+created_at: '2022-07-13T17:09:53Z'
+updated_at: '2024-10-08T20:14:39Z'
 suggested_queries:
 - - "What are the benefits of integrating Radix with my Property Management System?"
 - - "Which Property Management Systems are supported by Radix for integration?"

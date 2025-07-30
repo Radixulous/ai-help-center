@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 360036140392
+title: Operating Statements and Property Data Bulk Upload
+product: redIQ
+category: dataIQ
+section: Operating Statements
+attachments:
+- 360043595351.png
+created_at: '2019-11-21T16:53:53Z'
+updated_at: '2024-03-15T18:01:22Z'
 suggested_queries:
 - - "What is the process for bulk uploading property and operating statements in redIQ?"
 - - "How do I format files for property data upload in redIQ?"

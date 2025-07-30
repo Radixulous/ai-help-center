@@ -1,4 +1,12 @@
 ---
+id: 360039826012
+title: Online Training Courses
+product: redIQ
+category: Support and Training
+section: Training Resources
+attachments: []
+created_at: '2020-02-26T17:21:52Z'
+updated_at: '2025-06-10T19:35:19Z'
 suggested_queries:
 - - "Where can I find online training courses for underwriting deals with redIQ?"
 - - "What pre-recorded videos does redIQ offer for mastering deal analysis?"

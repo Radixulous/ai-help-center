@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 360041069151
+title: Net Effective Rent
+product: redIQ
+category: dataIQ
+section: Rent Rolls
+attachments:
+- 25806335220884.png
+created_at: '2020-03-17T14:22:00Z'
+updated_at: '2024-10-07T16:40:57Z'
 suggested_queries:
 - - "What is Net Effective Rent and how is it calculated?"
 - - "How can I view Net Effective Rent on the Rent Roll Dashboard?"

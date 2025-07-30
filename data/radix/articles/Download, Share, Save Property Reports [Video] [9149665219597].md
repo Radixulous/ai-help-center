@@ -1,4 +1,12 @@
 ---
+id: 9149665219597
+title: Download, Share, Save Property Reports [Video]
+product: Radix
+category: Reports
+section: Sharing Reports
+attachments: []
+created_at: '2022-09-14T01:29:38Z'
+updated_at: '2023-11-01T17:57:20Z'
 suggested_queries:
 - - "How do I download property reports in Radix?"
 - - "What are the steps to share property reports from Radix?"

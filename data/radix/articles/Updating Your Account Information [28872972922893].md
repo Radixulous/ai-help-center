@@ -1,5 +1,16 @@
 ---
-attachments: 
+id: 28872972922893
+title: Updating Your Account Information
+product: Radix
+category: Benchmark
+section: Managing Users
+attachments:
+- 32950854689037.png
+- 32950854690445.png
+- 28872988861581.png
+- 28918643456013.png
+created_at: '2024-07-31T16:56:30Z'
+updated_at: '2024-12-23T15:13:59Z'
 suggested_queries:
 - - "How do I update my email address in Radix?"
 - - "What steps do I take to change my Radix password?"

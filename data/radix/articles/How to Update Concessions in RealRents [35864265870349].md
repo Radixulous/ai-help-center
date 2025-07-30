@@ -1,5 +1,20 @@
 ---
-attachments: 
+id: 35864265870349
+title: How to Update Concessions in RealRents
+product: Radix
+category: RealRents
+section: Fees, Deposits and Concessions
+attachments:
+- 37933041233293.png
+- 37933044371085.png
+- 36931805120397.png
+- 36971786325773.png
+- 36971724197261.png
+- 36971786329997.png
+- 36971724201229.png
+- 36971786350861.png
+created_at: '2025-04-15T13:44:35Z'
+updated_at: '2025-07-09T14:02:22Z'
 suggested_queries:
 - - "How do I update concessions on RealRents?"
 - - "What are the steps to apply concessions for my property in RealRents?"

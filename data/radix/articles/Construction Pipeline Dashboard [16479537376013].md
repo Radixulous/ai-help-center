@@ -1,5 +1,15 @@
 ---
-attachments: 
+id: 16479537376013
+title: Construction Pipeline Dashboard
+product: Radix
+category: Research
+section: Research
+attachments:
+- 33467115379085.png
+- 16504939638541.png
+- 16507834584333.png
+created_at: '2023-06-06T23:20:15Z'
+updated_at: '2025-01-14T14:36:52Z'
 suggested_queries:
 - - "What features does the Construction Pipeline dashboard offer for viewing projects?"
 - - "How can I filter construction projects by MSA and stage in the dashboard?"

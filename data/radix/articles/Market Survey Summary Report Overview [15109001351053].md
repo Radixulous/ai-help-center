@@ -1,5 +1,27 @@
 ---
-attachments: 
+id: 15109001351053
+title: Market Survey Summary Report Overview
+product: Radix
+category: Reports
+section: Report Overviews
+attachments:
+- 29127999238797.png
+- 15136162732045.png
+- 15136246863373.png
+- 15136361539213.png
+- 15136452786189.png
+- 15137009648141.png
+- 15137028226445.png
+- 15137030834061.png
+- 15137092392077.png
+- 15158391055501.png
+- 15149056475789.png
+- 15158411990925.png
+- 15158471417229.png
+- 15158512091917.png
+- 15158575674125.png
+created_at: '2023-04-22T02:42:12Z'
+updated_at: '2024-08-22T18:50:39Z'
 suggested_queries:
 - - "What is the Market Survey Summary Report and how is it used?"
 - - "How can I customize the Market Survey Summary Report in Radix?"

@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 360036103132
+title: Comparison - Expired Lease Analysis
+product: redIQ
+category: dataIQ
+section: Rent Rolls
+attachments:
+- 360043500131.png
+created_at: '2019-11-20T19:27:48Z'
+updated_at: '2024-10-07T16:41:57Z'
 suggested_queries:
 - - "What is the Expired Lease Analysis in rediq?"
 - - "How does the Comparison Chart for rent rolls work?"

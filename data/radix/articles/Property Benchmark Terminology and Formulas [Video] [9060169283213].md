@@ -1,4 +1,12 @@
 ---
+id: 9060169283213
+title: Property Benchmark Terminology and Formulas [Video]
+product: Radix
+category: Benchmark
+section: Data Dictionary
+attachments: []
+created_at: '2022-09-09T23:04:54Z'
+updated_at: '2023-11-01T17:57:19Z'
 suggested_queries:
 - What are the key terminologies used in property benchmarking?
 - Can you explain the formulas related to property benchmarks?

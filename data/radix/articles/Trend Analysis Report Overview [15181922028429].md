@@ -1,5 +1,15 @@
 ---
-attachments: 
+id: 15181922028429
+title: Trend Analysis Report Overview
+product: Radix
+category: Reports
+section: Report Overviews
+attachments:
+- 29128301928589.png
+- 15188112880653.png
+- 15188552053005.png
+created_at: '2023-04-24T17:27:41Z'
+updated_at: '2024-08-22T19:34:28Z'
 suggested_queries:
 - - "What is the Trend Analysis Report in Radix and how do I use it?"
 - - "How can I customize the Trend Analysis Report for multiple properties?"

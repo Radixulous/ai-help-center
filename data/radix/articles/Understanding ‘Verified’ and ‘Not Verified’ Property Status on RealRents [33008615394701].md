@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 33008615394701
+title: Understanding ‘Verified’ and ‘Not Verified’ Property Status on RealRents
+product: Radix
+category: RealRents
+section: General
+attachments:
+- 37481224786061.png
+created_at: '2024-12-26T12:00:53Z'
+updated_at: '2025-07-22T16:30:03Z'
 suggested_queries:
 - - "What is the difference between Verified and Not Verified property status on RealRents?"
 - - "How often should I update my property information to maintain Verified status?"

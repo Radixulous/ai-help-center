@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 360041069071
+title: Loss to Lease Burn-off Chart
+product: redIQ
+category: dataIQ
+section: Rent Rolls
+attachments:
+- 25806733422484.png
+created_at: '2020-03-17T14:20:43Z'
+updated_at: '2024-10-07T16:40:56Z'
 suggested_queries:
 - - "What is the Loss to Lease Burn-off Chart in rediq?"
 - - "How is loss to lease calculated on the Rent Roll Dashboard?"

@@ -1,5 +1,14 @@
 ---
-attachments: 
+id: 7680815384333
+title: Radix Learning Resources
+product: Radix
+category: Benchmark
+section: Data Dictionary
+attachments:
+- 28879198330125.png
+- 28858864135437.png
+created_at: '2022-07-14T16:08:35Z'
+updated_at: '2024-11-01T20:14:36Z'
 suggested_queries:
 - - "What resources are available in the Radix Help Center?"
 - - "How can I access live training and webinars for Radix products?"

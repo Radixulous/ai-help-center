@@ -1,5 +1,15 @@
 ---
-attachments: 
+id: 26384623197069
+title: Shared Competitors
+product: Radix
+category: RealRents
+section: General
+attachments:
+- 33237229304589.png
+- 33237229308685.png
+- 33237229327245.png
+created_at: '2024-05-02T09:13:00Z'
+updated_at: '2025-06-23T12:40:35Z'
 suggested_queries:
 - - "What are shared competitors in my market survey on Radix?"
 - - "How can I identify shared competitors in Benchmark surveys?"

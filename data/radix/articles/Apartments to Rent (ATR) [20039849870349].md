@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 20039849870349
+title: Apartments to Rent (ATR)
+product: Radix
+category: Benchmark
+section: Data Dictionary
+attachments:
+- 20042157538957.png
+created_at: '2023-10-02T21:19:53Z'
+updated_at: '2024-09-11T21:08:29Z'
 suggested_queries:
 - - "What is the Apartments to Rent (ATR) metric and why is it important?"
 - - "How does Radix calculate available units for rent in a property?"

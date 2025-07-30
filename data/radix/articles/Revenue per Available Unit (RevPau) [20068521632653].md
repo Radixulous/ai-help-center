@@ -1,4 +1,12 @@
 ---
+id: 20068521632653
+title: Revenue per Available Unit (RevPau)
+product: Radix
+category: Benchmark
+section: Data Dictionary
+attachments: []
+created_at: '2023-10-03T18:37:02Z'
+updated_at: '2023-11-01T17:57:22Z'
 suggested_queries:
 - - "What is Revenue per Available Unit (RevPau) and how is it calculated?"
 - - "How can I optimize my property's RevPau using Radix tools?"

@@ -1,4 +1,12 @@
 ---
+id: 17703147105421
+title: API Response Data Definitions
+product: Radix
+category: API & Integrations
+section: API
+attachments: []
+created_at: '2023-07-17T23:16:08Z'
+updated_at: '2024-03-05T22:55:33Z'
 suggested_queries:
 - What are the definitions of API response data fields in Radix?
 - How is the subject property’s available to rent percentage calculated in Radix?

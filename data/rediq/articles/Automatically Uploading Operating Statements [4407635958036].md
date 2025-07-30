@@ -1,5 +1,14 @@
 ---
-attachments: 
+id: 4407635958036
+title: Automatically Uploading Operating Statements
+product: redIQ
+category: dataIQ
+section: Operating Statements
+attachments:
+- 4407643079444.png
+- 4407643082516.png
+created_at: '2021-09-27T19:13:22Z'
+updated_at: '2021-09-27T20:30:02Z'
 suggested_queries:
 - - "What file types can I upload using redIQ's Operating Statement Processor?"
 - - "How do I submit an unsupported operating statement for manual processing in redIQ?"

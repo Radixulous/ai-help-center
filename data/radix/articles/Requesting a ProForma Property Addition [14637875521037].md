@@ -1,4 +1,12 @@
 ---
+id: 14637875521037
+title: Requesting a ProForma Property Addition
+product: Radix
+category: ProForma
+section: ProForma
+attachments: []
+created_at: '2023-04-06T21:23:25Z'
+updated_at: '2023-11-01T17:57:20Z'
 suggested_queries:
 - - "How do I request a new property addition in Radix?"
 - - "What information do I need to provide for a ProForma property request?"

@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 20005843287949
+title: Net Effective Rent (NER)
+product: Radix
+category: Benchmark
+section: Data Dictionary
+attachments:
+- 20037058141709.png
+created_at: '2023-10-01T16:56:30Z'
+updated_at: '2024-08-22T19:10:23Z'
 suggested_queries:
 - - "What is Net Effective Rent and how is it calculated in Radix?"
 - - "Why is Net Effective Rent important for assessing property revenue?"

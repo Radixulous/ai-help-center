@@ -1,5 +1,27 @@
 ---
-attachments: 
+id: 15338576096532
+title: Proforma vs Actual User Guide & FAQs - Beta
+product: redIQ
+category: dataIQ
+section: Operating Statements
+attachments:
+- 15337518872596.png
+- 15337518869524.png
+- 15337518949268.png
+- 15337518990356.png
+- 15337519132308.png
+- 15337502737300.png
+- 15337502845588.png
+- 15337519291540.png
+- 15337519333396.png
+- 15337519402516.png
+- 15337503044116.png
+- 15337503109012.png
+- 15337503145748.png
+- 15337519609108.png
+- 15338247583892.png
+created_at: '2023-05-02T19:59:12Z'
+updated_at: '2023-10-31T12:47:21Z'
 suggested_queries:
 - - "What is the difference between Proforma and Actual in redIQ?"
 - - "How do I upload Proforma statements in redIQ?"

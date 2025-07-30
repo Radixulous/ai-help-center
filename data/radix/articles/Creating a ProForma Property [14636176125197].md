@@ -1,5 +1,20 @@
 ---
-attachments: 
+id: 14636176125197
+title: Creating a ProForma Property
+product: Radix
+category: ProForma
+section: ProForma
+attachments:
+- 33466351987213.png
+- 15733841263757.png
+- 15732639107469.png
+- 33466351988877.png
+- 33466351990413.png
+- 15733892818061.png
+- 15733739219853.png
+- 15733965542285.png
+created_at: '2023-04-06T20:23:34Z'
+updated_at: '2025-01-14T14:13:43Z'
 suggested_queries:
 - - "How do I create a ProForma property from scratch?"
 - - "What steps are involved in cloning an existing ProForma property?"

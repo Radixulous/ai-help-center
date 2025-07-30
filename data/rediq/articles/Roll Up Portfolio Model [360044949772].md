@@ -1,5 +1,15 @@
 ---
-attachments: 
+id: 360044949772
+title: Roll Up Portfolio Model
+product: redIQ
+category: valuationIQ
+section: How to Use the Model
+attachments:
+- 360060417431.png
+- 360060417491.png
+- 360060245552.png
+created_at: '2020-06-24T14:27:35Z'
+updated_at: '2024-10-04T19:48:02Z'
 suggested_queries:
 - - "How do I aggregate multiple deals into one portfolio model in redIQ?"
 - - "What steps are needed to roll up rent rolls and Historicals in redIQ?"

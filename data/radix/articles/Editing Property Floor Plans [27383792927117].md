@@ -1,5 +1,15 @@
 ---
-attachments: 
+id: 27383792927117
+title: Editing Property Floor Plans
+product: Radix
+category: Benchmark
+section: Managing Properties
+attachments:
+- 32947653860365.png
+- 28869252943501.png
+- 28432048714637.png
+created_at: '2024-06-07T15:12:15Z'
+updated_at: '2024-12-23T13:42:52Z'
 suggested_queries:
 - - "How can I edit property floor plans in Benchmark?"
 - - "What steps do I follow to update floor plans for a non-Benchmark competitor?"

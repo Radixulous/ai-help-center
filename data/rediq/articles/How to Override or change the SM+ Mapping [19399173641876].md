@@ -1,5 +1,16 @@
 ---
-attachments: 
+id: 19399173641876
+title: How to Override or change the SM+ Mapping
+product: redIQ
+category: dataIQ
+section: SmartMap+
+attachments:
+- 19432605586068.png
+- 19432605591700.png
+- 19432605594388.png
+- 19432605611412.png
+created_at: '2023-09-21T16:30:50Z'
+updated_at: '2023-10-31T12:47:21Z'
 suggested_queries:
 - - "How can I change the SM+ account mapping in redIQ?"
 - - "What steps do I take to override incorrect SM+ mappings?"

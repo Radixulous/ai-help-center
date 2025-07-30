@@ -1,5 +1,16 @@
 ---
-attachments: 
+id: 26710609772685
+title: Filtering Your Portfolio Dashboard
+product: Radix
+category: Benchmark
+section: 'Evaluating Your Portfolio's Performance'
+attachments:
+- 26737352678157.jpg
+- 26737399418253.jpg
+- 26749222996877.jpg
+- 26749223009293.jpg
+created_at: '2024-05-14T13:14:35Z'
+updated_at: '2024-08-22T18:50:39Z'
 suggested_queries:
 - - "How can I filter my portfolio dashboard in Benchmark?"
 - - "What parameters can I use to customize my property data view?"

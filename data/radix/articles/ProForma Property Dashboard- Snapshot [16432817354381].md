@@ -1,5 +1,16 @@
 ---
-attachments: 
+id: 16432817354381
+title: 'ProForma Property Dashboard: Snapshot'
+product: Radix
+category: ProForma
+section: ProForma
+attachments:
+- 16433521991949.png
+- 16433807708685.png
+- 16434788231309.png
+- 16435141666701.png
+created_at: '2023-06-05T19:13:15Z'
+updated_at: '2024-08-22T18:08:40Z'
 suggested_queries:
 - - "How do I customize metrics in the ProForma Snapshot dashboard?"
 - - "What are the benefits of using the Perspectives feature in ProForma?"

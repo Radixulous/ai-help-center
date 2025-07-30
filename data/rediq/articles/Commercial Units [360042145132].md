@@ -1,5 +1,16 @@
 ---
-attachments: 
+id: 360042145132
+title: Commercial Units
+product: redIQ
+category: dataIQ
+section: Rent Rolls
+attachments:
+- 360055233351.png
+- 360055103892.png
+- 360055233831.png
+- 360055104172.png
+created_at: '2020-04-21T16:33:56Z'
+updated_at: '2024-10-07T16:42:52Z'
 suggested_queries:
 - - "How do I map commercial units in redIQ rent roll?"
 - - "What types of commercial units can I designate in redIQ?"

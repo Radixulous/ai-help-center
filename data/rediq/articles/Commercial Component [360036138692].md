@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 360036138692
+title: Commercial Component
+product: redIQ
+category: valuationIQ
+section: How to Use the Model
+attachments:
+- 25776266477076.png
+created_at: '2019-11-21T16:18:02Z'
+updated_at: '2024-10-07T16:41:45Z'
 suggested_queries:
 - - "How do I add a commercial component in redIQ for multifamily properties?"
 - - "What steps are needed to enter commercial cash flow in redIQ?"

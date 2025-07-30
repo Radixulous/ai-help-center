@@ -1,5 +1,14 @@
 ---
-attachments: 
+id: 360036141212
+title: Edit Market Rent or Square Footage by Floor Plan
+product: redIQ
+category: dataIQ
+section: Rent Rolls
+attachments:
+- 25807135029908.png
+- 25807135038996.png
+created_at: '2019-11-21T17:08:48Z'
+updated_at: '2024-10-07T16:40:55Z'
 suggested_queries:
 - - "How do I edit market rent for a floor plan in rediq?"
 - - "What steps are needed to change square footage by floor plan?"

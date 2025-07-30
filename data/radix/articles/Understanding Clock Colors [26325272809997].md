@@ -1,5 +1,14 @@
 ---
-attachments: 
+id: 26325272809997
+title: Understanding Clock Colors
+product: Radix
+category: Benchmark
+section: Updating your Market Survey now on RealRents
+attachments:
+- 33236591345421.png
+- 33236630292365.png
+created_at: '2024-04-30T12:54:45Z'
+updated_at: '2025-01-06T12:53:57Z'
 suggested_queries:
 - - "What do the different colored clocks mean in Radix?"
 - - "How can I tell if a property's survey data is up-to-date?"

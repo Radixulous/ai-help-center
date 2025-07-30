@@ -1,5 +1,17 @@
 ---
-attachments: 
+id: 16431640659725
+title: 'ProForma Property Dashboard: Competitors'
+product: Radix
+category: ProForma
+section: ProForma
+attachments:
+- 16432030143117.png
+- 16432176016141.png
+- 16432254736781.png
+- 16432509907213.png
+- 16373230473229.png
+created_at: '2023-06-05T18:43:15Z'
+updated_at: '2024-08-22T17:47:19Z'
 suggested_queries:
 - - "How do I customize the Competitors table in ProForma?"
 - - "What do the colored clock icons mean for property survey updates in ProForma?"

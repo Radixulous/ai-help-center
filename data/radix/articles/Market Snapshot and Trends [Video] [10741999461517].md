@@ -1,4 +1,12 @@
 ---
+id: 10741999461517
+title: Market Snapshot and Trends [Video]
+product: Radix
+category: Research
+section: Research
+attachments: []
+created_at: '2022-11-18T21:30:18Z'
+updated_at: '2023-11-01T17:57:20Z'
 suggested_queries:
 - - "What are the latest market trends in Radix Research?"
 - - "Where can I find the Market Snapshot video for Radix?"

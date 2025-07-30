@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 360036508031
+title: Combine Floor Plans
+product: redIQ
+category: dataIQ
+section: Rent Rolls
+attachments:
+- 360043550732.png
+created_at: '2019-11-21T16:58:31Z'
+updated_at: '2024-10-07T16:43:20Z'
 suggested_queries:
 - - "How can I merge multiple floor plans in rediq?"
 - - "What steps do I take to combine floor plans in the Edit Rent Roll screen?"

@@ -1,5 +1,17 @@
 ---
-attachments: 
+id: 37756528602644
+title: How to Save and Print as PDF in valuationIQ for Mac
+product: redIQ
+category: valuationIQ
+section: How to Use the Model
+attachments:
+- 37756564339220.png
+- 37756564340628.png
+- 37756564341396.png
+- 37756740207252.png
+- 37756755956628.png
+created_at: '2025-05-22T21:20:48Z'
+updated_at: '2025-05-28T20:19:05Z'
 suggested_queries:
 - How do I save a file as a PDF in valuationIQ for Mac?
 - What are the steps to print as PDF in Excel for Mac using redIQ?

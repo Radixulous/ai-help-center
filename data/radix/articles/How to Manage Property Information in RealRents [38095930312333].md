@@ -1,5 +1,14 @@
 ---
-attachments: 
+id: 38095930312333
+title: How to Manage Property Information in RealRents
+product: Radix
+category: RealRents
+section: Managing Listings
+attachments:
+- 38096930782989.png
+- 38096831163149.png
+created_at: '2025-07-16T11:30:43Z'
+updated_at: '2025-07-16T12:23:10Z'
 suggested_queries:
 - - "How do I update my property's information in RealRents?"
 - - "What fields can I edit in the Property Information section of RealRents?"

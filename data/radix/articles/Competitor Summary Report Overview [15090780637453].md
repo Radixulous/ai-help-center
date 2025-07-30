@@ -1,5 +1,15 @@
 ---
-attachments: 
+id: 15090780637453
+title: Competitor Summary Report Overview
+product: Radix
+category: Reports
+section: Report Overviews
+attachments:
+- 29127736760205.png
+- 15091128153997.png
+- 15091284230413.png
+created_at: '2023-04-21T17:30:04Z'
+updated_at: '2024-08-22T19:34:28Z'
 suggested_queries:
 - - "What is included in the Competitor Summary Report for property comparisons?"
 - - "How do I customize the Competitor Summary Report in Radix?"

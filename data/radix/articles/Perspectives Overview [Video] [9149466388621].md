@@ -1,4 +1,12 @@
 ---
+id: 9149466388621
+title: Perspectives Overview [Video]
+product: Radix
+category: Benchmark
+section: 'Evaluating Your Portfolio's Performance'
+attachments: []
+created_at: '2022-09-14T01:14:49Z'
+updated_at: '2024-03-23T17:23:07Z'
 suggested_queries:
 - - "What is the overview of Perspectives in Radix?"
 - - "How do I create or edit Perspectives in Radix?"

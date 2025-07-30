@@ -1,4 +1,12 @@
 ---
+id: 9060091043981
+title: Property Benchmark Snapshot [Video]
+product: Radix
+category: Benchmark
+section: 'Evaluating Your Property's Performance'
+attachments: []
+created_at: '2022-09-09T23:00:19Z'
+updated_at: '2023-11-01T17:57:19Z'
 suggested_queries:
 - - "What is the Property Benchmark Snapshot video about?"
 - - "Where can I find the Property Benchmark Trends video?"

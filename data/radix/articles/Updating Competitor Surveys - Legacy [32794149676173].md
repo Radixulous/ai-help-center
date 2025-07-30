@@ -1,5 +1,16 @@
 ---
-attachments: 
+id: 32794149676173
+title: Updating Competitor Surveys - Legacy
+product: Radix
+category: RealRents
+section: Legacy
+attachments:
+- 32794125688461.png
+- 32794125702541.png
+- 32863682136717.png
+- 32794125710093.png
+created_at: '2024-12-17T16:20:12Z'
+updated_at: '2025-07-08T10:20:27Z'
 suggested_queries:
 - - "How do I update competitor surveys in Benchmark for Radix?"
 - - "What do the colored clock icons mean for competitor survey updates?"

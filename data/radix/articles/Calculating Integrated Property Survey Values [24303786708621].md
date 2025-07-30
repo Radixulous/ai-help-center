@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 24303786708621
+title: Calculating Integrated Property Survey Values
+product: Radix
+category: Benchmark
+section: Data Dictionary
+attachments:
+- 32945383359373.png
+created_at: '2024-02-20T22:39:17Z'
+updated_at: '2024-12-23T12:18:15Z'
 suggested_queries:
 - - "How are integrated property survey values calculated in Radix?"
 - - "What data points are included in an integrated property survey?"

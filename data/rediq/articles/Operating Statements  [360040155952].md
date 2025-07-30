@@ -1,4 +1,12 @@
 ---
+id: 360040155952
+title: Operating Statements 
+product: redIQ
+category: QuickSync
+section: Operating Statements 
+attachments: []
+created_at: '2020-03-05T19:11:04Z'
+updated_at: '2022-05-05T13:41:57Z'
 suggested_queries:
 - - "How do I configure operating statements in redIQ?"
 - - "What steps are needed to link redIQ reports to my model?"

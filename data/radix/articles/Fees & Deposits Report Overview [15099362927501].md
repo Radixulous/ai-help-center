@@ -1,5 +1,15 @@
 ---
-attachments: 
+id: 15099362927501
+title: Fees & Deposits Report Overview
+product: Radix
+category: Reports
+section: Report Overviews
+attachments:
+- 29127878574477.png
+- 15099021464845.png
+- 15099024494733.png
+created_at: '2023-04-21T20:29:28Z'
+updated_at: '2024-08-22T18:41:52Z'
 suggested_queries:
 - - "What is included in the Fees & Deposits Report for properties?"
 - - "How do I access and customize the Fees & Deposits Report in Radix?"

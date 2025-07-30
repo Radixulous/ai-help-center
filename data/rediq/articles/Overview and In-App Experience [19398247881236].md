@@ -1,4 +1,12 @@
 ---
+id: 19398247881236
+title: Overview and In-App Experience
+product: redIQ
+category: dataIQ
+section: SmartMap+
+attachments: []
+created_at: '2023-09-21T16:03:33Z'
+updated_at: '2023-10-31T12:47:21Z'
 suggested_queries:
 - - "What is SmartMap+ and how does it work in rediq?"
 - - "How can I automate mapping my Operating Statement to the Chart of Accounts?"

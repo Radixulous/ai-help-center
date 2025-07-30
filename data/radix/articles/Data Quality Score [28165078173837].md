@@ -1,5 +1,15 @@
 ---
-attachments: 
+id: 28165078173837
+title: Data Quality Score
+product: Radix
+category: Benchmark
+section: Updating your Market Survey now on RealRents
+attachments:
+- 28221649855373.png
+- 28221649857037.png
+- 28256935049613.png
+created_at: '2024-07-05T12:53:13Z'
+updated_at: '2024-08-22T18:48:32Z'
 suggested_queries:
 - - "What is the Data Quality Score and how does it impact my surveys?"
 - - "How can I resolve potential data issues in my survey for a higher quality score?"

@@ -1,5 +1,15 @@
 ---
-attachments: 
+id: 360042220832
+title: redIQ Projected Cash Flow Calculator
+product: redIQ
+category: Support and Training
+section: Training Resources
+attachments:
+- 360055395731.png
+- 360055395471.png
+- 360055258812.png
+created_at: '2020-04-22T22:57:58Z'
+updated_at: '2025-04-29T20:09:24Z'
 suggested_queries:
 - - "What is the redIQ Projected Cash Flow Calculator for forbearance analysis?"
 - - "How can I use the cash flow calculator to analyze CARES Act options?"

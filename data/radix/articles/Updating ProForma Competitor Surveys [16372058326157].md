@@ -1,5 +1,19 @@
 ---
-attachments: 
+id: 16372058326157
+title: Updating ProForma Competitor Surveys
+product: Radix
+category: ProForma
+section: ProForma
+attachments:
+- 16373230473229.png
+- 16373857505421.png
+- 16374119627917.png
+- 16374356743181.png
+- 16375268547597.png
+- 16375602307981.png
+- 16375653121933.png
+created_at: '2023-06-02T21:09:33Z'
+updated_at: '2024-08-22T18:48:32Z'
 suggested_queries:
 - - "How do I update a competitor's property survey in ProForma?"
 - - "What steps are involved in refreshing a property survey in Radix?"

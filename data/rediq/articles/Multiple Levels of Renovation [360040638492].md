@@ -1,5 +1,15 @@
 ---
-attachments: 
+id: 360040638492
+title: Multiple Levels of Renovation
+product: redIQ
+category: dataIQ
+section: Rent Rolls
+attachments:
+- 25811356860948.png
+- 25811356888724.png
+- 25811356907796.png
+created_at: '2020-03-17T14:09:43Z'
+updated_at: '2024-10-07T16:40:54Z'
 suggested_queries:
 - - "How do I label multiple levels of renovation in redIQ?"
 - - "What steps are needed to identify renovated units in the rent roll?"

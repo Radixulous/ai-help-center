@@ -1,4 +1,12 @@
 ---
+id: 7313894197901
+title: Notifications and Status Update
+product: Radix
+category: Reports
+section: Customizing Reports
+attachments: []
+created_at: '2022-06-30T12:37:51Z'
+updated_at: '2023-04-15T05:58:12Z'
 suggested_queries:
 - - "How do I adjust my notification preferences for property updates in Radix?"
 - - "What are alerts and how can I set them for my properties?"

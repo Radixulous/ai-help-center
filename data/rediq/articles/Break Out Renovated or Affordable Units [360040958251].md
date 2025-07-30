@@ -1,5 +1,15 @@
 ---
-attachments: 
+id: 360040958251
+title: Break Out Renovated or Affordable Units
+product: redIQ
+category: dataIQ
+section: Rent Rolls
+attachments:
+- 25814075385236.png
+- 25814089767828.png
+- 25814089783316.png
+created_at: '2020-03-13T19:33:57Z'
+updated_at: '2024-10-07T16:40:53Z'
 suggested_queries:
 - - "How can I filter renovated and affordable units in the Floor Plan Summary?"
 - - "What steps do I take to break out lease types in the Rent Roll Dashboard?"

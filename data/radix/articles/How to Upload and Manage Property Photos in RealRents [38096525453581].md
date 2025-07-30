@@ -1,5 +1,14 @@
 ---
-attachments: 
+id: 38096525453581
+title: How to Upload and Manage Property Photos in RealRents
+product: Radix
+category: RealRents
+section: Managing Listings
+attachments:
+- 38096525447053.png
+- 38096525450125.jpg
+created_at: '2025-07-16T12:01:16Z'
+updated_at: '2025-07-16T12:34:30Z'
 suggested_queries:
 - - "How do I upload property photos in RealRents?"
 - - "What steps are needed to manage existing property photos in RealRents?"

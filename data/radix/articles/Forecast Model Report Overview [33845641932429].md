@@ -1,5 +1,16 @@
 ---
-attachments: 
+id: 33845641932429
+title: Forecast Model Report Overview
+product: Radix
+category: Reports
+section: Report Overviews
+attachments:
+- 36129383570189.png
+- 33847427860621.png
+- 33846687757197.png
+- 34195099777037.png
+created_at: '2025-01-28T14:40:26Z'
+updated_at: '2025-04-25T18:45:09Z'
 suggested_queries:
 - - "What insights can I gain from the Forecast Model Report in Radix?"
 - - "How do I access the Forecast Report on the Research platform?"

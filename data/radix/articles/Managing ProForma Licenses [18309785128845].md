@@ -1,5 +1,19 @@
 ---
-attachments: 
+id: 18309785128845
+title: Managing ProForma Licenses
+product: Radix
+category: ProForma
+section: ProForma
+attachments:
+- 33463920033037.png
+- 19034260705293.png
+- 19035957237133.png
+- 19035957240973.png
+- 19035957237133.png
+- 19036684892941.png
+- 19036677940109.png
+created_at: '2023-08-07T21:14:46Z'
+updated_at: '2025-01-14T12:59:33Z'
 suggested_queries:
 - - "How do I manage ProForma licenses for my team in Radix?"
 - - "What steps do I take to assign or remove ProForma access for users?"

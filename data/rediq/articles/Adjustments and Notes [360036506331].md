@@ -1,5 +1,14 @@
 ---
-attachments: 
+id: 360036506331
+title: Adjustments and Notes
+product: redIQ
+category: valuationIQ
+section: How to Use the Model
+attachments:
+- 25976165361172.png
+- 25975845928724.png
+created_at: '2019-11-21T16:22:04Z'
+updated_at: '2024-10-07T16:40:47Z'
 suggested_queries:
 - - "How do I adjust historicals in redIQ's Adjustments & Notes tab?"
 - - "What steps are needed to change annualization settings in redIQ?"

@@ -1,4 +1,12 @@
 ---
+id: 13195462804628
+title: Fix "Retrieve Data" Error
+product: redIQ
+category: QuickSync
+section: Best Practices and Tips
+attachments: []
+created_at: '2023-02-14T15:05:31Z'
+updated_at: '2024-04-12T18:55:13Z'
 suggested_queries:
 - - "How do I fix Retrieve Data Error 13195462804628 in rediq?"
 - - "What steps do I take to clear the Add-In cache for rediq in Excel?"

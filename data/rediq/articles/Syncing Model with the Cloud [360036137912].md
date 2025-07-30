@@ -1,5 +1,21 @@
 ---
-attachments: 
+id: 360036137912
+title: Syncing Model with the Cloud
+product: redIQ
+category: valuationIQ
+section: How to Use the Model
+attachments:
+- 25775990353556.png
+- 37921864029332.png
+- 37921864032788.png
+- 37921878988308.png
+- 37921864035348.png
+- 37921864036628.png
+- 37921878991636.png
+- 37921878992788.png
+- 25775958356500.png
+created_at: '2019-11-21T16:08:36Z'
+updated_at: '2025-05-28T19:48:39Z'
 suggested_queries:
 - - "How do I sync my redIQ model with the cloud?"
 - - "What steps are needed to log into redIQ from Excel?"
@@ -7,8 +23,7 @@ suggested_queries:
 ---
 The redIQ model is built in Excel and functions as a regular Excel file. However, it can be synced with the online redIQ platform by using the Sync with Cloud button in the redIQ tab of the Ribbon.
 
-![Certainly! Here's a detailed description of the interface:
-The screenshot displays a spreadsheet interface, likely part of a SaaS application related to real estate data management, such as the redIQ platform. Key elements include:
+![The screenshot displays a spreadsheet interface, likely part of a SaaS application related to real estate data management, such as the redIQ platform. Key elements include:
 ### Main Interface Elements:
 - \*\*Ribbon Menu\*\*:
 - \*\*Tabs\*\*: File, redIQ, Home, Insert, Page Layout, Formulas, Data, Review, View, Automate, Help.

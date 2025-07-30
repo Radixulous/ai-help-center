@@ -1,5 +1,14 @@
 ---
-attachments: 
+id: 29750300559757
+title: Web-Scraped Property Survey Data (Beta) - Legacy
+product: Radix
+category: RealRents
+section: Legacy
+attachments:
+- 29785720003981.png
+- 29785677683469.png
+created_at: '2024-08-29T10:14:31Z'
+updated_at: '2025-07-08T10:17:34Z'
 suggested_queries:
 - - "What is the process for updating property surveys with web-scraped data in Radix?"
 - - "Why is web-scraped data not pre-populating in my property surveys?"

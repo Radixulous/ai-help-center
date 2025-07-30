@@ -1,5 +1,17 @@
 ---
-attachments: 
+id: 32792982682637
+title: Updating Property Surveys - Legacy
+product: Radix
+category: RealRents
+section: Legacy
+attachments:
+- 32827733107981.png
+- 32793040007309.png
+- 32827228759565.png
+- 32792982658445.png
+- 32792982666253.png
+created_at: '2024-12-17T15:53:27Z'
+updated_at: '2025-07-08T10:20:08Z'
 suggested_queries:
 - - "How do I update my property's survey on RealRents?"
 - - "What steps are needed to refresh property surveys in Radix?"

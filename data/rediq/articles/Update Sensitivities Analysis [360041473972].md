@@ -1,5 +1,14 @@
 ---
-attachments: 
+id: 360041473972
+title: Update Sensitivities Analysis
+product: redIQ
+category: valuationIQ
+section: How to Use the Model
+attachments:
+- 360053893372.png
+- 360053893452.png
+created_at: '2020-04-03T20:12:24Z'
+updated_at: '2024-10-07T16:41:54Z'
 suggested_queries:
 - - "How do I update the Sensitivity Table in redIQ?"
 - - "What steps are needed to perform a sensitivity analysis in redIQ?"

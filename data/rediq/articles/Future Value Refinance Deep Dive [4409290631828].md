@@ -1,4 +1,12 @@
 ---
+id: 4409290631828
+title: Future Value Refinance Deep Dive
+product: redIQ
+category: valuationIQ
+section: How to Use the Model
+attachments: []
+created_at: '2021-10-28T19:00:25Z'
+updated_at: '2024-12-03T14:51:08Z'
 suggested_queries:
 - - "How do I size a refinance loan based on future value in redIQ?"
 - - "What are the steps to use the refinance feature in valuationIQ?"

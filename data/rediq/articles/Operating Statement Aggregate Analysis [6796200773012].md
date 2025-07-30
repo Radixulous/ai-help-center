@@ -1,5 +1,16 @@
 ---
-attachments: 
+id: 6796200773012
+title: Operating Statement Aggregate Analysis
+product: redIQ
+category: dataIQ
+section: Operating Statements
+attachments:
+- 6796149974420.png
+- 6796149985172.png
+- 6796121180820.png
+- 6796149842196.png
+created_at: '2022-06-06T18:32:26Z'
+updated_at: '2023-10-31T12:47:20Z'
 suggested_queries:
 - - "How do I run an Aggregate Analysis on Operating Statements in rediq?"
 - - "What are the steps to aggregate multiple deals into one Operating Statement?"

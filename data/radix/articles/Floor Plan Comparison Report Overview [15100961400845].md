@@ -1,5 +1,17 @@
 ---
-attachments: 
+id: 15100961400845
+title: Floor Plan Comparison Report Overview
+product: Radix
+category: Reports
+section: Report Overviews
+attachments:
+- 33473541697037.png
+- 33473479511693.png
+- 33473541702285.png
+- 15102167047053.png
+- 15102056735245.png
+created_at: '2023-04-21T21:19:58Z'
+updated_at: '2025-01-14T17:30:59Z'
 suggested_queries:
 - - "What metrics can I customize in the Floor Plan Comparison Report?"
 - - "How do I access the Floor Plan Comparison Report in Radix?"

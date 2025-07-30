@@ -1,5 +1,14 @@
 ---
-attachments: 
+id: 6663128535956
+title: Detailed Chart of Accounts
+product: redIQ
+category: dataIQ
+section: Operating Statements
+attachments:
+- 6663009901972.png
+- 6663045709716.png
+created_at: '2022-05-31T20:18:52Z'
+updated_at: '2023-10-31T12:47:20Z'
 suggested_queries:
 - - "What is the Detailed Chart of Accounts in redIQ?"
 - - "How can I view Operating Statement data by Per Unit in redIQ?"

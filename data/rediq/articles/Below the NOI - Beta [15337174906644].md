@@ -1,5 +1,22 @@
 ---
-attachments: 
+id: 15337174906644
+title: Below the NOI - Beta
+product: redIQ
+category: dataIQ
+section: Operating Statements
+attachments:
+- 15336544381716.png
+- 15336529697812.png
+- 15336544481428.png
+- 15336529835412.png
+- 15336529996820.png
+- 15336544589204.png
+- 15336544695956.png
+- 15336544759572.png
+- 15336530140820.png
+- 15336544855316.png
+created_at: '2023-05-02T19:12:25Z'
+updated_at: '2023-10-31T12:47:21Z'
 suggested_queries:
 - - "What is the Below NOI feature in redIQ?"
 - - "How do I upload operating statements with below NOI line items?"

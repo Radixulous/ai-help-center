@@ -1,4 +1,12 @@
 ---
+id: 19747721543565
+title: Occupancy Percentage (%)
+product: Radix
+category: Benchmark
+section: Data Dictionary
+attachments: []
+created_at: '2023-09-22T18:46:39Z'
+updated_at: '2023-11-01T17:57:22Z'
 suggested_queries:
 - - "What is occupancy percentage and why is it important for multifamily properties?"
 - - "How do I calculate the occupancy percentage for my rental units?"

@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 38096652625549
+title: How to Edit Amenities in RealRents
+product: Radix
+category: RealRents
+section: Managing Listings
+attachments:
+- 38096652623757.png
+created_at: '2025-07-16T12:06:00Z'
+updated_at: '2025-07-16T12:23:10Z'
 suggested_queries:
 - - "How do I edit property amenities in RealRents?"
 - - "What steps are needed to update location amenities in RealRents?"

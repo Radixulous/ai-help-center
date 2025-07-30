@@ -1,4 +1,12 @@
 ---
+id: 360036507291
+title: Operating Statement Manual Processing
+product: redIQ
+category: dataIQ
+section: Operating Statements
+attachments: []
+created_at: '2019-11-21T16:40:30Z'
+updated_at: '2021-09-27T19:24:38Z'
 suggested_queries:
 - - "How do I submit PDF operating statements for manual processing in redIQ?"
 - - "What are the requirements for uploading scanned documents to redIQ?"

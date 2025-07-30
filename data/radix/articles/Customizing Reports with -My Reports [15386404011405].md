@@ -1,5 +1,16 @@
 ---
-attachments: 
+id: 15386404011405
+title: Customizing Reports with "My Reports"
+product: Radix
+category: Reports
+section: Customizing Reports
+attachments:
+- 29128504275085.png
+- 15385580163853.png
+- 15385901553421.png
+- 15386330992269.png
+created_at: '2023-05-01T19:17:05Z'
+updated_at: '2024-08-22T18:08:39Z'
 suggested_queries:
 - - "How do I customize reports in Radix and save them to My Reports?"
 - - "What preferences can I set when creating a report in Radix?"

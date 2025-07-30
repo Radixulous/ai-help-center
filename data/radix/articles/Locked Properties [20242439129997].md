@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 20242439129997
+title: Locked Properties
+product: Radix
+category: RealRents
+section: General
+attachments:
+- 20242942207501.png
+created_at: '2023-10-09T22:10:06Z'
+updated_at: '2025-06-23T12:40:35Z'
 suggested_queries:
 - - "What is a locked property in the Competitors Table?"
 - - "Why are some competitor properties locked for updates?"

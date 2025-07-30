@@ -1,4 +1,12 @@
 ---
+id: 360040579211
+title: Preset Assumptions
+product: redIQ
+category: valuationIQ
+section: How to Use the Model
+attachments: []
+created_at: '2020-03-05T21:52:15Z'
+updated_at: '2024-10-07T16:43:18Z'
 suggested_queries:
 - - "How do I create and manage preset assumptions in redIQ?"
 - - "Can I use preset assumptions for underwriting deals in redIQ?"

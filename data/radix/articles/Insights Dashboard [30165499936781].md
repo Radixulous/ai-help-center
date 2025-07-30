@@ -1,5 +1,17 @@
 ---
-attachments: 
+id: 30165499936781
+title: Insights Dashboard
+product: Radix
+category: Benchmark
+section: 'Evaluating Your Property's Performance'
+attachments:
+- 30222977500813.png
+- 30296597108237.png
+- 30360186885261.png
+- 30360171329165.png
+- 30362842141069.png
+created_at: '2024-09-11T15:56:53Z'
+updated_at: '2024-09-19T13:49:06Z'
 suggested_queries:
 - - "How do I access the Insights Dashboard in Radix?"
 - - "What are the leading indicators of supply and demand on the Insights Dashboard?"

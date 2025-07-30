@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 7343728269453
+title: How Radix Calculates Rents
+product: Radix
+category: Benchmark
+section: Data Dictionary
+attachments:
+- 32945520645773.png
+created_at: '2022-07-01T13:23:32Z'
+updated_at: '2024-12-23T12:23:05Z'
 suggested_queries:
 - - "How does Radix calculate rental rates for integrated properties?"
 - - "What methods does Radix use for determining rents for non-integrated properties?"

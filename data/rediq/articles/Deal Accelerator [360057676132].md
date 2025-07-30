@@ -1,5 +1,25 @@
 ---
-attachments: 
+id: 360057676132
+title: Deal Accelerator
+product: redIQ
+category: dataIQ
+section: Deals
+attachments:
+- 10070371910804.png
+- 10070410757396.png
+- 10070465717140.png
+- 10070453359764.png
+- 10070471317524.png
+- 10070491790868.png
+- 10070495727892.png
+- 10070513165076.png
+- 10070567533332.png
+- 10070570843284.png
+- 10070594202004.png
+- 10070594202900.png
+- 10070649751444.png
+created_at: '2021-03-09T14:17:12Z'
+updated_at: '2025-07-24T17:56:55Z'
 suggested_queries:
 - - "What are the steps to set up Deal Accelerator in redIQ?"
 - - "How do I input investment criteria in the Deal Accelerator?"

@@ -1,4 +1,12 @@
 ---
+id: 360036508331
+title: QuickSync Set Up Guide
+product: redIQ
+category: QuickSync
+section: Getting Started
+attachments: []
+created_at: '2019-11-21T17:03:28Z'
+updated_at: '2025-05-28T21:44:28Z'
 suggested_queries:
 - - "How do I configure my Excel template for redIQ QuickSync?"
 - - "What data can redIQ QuickSync populate in my Excel model?"

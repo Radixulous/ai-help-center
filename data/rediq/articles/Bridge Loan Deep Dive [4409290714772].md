@@ -1,4 +1,12 @@
 ---
+id: 4409290714772
+title: Bridge Loan Deep Dive
+product: redIQ
+category: valuationIQ
+section: How to Use the Model
+attachments: []
+created_at: '2021-10-28T19:06:36Z'
+updated_at: '2024-12-03T14:55:48Z'
 suggested_queries:
 - - "What is a bridge loan and how is it sized in redIQ?"
 - - "How do I use the advanced loan calculations for bridge loans in redIQ?"

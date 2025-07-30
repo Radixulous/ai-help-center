@@ -1,4 +1,12 @@
 ---
+id: 9369284959373
+title: Portfolio Benchmark Snapshot [Video]
+product: Radix
+category: Benchmark
+section: 'Evaluating Your Portfolio's Performance'
+attachments: []
+created_at: '2022-09-22T20:17:30Z'
+updated_at: '2023-11-01T17:57:20Z'
 suggested_queries:
 - - "What is the Portfolio Benchmark Snapshot video about?"
 - - "How can I access the Portfolio Benchmark Snapshot in Radix?"

@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 360036506851
+title: Annual Operating Statements
+product: redIQ
+category: dataIQ
+section: Operating Statements
+attachments:
+- 25815410377108.png
+created_at: '2019-11-21T16:30:00Z'
+updated_at: '2024-10-07T16:40:50Z'
 suggested_queries:
 - - "What are the steps to upload an annual Operating Statement in redIQ?"
 - - "Do I need to include an annual column when uploading Operating Statement data?"

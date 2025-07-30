@@ -1,4 +1,12 @@
 ---
+id: 19989650203149
+title: Leased Percentage (%)
+product: Radix
+category: Benchmark
+section: Data Dictionary
+attachments: []
+created_at: '2023-09-30T16:31:43Z'
+updated_at: '2023-11-01T17:57:22Z'
 suggested_queries:
 - - "What is a leased percentage and how do I calculate it?"
 - - "Why is leased percentage important for evaluating property occupancy?"

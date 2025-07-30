@@ -1,5 +1,16 @@
 ---
-attachments: 
+id: 19758001192340
+title: Support for Single-Family Rental (SFR) Deals
+product: redIQ
+category: dataIQ
+section: Deals
+attachments:
+- 19779005993748.png
+- 19778997511316.png
+- 19778997511828.png
+- 19757964925460.png
+created_at: '2023-10-04T20:00:44Z'
+updated_at: '2023-10-31T12:47:21Z'
 suggested_queries:
 - - "What are single-family rental assets in redIQ?"
 - - "How do I set a deal asset type to single-family rental?"

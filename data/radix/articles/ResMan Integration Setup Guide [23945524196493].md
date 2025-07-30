@@ -1,4 +1,12 @@
 ---
+id: 23945524196493
+title: ResMan Integration Setup Guide
+product: Radix
+category: API & Integrations
+section: Integrations
+attachments: []
+created_at: '2024-02-07T20:11:05Z'
+updated_at: '2024-02-08T17:39:59Z'
 suggested_queries:
 - - "What steps are needed to set up the ResMan integration with Radix?"
 - - "How do I obtain my Account ID from ResMan for integration?"

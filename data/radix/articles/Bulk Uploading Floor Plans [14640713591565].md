@@ -1,5 +1,19 @@
 ---
-attachments: 
+id: 14640713591565
+title: Bulk Uploading Floor Plans
+product: Radix
+category: ProForma
+section: ProForma
+attachments:
+- 15739740351245.png
+- 15739783081613.png
+- 15739806279437.png
+- 15739811754125.png
+- 15739918084237.png
+- 15739926459149.png
+- 15740001505933.png
+created_at: '2023-04-06T23:30:11Z'
+updated_at: '2024-08-22T18:41:52Z'
 suggested_queries:
 - - "What are the steps to bulk upload floor plans in ProForma?"
 - - "How can I upload multiple floor plans at once in Radix?"

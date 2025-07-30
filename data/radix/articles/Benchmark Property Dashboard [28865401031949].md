@@ -1,5 +1,18 @@
 ---
-attachments: 
+id: 28865401031949
+title: Benchmark Property Dashboard
+product: Radix
+category: Benchmark
+section: 'Evaluating Your Property's Performance'
+attachments:
+- 32944643974541.png
+- 28882287309837.png
+- 28882965618445.png
+- 28883183586957.png
+- 32944643978893.png
+- 28883183604749.png
+created_at: '2024-07-31T13:51:37Z'
+updated_at: '2024-12-23T11:44:02Z'
 suggested_queries:
 - - "How do I access my property dashboard in Benchmark?"
 - - "What benchmarking tools are available on the Benchmark property dashboard?"

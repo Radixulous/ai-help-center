@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 25933152664973
+title: ATR Acceptance Criteria 
+product: Radix
+category: Benchmark
+section: Data Dictionary
+attachments:
+- 25933473504013.jpg
+created_at: '2024-04-16T09:17:36Z'
+updated_at: '2024-08-22T19:34:29Z'
 suggested_queries:
 - - "What are the acceptance criteria for ATR in Radix?"
 - - "How is ATR percentage calculated for available apartments?"

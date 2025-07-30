@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 7312740392077
+title: My Report and Organization Templates
+product: Radix
+category: Reports
+section: Customizing Reports
+attachments:
+- 29128663786125.png
+created_at: '2022-06-30T11:49:43Z'
+updated_at: '2024-08-22T17:47:19Z'
 suggested_queries:
 - - "How do I save a report in My Reports on Radix?"
 - - "What are Organization Templates in Radix and how do I use them?"

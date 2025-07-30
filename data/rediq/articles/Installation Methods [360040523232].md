@@ -1,4 +1,12 @@
 ---
+id: 360040523232
+title: Installation Methods
+product: redIQ
+category: QuickSync
+section: Getting Started
+attachments: []
+created_at: '2020-03-13T18:50:49Z'
+updated_at: '2024-10-07T16:41:56Z'
 suggested_queries:
 - - "What are the installation methods for the redIQ QuickSync Excel Add-in?"
 - - "How do I install QuickSync using centralized deployment?"

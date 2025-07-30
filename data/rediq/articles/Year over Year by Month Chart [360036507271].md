@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 360036507271
+title: Year over Year by Month Chart
+product: redIQ
+category: dataIQ
+section: Operating Statements
+attachments:
+- 25815729464212.png
+created_at: '2019-11-21T16:38:21Z'
+updated_at: '2024-10-07T16:40:49Z'
 suggested_queries:
 - - "What is the Year over Year by Month chart in rediq?"
 - - "How do I analyze monthly growth with the Year over Year chart?"

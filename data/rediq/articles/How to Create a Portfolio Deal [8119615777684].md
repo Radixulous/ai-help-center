@@ -1,5 +1,14 @@
 ---
-attachments: 
+id: 8119615777684
+title: How to Create a Portfolio Deal
+product: redIQ
+category: dataIQ
+section: Deals
+attachments:
+- 8236348462228.png
+- 8236257887124.png
+created_at: '2022-07-27T19:02:24Z'
+updated_at: '2024-10-07T16:41:49Z'
 suggested_queries:
 - - "How do I create a portfolio deal in redIQ?"
 - - "What steps are needed to combine rent rolls into one deal in redIQ?"

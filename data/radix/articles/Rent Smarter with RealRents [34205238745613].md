@@ -1,5 +1,14 @@
 ---
-attachments: 
+id: 34205238745613
+title: Rent Smarter with RealRents
+product: Radix
+category: Benchmark
+section: Updating your Market Survey now on RealRents
+attachments:
+- 34205224811405.png
+- 34205456218125.png
+created_at: '2025-02-11T17:04:32Z'
+updated_at: '2025-02-11T17:09:32Z'
 suggested_queries:
 - - "What features does RealRents offer for finding apartments?"
 - - "How does RealRents ensure accurate rental listings?"

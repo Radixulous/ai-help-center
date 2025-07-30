@@ -1,5 +1,19 @@
 ---
-attachments: 
+id: 19966348215565
+title: CompMatch (Recommended Comps)
+product: Radix
+category: Benchmark
+section: Managing Properties
+attachments:
+- 20540013574669.png
+- 32947579677581.png
+- 21085627193869.png
+- 21085632082957.png
+- 20541039222413.png
+- 20541039231501.png
+- 20541799551245.png
+created_at: '2023-09-29T19:27:02Z'
+updated_at: '2024-12-23T13:41:25Z'
 suggested_queries:
 - - "What is the CompMatch feature in Radix and how does it work?"
 - - "How do I review and manage recommended comps for my property?"

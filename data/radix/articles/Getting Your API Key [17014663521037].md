@@ -1,5 +1,14 @@
 ---
-attachments: 
+id: 17014663521037
+title: Getting Your API Key
+product: Radix
+category: API & Integrations
+section: API
+attachments:
+- 17014699806989.png
+- 17014670753037.png
+created_at: '2023-06-23T16:47:04Z'
+updated_at: '2024-08-22T20:27:20Z'
 suggested_queries:
 - - "How can I generate my API key for the Data API?"
 - - "What are the steps to access my organization's API key in Radix?"

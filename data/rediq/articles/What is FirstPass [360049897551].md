@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 360049897551
+title: What is FirstPass?
+product: redIQ
+category: dataIQ
+section: FirstPass
+attachments:
+- 360069511551.png
+created_at: '2020-09-18T15:31:35Z'
+updated_at: '2024-10-07T16:42:47Z'
 suggested_queries:
 - - "What is FirstPass in redIQ and how does it work?"
 - - "How do I use FirstPass for property valuation in redIQ?"

@@ -1,5 +1,15 @@
 ---
-attachments: 
+id: 15065498878221
+title: Amenities Report Overview
+product: Radix
+category: Reports
+section: Report Overviews
+attachments:
+- 29127584322701.png
+- 15072206333837.png
+- 15072817395085.png
+created_at: '2023-04-21T00:01:50Z'
+updated_at: '2024-08-22T19:10:23Z'
 suggested_queries:
 - - "What is included in the Amenities Report for property comparison?"
 - - "How do I access and customize the Amenities Report in Radix?"

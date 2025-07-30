@@ -1,4 +1,12 @@
 ---
+id: 9060097289101
+title: Property Benchmark Trends [Video]
+product: Radix
+category: Benchmark
+section: 'Evaluating Your Property's Performance'
+attachments: []
+created_at: '2022-09-09T23:01:49Z'
+updated_at: '2023-11-01T17:57:19Z'
 suggested_queries:
 - - "What are the latest trends in property benchmarks for Radix?"
 - - "Where can I find the video on property benchmark trends?"

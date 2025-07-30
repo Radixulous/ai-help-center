@@ -1,5 +1,15 @@
 ---
-attachments: 
+id: 360041475232
+title: Customize Model Colors
+product: redIQ
+category: valuationIQ
+section: How to Use the Model
+attachments:
+- 360043590651.png
+- 360043545952.png
+- 360043590791.png
+created_at: '2020-04-03T20:33:52Z'
+updated_at: '2024-12-12T20:51:21Z'
 suggested_queries:
 - - "How can I customize model colors in redIQ?"
 - - "What steps do corporate admins take to set default model export colors?"

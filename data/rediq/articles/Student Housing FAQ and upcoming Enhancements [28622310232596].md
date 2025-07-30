@@ -1,4 +1,12 @@
 ---
+id: 28622310232596
+title: Student Housing FAQ and upcoming Enhancements
+product: redIQ
+category: Support and Training
+section: Training Resources
+attachments: []
+created_at: '2024-07-19T14:49:27Z'
+updated_at: '2024-07-24T17:38:38Z'
 suggested_queries:
 - - "What are the new features for Student Housing in redIQ?"
 - - "How do I create a Student Housing deal in redIQ?"

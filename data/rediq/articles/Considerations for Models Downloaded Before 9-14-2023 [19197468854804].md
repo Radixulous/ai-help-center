@@ -1,4 +1,12 @@
 ---
+id: 19197468854804
+title: Considerations for Models Downloaded Before 9/14/2023
+product: redIQ
+category: valuationIQ
+section: Troubleshooting
+attachments: []
+created_at: '2023-09-14T16:02:34Z'
+updated_at: '2023-10-31T12:47:21Z'
 suggested_queries:
 - - "What should I do with valuationIQ models downloaded before September 14, 2023?"
 - - "How can I check if my Excel model is affected by the sensitivity table issue?"

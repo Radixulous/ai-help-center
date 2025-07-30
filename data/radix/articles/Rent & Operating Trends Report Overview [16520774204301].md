@@ -1,5 +1,20 @@
 ---
-attachments: 
+id: 16520774204301
+title: Rent & Operating Trends Report Overview
+product: Radix
+category: Reports
+section: Report Overviews
+attachments:
+- 29128062663437.png
+- 16543966003085.png
+- 16541673065485.png
+- 16544598437901.png
+- 16545105566221.png
+- 16545585432333.png
+- 16545980190861.png
+- 16546099061261.png
+created_at: '2023-06-08T00:23:58Z'
+updated_at: '2024-08-22T19:10:23Z'
 suggested_queries:
 - - "What is included in the Rent & Operating Trends Report for Radix subscribers?"
 - - "How can I customize the Rent & Operating Trends Report by MSA?"

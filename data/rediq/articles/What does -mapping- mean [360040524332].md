@@ -1,4 +1,12 @@
 ---
+id: 360040524332
+title: What does "mapping" mean?
+product: redIQ
+category: dataIQ
+section: Rent Rolls
+attachments: []
+created_at: '2020-03-13T19:27:18Z'
+updated_at: '2023-10-31T12:47:19Z'
 suggested_queries:
 - - "What is the process for mapping operating statements in Rediq?"
 - - "How do I add details to a rent roll in Rediq?"

@@ -1,5 +1,18 @@
 ---
-attachments: 
+id: 16436550518029
+title: 'ProForma Property Dashboard: Trends'
+product: Radix
+category: ProForma
+section: ProForma
+attachments:
+- 16436719591309.png
+- 16436995009165.png
+- 16437414391053.png
+- 16437493720845.png
+- 16437752517645.png
+- 16435141666701.png
+created_at: '2023-06-05T20:52:47Z'
+updated_at: '2024-08-22T21:38:33Z'
 suggested_queries:
 - - "How do I customize trend lines on the ProForma Property Dashboard?"
 - - "What metrics can I analyze using the Trends feature in Radix?"

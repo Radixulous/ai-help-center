@@ -1,4 +1,12 @@
 ---
+id: 15701448848269
+title: Adding a Property to Benchmark
+product: Radix
+category: Benchmark
+section: Managing Properties
+attachments: []
+created_at: '2023-05-11T21:30:49Z'
+updated_at: '2023-11-01T17:57:21Z'
 suggested_queries:
 - - "How do I request to add a subject property to Benchmark?"
 - - "What information do I need to provide for a competitor property addition in Benchmark?"

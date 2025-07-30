@@ -9,7 +9,7 @@ from dotenv import load_dotenv
 from pinecone import Pinecone, ServerlessSpec
 import openai
 import re
-from typing import List, Optional
+from typing import List, Optional, Dict
 import hashlib
 import re
 import base64

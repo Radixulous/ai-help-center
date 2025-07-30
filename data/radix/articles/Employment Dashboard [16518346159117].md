@@ -1,5 +1,17 @@
 ---
-attachments: 
+id: 16518346159117
+title: Employment Dashboard
+product: Radix
+category: Research
+section: Research
+attachments:
+- 33466916516237.png
+- 16518532121869.png
+- 16552268786317.png
+- 16554190593549.png
+- 16554507874445.png
+created_at: '2023-06-07T22:52:20Z'
+updated_at: '2025-01-14T14:31:31Z'
 suggested_queries:
 - - "What insights can I get from the Employment Dashboard in Radix?"
 - - "How do I access the Employment data for my MSA in Radix?"

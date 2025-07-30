@@ -1,4 +1,12 @@
 ---
+id: 360040638272
+title: Labeling Renovations in a Subsequent Rent Roll
+product: redIQ
+category: dataIQ
+section: Rent Rolls
+attachments: []
+created_at: '2020-03-17T14:04:39Z'
+updated_at: '2024-10-07T16:41:47Z'
 suggested_queries:
 - - "How do I label renovations in a subsequent rent roll with redIQ?"
 - - "Can I reuse unit numbers for renovations when updating a rent roll?"

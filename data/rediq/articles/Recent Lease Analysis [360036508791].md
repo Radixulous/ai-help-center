@@ -1,4 +1,12 @@
 ---
+id: 360036508791
+title: Recent Lease Analysis
+product: redIQ
+category: dataIQ
+section: Rent Rolls
+attachments: []
+created_at: '2019-11-21T17:10:29Z'
+updated_at: '2020-04-21T16:35:17Z'
 suggested_queries:
 - - "What is included in the Recent Lease Analysis report in rediq?"
 - - "Why is my Recent Lease Analysis not showing for an occupied unit?"

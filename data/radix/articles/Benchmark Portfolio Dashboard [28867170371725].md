@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 28867170371725
+title: Benchmark Portfolio Dashboard
+product: Radix
+category: Benchmark
+section: 'Evaluating Your Portfolio's Performance'
+attachments:
+- 28884295015565.png
+created_at: '2024-07-31T14:35:24Z'
+updated_at: '2024-08-22T18:41:52Z'
 suggested_queries:
 - - "How do I access my portfolio dashboard in Benchmark?"
 - - "What tools are available on the Benchmark portfolio dashboard for performance analysis?"

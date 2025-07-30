@@ -1,5 +1,15 @@
 ---
-attachments: 
+id: 30166324579213
+title: Best Rate Comparison Report Overview (Beta)
+product: Radix
+category: Reports
+section: Report Overviews
+attachments:
+- 30341463570957.png
+- 30192211275533.png
+- 30362759131917.png
+created_at: '2024-09-11T16:11:00Z'
+updated_at: '2024-09-19T04:31:13Z'
 suggested_queries:
 - - "What is the Best Rate Comparison Report in Radix?"
 - - "How can I customize the Best Rate Comparison Report for my property?"

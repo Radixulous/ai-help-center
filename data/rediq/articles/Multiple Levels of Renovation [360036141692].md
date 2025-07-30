@@ -1,4 +1,12 @@
 ---
+id: 360036141692
+title: Multiple Levels of Renovation
+product: redIQ
+category: dataIQ
+section: Rent Rolls
+attachments: []
+created_at: '2019-11-21T17:14:05Z'
+updated_at: '2020-04-21T16:35:17Z'
 suggested_queries:
 - - "How do I label multiple levels of renovations in redIQ?"
 - - "What steps are needed to edit renovation types in the Rent Roll?"

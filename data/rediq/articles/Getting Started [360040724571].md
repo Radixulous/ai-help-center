@@ -1,4 +1,12 @@
 ---
+id: 360040724571
+title: Getting Started
+product: redIQ
+category: QuickSync
+section: Getting Started
+attachments: []
+created_at: '2020-03-09T14:10:01Z'
+updated_at: '2022-05-05T00:37:05Z'
 suggested_queries:
 - - "How do I use the redIQ QuickSync Excel Add-in to populate my model template?"
 - - "What data can redIQ populate in my Excel model using QuickSync?"

@@ -1,5 +1,17 @@
 ---
-attachments: 
+id: 26575306265741
+title: Automate Your Reporting
+product: Radix
+category: Reports
+section: Sharing Reports
+attachments:
+- 26576181054221.png
+- 26576196003725.png
+- 26576196014349.png
+- 26576181123853.png
+- 26576181143309.png
+created_at: '2024-05-08T21:36:42Z'
+updated_at: '2024-08-22T13:45:57Z'
 suggested_queries:
 - - "How can I automate my reporting in Radix?"
 - - "What steps are involved in customizing and saving reports in Radix?"

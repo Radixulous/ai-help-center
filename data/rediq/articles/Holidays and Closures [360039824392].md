@@ -1,4 +1,12 @@
 ---
+id: 360039824392
+title: Holidays and Closures
+product: redIQ
+category: Support and Training
+section: Contacting Support
+attachments: []
+created_at: '2020-02-26T16:52:13Z'
+updated_at: '2025-02-17T20:33:18Z'
 suggested_queries:
 - - "What holidays does redIQ observe in 2025?"
 - - "When is redIQ customer support closed for holidays?"

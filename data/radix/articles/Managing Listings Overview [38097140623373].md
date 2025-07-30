@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 38097140623373
+title: Managing Listings Overview
+product: Radix
+category: RealRents
+section: Managing Listings
+attachments:
+- 38097152151437.png
+created_at: '2025-07-16T12:25:16Z'
+updated_at: '2025-07-16T12:33:21Z'
 suggested_queries:
 - - "How do I keep my property listing updated on RealRents?"
 - - "What are the benefits of having a Verified listing on RealRents?"

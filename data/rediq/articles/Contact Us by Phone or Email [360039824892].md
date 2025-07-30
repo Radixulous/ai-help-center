@@ -1,4 +1,12 @@
 ---
+id: 360039824892
+title: Contact Us by Phone or Email
+product: redIQ
+category: Support and Training
+section: Contacting Support
+attachments: []
+created_at: '2020-02-26T17:02:53Z'
+updated_at: '2024-11-11T16:48:00Z'
 suggested_queries:
 - - "What are the contact details for redIQ support?"
 - - "How can I reach redIQ customer service by phone or email?"

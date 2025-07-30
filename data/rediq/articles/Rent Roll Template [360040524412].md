@@ -1,5 +1,14 @@
 ---
-attachments: 
+id: 360040524412
+title: Rent Roll Template
+product: redIQ
+category: dataIQ
+section: Rent Rolls
+attachments:
+- 25805097261716.png
+- 25805097272084.png
+created_at: '2020-03-13T19:29:01Z'
+updated_at: '2024-10-07T16:41:44Z'
 suggested_queries:
 - - "Where can I download the redIQ Rent Roll Template?"
 - - "What should I do if my rent roll fails to upload in redIQ?"

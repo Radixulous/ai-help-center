@@ -1,5 +1,19 @@
 ---
-attachments: 
+id: 18887678945933
+title: 10 Questions Operators Can Answer with Radix Research
+product: Radix
+category: Research
+section: Research
+attachments:
+- 19328829504013.png
+- 19329971139469.png
+- 19330239322381.png
+- 19330814508557.png
+- 19331066356493.png
+- 19331708430733.png
+- 19331890066701.png
+created_at: '2023-08-25T21:51:31Z'
+updated_at: '2024-08-22T19:53:55Z'
 suggested_queries:
 - - "What are the key questions apartment operators can answer with Radix Research?"
 - - "How can I compare my property's performance to the market using Radix?"

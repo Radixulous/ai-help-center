@@ -1,5 +1,15 @@
 ---
-attachments: 
+id: 15662338050317
+title: Adding/Removing Competitor Properties
+product: Radix
+category: Benchmark
+section: Managing Properties
+attachments:
+- 32947556582797.png
+- 28884600402317.png
+- 28884965958157.png
+created_at: '2023-05-10T19:14:58Z'
+updated_at: '2024-12-23T13:40:10Z'
 suggested_queries:
 - - "How do I manage competitor properties in Radix?"
 - - "What steps are needed to add or remove competitors in Radix?"

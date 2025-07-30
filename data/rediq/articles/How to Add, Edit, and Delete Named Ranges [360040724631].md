@@ -1,4 +1,12 @@
 ---
+id: 360040724631
+title: How to Add, Edit, and Delete Named Ranges
+product: redIQ
+category: QuickSync
+section: Getting Started
+attachments: []
+created_at: '2020-03-09T14:14:01Z'
+updated_at: '2024-10-07T16:43:18Z'
 suggested_queries:
 - - "How can I add a named range in rediq?"
 - - "What steps do I follow to edit a named range in rediq?"

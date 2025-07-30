@@ -1,4 +1,12 @@
 ---
+id: 10742027560845
+title: Construction Pipeline [Video]
+product: Radix
+category: Research
+section: Research
+attachments: []
+created_at: '2022-11-18T21:31:43Z'
+updated_at: '2024-03-29T19:03:53Z'
 suggested_queries:
 - - "What is the Construction Pipeline in Radix Research?"
 - - "Where can I find videos about Radix construction trends?"

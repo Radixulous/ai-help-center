@@ -1,4 +1,12 @@
 ---
+id: 360040297752
+title: Compatibility
+product: redIQ
+category: QuickSync
+section: Getting Started
+attachments: []
+created_at: '2020-03-09T14:14:48Z'
+updated_at: '2024-10-07T16:42:51Z'
 suggested_queries:
 - - "What versions of Excel are compatible with rediq?"
 - - "Do I need to add rediq.io to Trusted Sites for Excel?"

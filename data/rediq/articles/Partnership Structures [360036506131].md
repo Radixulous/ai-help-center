@@ -1,5 +1,14 @@
 ---
-attachments: 
+id: 360036506131
+title:  Partnership Structures
+product: redIQ
+category: valuationIQ
+section: How to Use the Model
+attachments:
+- 25968988333460.png
+- 25968988350740.png
+created_at: '2019-11-21T16:19:25Z'
+updated_at: '2024-10-07T16:40:47Z'
 suggested_queries:
 - - "How do I include a partnership structure when generating a model in redIQ?"
 - - "What are the tiers for promote structures in partnership calculations?"

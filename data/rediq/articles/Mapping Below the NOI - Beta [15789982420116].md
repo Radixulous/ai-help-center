@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 15789982420116
+title: Mapping Below the NOI - Beta
+product: redIQ
+category: dataIQ
+section: Operating Statements
+attachments:
+- 15789909040276.jpg
+created_at: '2023-05-19T15:19:52Z'
+updated_at: '2024-10-07T16:41:50Z'
 suggested_queries:
 - - "How do I map items below the NOI line in rediq?"
 - - "What are the specific account mappings for BNOI line items?"

@@ -1,5 +1,15 @@
 ---
-attachments: 
+id: 28429466699533
+title: Data Quality Scores Explained
+product: Radix
+category: RealRents
+section: General
+attachments:
+- 28430282738701.png
+- 28430680103181.png
+- 33236001797517.png
+created_at: '2024-07-15T16:50:53Z'
+updated_at: '2025-06-23T12:40:35Z'
 suggested_queries:
 - - "What factors affect Data Quality Scores in RealRents?"
 - - "How can I improve my property's Data Quality Score?"

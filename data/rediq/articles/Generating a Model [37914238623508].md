@@ -1,5 +1,18 @@
 ---
-attachments: 
+id: 37914238623508
+title: Generating a Model
+product: redIQ
+category: valuationIQ
+section: About
+attachments:
+- 37918047990932.jpg
+- 37918047991828.jpg
+- 37918063963156.png
+- 37921587016596.png
+- 37921587018004.png
+- 37921602491668.png
+created_at: '2025-05-28T16:26:51Z'
+updated_at: '2025-05-28T20:18:35Z'
 suggested_queries:
 - - "How do I generate a model in redIQ after uploading rent and expenses?"
 - - "What steps are needed to select a deal and generate a model in redIQ?"

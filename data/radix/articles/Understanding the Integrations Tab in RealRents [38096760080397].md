@@ -1,5 +1,16 @@
 ---
-attachments: 
+id: 38096760080397
+title: Understanding the Integrations Tab in RealRents
+product: Radix
+category: RealRents
+section: Managing Listings
+attachments:
+- 38096760078477.png
+- 38096762950541.png
+- 38096762950669.png
+- 38096762951821.png
+created_at: '2025-07-16T12:09:33Z'
+updated_at: '2025-07-16T12:23:10Z'
 suggested_queries:
 - - "What information is displayed in the Integrations tab of RealRents?"
 - - "How can I view occupancy and leased percentage breakdowns in RealRents?"

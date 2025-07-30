@@ -1,5 +1,16 @@
 ---
-attachments: 
+id: 360036141132
+title: Edit Rent Roll Screen / Anomalies
+product: redIQ
+category: dataIQ
+section: Rent Rolls
+attachments:
+- 25805949248532.png
+- 9154732733716.png
+- 25805963544852.png
+- 25805963558548.png
+created_at: '2019-11-21T17:07:45Z'
+updated_at: '2024-10-07T16:41:44Z'
 suggested_queries:
 - - "What actions can I take on the Edit Rent Roll screen for anomalies in redIQ?"
 - - "How do I edit lease dates and charges in the Rent Roll section?"

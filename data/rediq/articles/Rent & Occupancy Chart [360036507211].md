@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 360036507211
+title: Rent & Occupancy Chart
+product: redIQ
+category: dataIQ
+section: Operating Statements
+attachments:
+- 25815606732948.png
+created_at: '2019-11-21T16:36:51Z'
+updated_at: '2024-10-07T16:40:50Z'
 suggested_queries:
 - - "What is the Rent & Occupancy chart in rediq?"
 - - "How does Physical Occupancy relate to Net Rental Income?"

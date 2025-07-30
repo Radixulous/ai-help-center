@@ -1,5 +1,23 @@
 ---
-attachments: 
+id: 7313516628749
+title: How to use Perspectives
+product: Radix
+category: Benchmark
+section: 'Evaluating Your Portfolio's Performance'
+attachments:
+- 33238588745357.png
+- 33238619876237.png
+- 17547749861005.png
+- 17547749862541.png
+- 17547749863821.png
+- 17547749865357.png
+- 17547749866893.png
+- 17547795644045.png
+- 17547795645453.png
+- 17547749872525.png
+- 17547749874829.png
+created_at: '2022-06-30T12:23:24Z'
+updated_at: '2025-01-06T13:59:25Z'
 suggested_queries:
 - - "How can I create a perspective to exclude renovated units in Radix?"
 - - "What are the steps to edit and lock a perspective in Radix?"

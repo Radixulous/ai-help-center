@@ -1,5 +1,15 @@
 ---
-attachments: 
+id: 360036412071
+title: Manually Uploading Operating Statements
+product: redIQ
+category: dataIQ
+section: Operating Statements
+attachments:
+- 16153259321876.png
+- 25814604629140.png
+- 360061455952.jpg
+created_at: '2019-11-19T16:52:45Z'
+updated_at: '2024-10-07T16:40:51Z'
 suggested_queries:
 - - "What are the steps to manually upload operating statements in redIQ?"
 - - "How can I submit PDF operating statements for data extraction in redIQ?"

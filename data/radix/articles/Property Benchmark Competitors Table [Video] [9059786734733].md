@@ -1,4 +1,12 @@
 ---
+id: 9059786734733
+title: Property Benchmark Competitors Table [Video]
+product: Radix
+category: Benchmark
+section: 'Evaluating Your Property's Performance'
+attachments: []
+created_at: '2022-09-09T22:42:33Z'
+updated_at: '2023-11-01T17:57:19Z'
 suggested_queries:
 - - "What is included in the Property Benchmark Competitors Table video?"
 - - "How can I access the Property Benchmark Competitors article?"

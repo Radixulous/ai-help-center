@@ -1,4 +1,12 @@
 ---
+id: 360040568671
+title: Compatibility 
+product: redIQ
+category: QuickSync
+section: Best Practices and Tips
+attachments: []
+created_at: '2020-03-05T19:22:38Z'
+updated_at: '2023-10-31T12:47:19Z'
 suggested_queries:
 - - "What versions of Excel are compatible with rediq?"
 - - "Do I need to configure cookies for rediq on Excel online?"

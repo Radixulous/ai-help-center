@@ -1,5 +1,13 @@
 ---
-attachments: 
+id: 19399392349076
+title: Using SM+ to map accounts on existing OS Uploads
+product: redIQ
+category: dataIQ
+section: SmartMap+
+attachments:
+- 19432791844244.png
+created_at: '2023-09-21T16:37:40Z'
+updated_at: '2024-04-23T14:24:19Z'
 suggested_queries:
 - - "How do I use SmartMap+ to re-map accounts on existing OS uploads?"
 - - "What steps are needed to apply SmartMap+ mappings to existing uploads in rediq?"

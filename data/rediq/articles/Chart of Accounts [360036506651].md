@@ -1,5 +1,14 @@
 ---
-attachments: 
+id: 360036506651
+title: Chart of Accounts
+product: redIQ
+category: dataIQ
+section: Operating Statements
+attachments:
+- 25815006685332.png
+- 25815006693140.png
+created_at: '2019-11-21T16:27:57Z'
+updated_at: '2024-10-07T16:40:51Z'
 suggested_queries:
 - - "How do I customize the Chart of Accounts in redIQ?"
 - - "Who can edit the Chart of Accounts in redIQ?"

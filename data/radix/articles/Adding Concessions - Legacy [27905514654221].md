@@ -1,5 +1,15 @@
 ---
-attachments: 
+id: 27905514654221
+title: Adding Concessions - Legacy
+product: Radix
+category: RealRents
+section: Legacy
+attachments:
+- 27994587266189.png
+- 27994733521933.png
+- 27994733522829.png
+created_at: '2024-06-26T10:33:10Z'
+updated_at: '2025-07-08T10:21:57Z'
 suggested_queries:
 - - "How do I use the concessions calculator in RealRents?"
 - - "What is the process for adding bulk concessions for multiple floor plans?"

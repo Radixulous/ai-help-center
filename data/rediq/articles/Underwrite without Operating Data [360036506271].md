@@ -1,5 +1,14 @@
 ---
-attachments: 
+id: 360036506271
+title: Underwrite without Operating Data
+product: redIQ
+category: valuationIQ
+section: How to Use the Model
+attachments:
+- 25976816647316.png
+- 25976816670356.png
+created_at: '2019-11-21T16:20:47Z'
+updated_at: '2024-10-07T16:40:46Z'
 suggested_queries:
 - - "Can I underwrite a property without a rent roll in redIQ?"
 - - "How do I enter unit mix assumptions in redIQ without historical data?"

@@ -1,4 +1,12 @@
 ---
+id: 7319564676109
+title: How to Save, Export, and Email Reports
+product: Radix
+category: Reports
+section: Sharing Reports
+attachments: []
+created_at: '2022-06-30T15:39:46Z'
+updated_at: '2023-11-01T17:57:19Z'
 suggested_queries:
 - - "How can I save and export reports in Radix?"
 - - "What steps do I follow to email a report from Radix?"

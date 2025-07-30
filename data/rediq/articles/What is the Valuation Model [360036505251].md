@@ -1,4 +1,12 @@
 ---
+id: 360036505251
+title: What is the Valuation Model?
+product: redIQ
+category: valuationIQ
+section: About
+attachments: []
+created_at: '2019-11-21T16:04:19Z'
+updated_at: '2025-05-28T19:50:01Z'
 suggested_queries:
 - - "What is the ValuationIQ model in redIQ?"
 - - "How does the redIQ valuation model work for multifamily acquisitions?"

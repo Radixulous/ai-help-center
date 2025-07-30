@@ -1,5 +1,18 @@
 ---
-attachments: 
+id: 19399320459412
+title: Using SM+ with Legacy Mappings
+product: redIQ
+category: dataIQ
+section: SmartMap+
+attachments:
+- 19432753692820.png
+- 19432737741332.png
+- 19432737750036.png
+- 19432737758868.png
+- 19432737775636.png
+- 19432753751700.png
+created_at: '2023-09-21T16:35:27Z'
+updated_at: '2024-04-23T14:51:18Z'
 suggested_queries:
 - - "How do I apply Legacy Mappings for future OS uploads in rediq?"
 - - "What steps are needed to use SM+ with Legacy Mappings in rediq?"

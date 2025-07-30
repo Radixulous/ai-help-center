@@ -1,5 +1,25 @@
 ---
-attachments: 
+id: 16339996080525
+title: Adding Competitors to a ProForma Property
+product: Radix
+category: ProForma
+section: ProForma
+attachments:
+- 23668882694285.png
+- 23668897985549.png
+- 23668882717581.png
+- 23668882724749.png
+- 23668898005645.png
+- 23668882694285.png
+- 23669426540685.png
+- 23669426542477.png
+- 16340623000845.png
+- 23668882694285.png
+- 23670061662605.png
+- 23670045305357.png
+- 23668898005645.png
+created_at: '2023-06-01T23:14:30Z'
+updated_at: '2024-08-22T18:41:52Z'
 suggested_queries:
 - - "What are the steps to add competitors using CompMatch in ProForma?"
 - - "How can I locate competitors on the map in a ProForma property?"

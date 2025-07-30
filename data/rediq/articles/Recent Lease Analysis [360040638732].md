@@ -1,5 +1,14 @@
 ---
-attachments: 
+id: 360040638732
+title: Recent Lease Analysis
+product: redIQ
+category: dataIQ
+section: Rent Rolls
+attachments:
+- 25808342071316.png
+- 25808342090644.png
+created_at: '2020-03-17T14:17:19Z'
+updated_at: '2024-10-07T16:40:55Z'
 suggested_queries:
 - - "What is included in the Recent Lease Analysis report on the Floor Plan Summary?"
 - - "How does redIQ handle anomalies in Lease Start Dates for lease analysis?"

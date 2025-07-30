@@ -1,4 +1,12 @@
 ---
+id: 360049430192
+title: What is the difference between FirstPass and ValuationIQ model?
+product: redIQ
+category: dataIQ
+section: FirstPass
+attachments: []
+created_at: '2020-09-18T16:38:26Z'
+updated_at: '2024-10-07T16:42:48Z'
 suggested_queries:
 - What are the key differences between FirstPass and valuationIQ?
 - How is IRR calculated differently in FirstPass compared to valuationIQ?

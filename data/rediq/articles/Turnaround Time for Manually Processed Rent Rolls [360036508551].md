@@ -1,4 +1,12 @@
 ---
+id: 360036508551
+title: Turnaround Time for Manually Processed Rent Rolls
+product: redIQ
+category: dataIQ
+section: Rent Rolls
+attachments: []
+created_at: '2019-11-21T17:06:19Z'
+updated_at: '2024-10-07T16:42:44Z'
 suggested_queries:
 - - "What is the turnaround time for submitting rent rolls to redIQ?"
 - - "How long does it take to process a rent roll with redIQ Support?"

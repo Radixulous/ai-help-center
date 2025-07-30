@@ -1,8 +1,16 @@
 ---
+id: 20064821138957
+title: Concessions Index
+product: Radix
+category: Benchmark
+section: Data Dictionary
+attachments: []
+created_at: '2023-10-03T16:58:53Z'
+updated_at: '2023-11-01T17:57:22Z'
 suggested_queries:
-- "What is the Concessions Index in Radix?"
-- "How is the Concessions Index calculated for properties?"
-- "Why is monitoring the Concessions Index important for rental income?"
+- What is the Concessions Index in Radix?
+- How is the Concessions Index calculated for properties?
+- Why is monitoring the Concessions Index important for rental income?
 ---
 In this article we'll define what this data point is, how it's calculated, and outline practical tips and tools you can use to evaluate your Concessions Index data.
 

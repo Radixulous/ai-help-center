@@ -1,4 +1,12 @@
 ---
+id: 9149577351309
+title: Schedule Property Report Auto Delivery [Video]
+product: Radix
+category: Reports
+section: Sharing Reports
+attachments: []
+created_at: '2022-09-14T01:26:52Z'
+updated_at: '2023-11-01T17:57:20Z'
 suggested_queries:
 - - "How can I schedule auto delivery for my property reports?"
 - - "What are the steps to set up property report auto delivery in Radix?"

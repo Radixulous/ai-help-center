@@ -1,4 +1,12 @@
 ---
+id: 360040724711
+title: Data Elements Available via the Add-in
+product: redIQ
+category: QuickSync
+section: Getting Started
+attachments: []
+created_at: '2020-03-09T14:16:02Z'
+updated_at: '2024-11-21T00:37:41Z'
 suggested_queries:
 - - "What data elements are available in the rediq add-in?"
 - - "How can I access property details using the rediq add-in?"

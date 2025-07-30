@@ -1,5 +1,15 @@
 ---
-attachments: 
+id: 360035445332
+title: How to Customize Your Deal Log View
+product: redIQ
+category: dataIQ
+section: Deals
+attachments:
+- 360042064311.png
+- 360042064491.png
+- 360042064631.png
+created_at: '2019-11-01T16:27:57Z'
+updated_at: '2022-10-31T16:01:52Z'
 suggested_queries:
 - - "How can I customize my deal log view in redIQ?"
 - - "What settings can I adjust for my deal log display columns?"
