@@ -315,6 +315,20 @@ def build_image_context(articles: List[dict]) -> str:
     
     return context
 
+def clean_zendesk_urls(content: str) -> str:
+    """Remove Zendesk URLs from content"""
+    # Remove Zendesk URLs (both help.radix.com and rediq.zendesk.com)
+    zendesk_pattern = r'https://help\.(radix|rediq)\.com/hc/[^\s\)\]]*'
+    content = re.sub(zendesk_pattern, '', content)
+    
+    # Remove original_url from frontmatter
+    content = re.sub(r'^original_url:.*$', '', content, flags=re.MULTILINE)
+    
+    # Clean up extra whitespace
+    content = re.sub(r'\n{3,}', '\n\n', content)
+    
+    return content
+
 def load_articles():
     articles = []
     products = ['radix', 'rediq']
@@ -331,14 +345,24 @@ def load_articles():
                 # Clean base64 data from content
                 original_length = len(content)
                 content = clean_base64_from_content(content)
+                
+                # NEW: Clean Zendesk URLs
+                content = clean_zendesk_urls(content)
                 cleaned_length = len(content)
                 
-                if original_length > cleaned_length * 2:  # Significant reduction
+                if original_length > cleaned_length * 1.5:  # Significant reduction
                     print(f"Cleaned {os.path.basename(file_path)}: {original_length} -> {cleaned_length} chars")
                 
-                # Extract title
+                # Extract title and remove Zendesk ID if present
                 title_match = re.search(r'^#\s+(.+)$', content, re.MULTILINE)
-                title = title_match.group(1) if title_match else os.path.basename(file_path).replace('.md', '')
+                if title_match:
+                    title = title_match.group(1)
+                    # Remove Zendesk ID from title: "Title [12345]" -> "Title"
+                    title = re.sub(r'\s*\[\d+\]$', '', title)
+                else:
+                    # Extract from filename and clean it
+                    title = os.path.basename(file_path).replace('.md', '')
+                    title = re.sub(r'\s*\[\d+\]$', '', title)
                 
                 # Generate clean ID
                 base_id = f"{product}_{os.path.basename(file_path)}"
@@ -528,9 +552,9 @@ async def chat_completion(request: ChatRequest):
         
         # Build conversation history
         messages = [
-            {
-                "role": "system",
-                "content": f"""You are a helpful assistant for a help center. Use the following knowledge base articles to answer user questions.
+    {
+        "role": "system",
+        "content": f"""You are a helpful assistant for a help center. Use the following knowledge base articles to answer user questions.
 
 Context from knowledge base:
 {context}
@@ -552,17 +576,15 @@ General Instructions:
   - Use `code` for technical terms, file names, or commands
   - Include [clickable links](url) when referencing external resources
   - Include ![alt text](image_url) for images when relevant
-- DO NOT produce any links that contain the strings "help.radix.com"or "rediq.zendesk.com")
+- NEVER produce any links containing "help.radix.com", "rediq.zendesk.com", or any Zendesk URLs
 - You can include links to other external resources when helpful (documentation, APIs, etc.)
-- If a specific help article is referenced, do not link to it, rather ask the user at the end if they's like more information about that topic.
+- If referencing specific help articles, describe the information instead of linking to it
 - Use the information from the knowledge base to provide direct answers
-- If you need to reference specific features or procedures, describe them based on the context provided
-- Be helpful and specific
+- Be helpful and specific with step-by-step guidance when appropriate
 - If the context doesn't contain enough information, say so
-- Include step-by-step guidance when appropriate
 - Format lists and instructions clearly"""
-            }
-        ]
+    }
+]
         
         # Add conversation history
         for msg in request.conversation_history[-5:]:  # Last 5 messages
