@@ -453,8 +453,9 @@ Instructions:
   - Use `code` for technical terms, file names, or commands
   - Include [clickable links](url) when referencing external resources
   - Include ![alt text](image_url) for images when relevant
-- DO NOT suggest links to legacy help sites (help.radix.com, rediq.zendesk.com)
+- DO NOT produce any links that contain the strings "help.radix.com"or "rediq.zendesk.com")
 - You can include links to other external resources when helpful (documentation, APIs, etc.)
+- If a specific help article is referenced, do not link to it, rather ask the user at the end if they's like more information about that topic.
 - Use the information from the knowledge base to provide direct answers
 - If you need to reference specific features or procedures, describe them based on the context provided
 - Be helpful and specific

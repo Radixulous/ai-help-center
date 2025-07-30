@@ -365,14 +365,6 @@ const ChatInterface = () => {
       icon: <RefreshCw className="w-6 h-6" />,
       color: 'bg-[#6F4888]',
       sections: ['Getting Started', 'Rent Roll', 'Video Tutorials', 'Operating Statements', 'Best Practices and Tips']
-    },
-    {
-      id: 'support',
-      name: 'Support and Training',
-      description: 'Get help, training resources, and stay updated with the latest features.',
-      icon: <HelpCircle className="w-6 h-6" />,
-      color: 'bg-[#FFC120]',
-      sections: ['Contacting Support', 'Training Resources', 'Product Release Notes']
     }
   ];
 
