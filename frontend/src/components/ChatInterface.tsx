@@ -67,9 +67,18 @@ const RichTextContent = ({ content }: { content: string }) => {
               <img 
                 src={imageUrl} 
                 alt={altText} 
-                className="max-w-full h-auto rounded-lg shadow-sm"
+                className="max-w-full h-auto rounded-lg shadow-sm border border-[#E6E7E8]"
                 onError={(e) => {
+                  console.error(`Failed to load image: ${imageUrl}`);
+                  // Replace with a placeholder instead of hiding
                   e.currentTarget.style.display = 'none';
+                  const placeholder = document.createElement('div');
+                  placeholder.className = 'max-w-full h-32 bg-[#F6F7F8] rounded-lg border border-[#E6E7E8] flex items-center justify-center text-[#707174] text-sm';
+                  placeholder.innerHTML = `<div class="text-center"><div class="mb-1">📷</div><div>Image not available</div><div class="text-xs mt-1">${altText || 'Screenshot'}</div></div>`;
+                  e.currentTarget.parentNode?.appendChild(placeholder);
+                }}
+                onLoad={() => {
+                  console.log(`Successfully loaded image: ${imageUrl}`);
                 }}
               />
               {altText && (
@@ -88,9 +97,18 @@ const RichTextContent = ({ content }: { content: string }) => {
               <img 
                 src={imageUrl} 
                 alt={altText} 
-                className="inline-block max-h-6 w-auto mx-1 align-middle"
+                className="inline-block max-h-6 w-auto mx-1 align-middle border border-[#E6E7E8] rounded"
                 onError={(e) => {
+                  console.error(`Failed to load inline image: ${imageUrl}`);
+                  // Replace with a small placeholder for inline images
                   e.currentTarget.style.display = 'none';
+                  const placeholder = document.createElement('span');
+                  placeholder.className = 'inline-block mx-1 text-[#707174] text-xs';
+                  placeholder.innerHTML = '📷';
+                  e.currentTarget.parentNode?.insertBefore(placeholder, e.currentTarget.nextSibling);
+                }}
+                onLoad={() => {
+                  console.log(`Successfully loaded inline image: ${imageUrl}`);
                 }}
               />
               {afterImage && <span>{processInlineFormatting(afterImage)}</span>}

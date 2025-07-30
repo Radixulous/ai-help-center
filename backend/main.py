@@ -172,16 +172,38 @@ def get_embeddings(texts: List[str]) -> List[List[float]]:
 # Generate S3 URL for images
 def get_image_url(image_filename: str, product: str) -> str:
     try:
-        return s3_client.generate_presigned_url(
+        # Clean up the filename - remove any path components
+        clean_filename = os.path.basename(image_filename)
+        
+        # Skip if no bucket configured
+        bucket = os.getenv('S3_BUCKET')
+        if not bucket:
+            print("S3_BUCKET environment variable not set")
+            return ""
+        
+        # Handle different folder structures
+        # If it's already in attachments folder, remove the prefix since files are stored directly
+        if image_filename.startswith('attachments/'):
+            s3_key = f'{product}/{clean_filename}'
+        else:
+            # Otherwise, assume it's just a filename
+            s3_key = f'{product}/{clean_filename}'
+        
+        # Generate presigned URL
+        url = s3_client.generate_presigned_url(
             'get_object',
             Params={
-                'Bucket': os.getenv('S3_BUCKET'),
-                'Key': f'{product}/{image_filename}'
+                'Bucket': bucket,
+                'Key': s3_key
             },
             ExpiresIn=3600  # 1 hour
         )
+        
+        print(f"Generated S3 URL for {s3_key}: {url[:50]}...")
+        return url
+        
     except Exception as e:
-        print(f"Error generating image URL: {e}")
+        print(f"Error generating image URL for {image_filename} in {product}: {e}")
         return ""
 
 # Process markdown content and replace image references
@@ -192,13 +214,30 @@ def process_content_images(content: str, product: str) -> str:
     def replace_image(match):
         alt_text = match.group(1)
         filename = match.group(2)
+        
+        # Skip if it's already a full URL
+        if filename.startswith(('http://', 'https://', 'data:')):
+            return match.group(0)
+        
         # Generate signed URL
         image_url = get_image_url(filename, product)
         if image_url:
+            print(f"Replaced image reference: {filename} -> {image_url[:50]}...")
             return f'![{alt_text}]({image_url})'
-        return match.group(0)  # Return original if URL generation fails
+        else:
+            print(f"Failed to generate URL for image: {filename}")
+            return match.group(0)  # Return original if URL generation fails
     
-    return re.sub(image_pattern, replace_image, content)
+    processed_content = re.sub(image_pattern, replace_image, content)
+    
+    # Count how many images were processed
+    original_images = len(re.findall(image_pattern, content))
+    processed_images = len(re.findall(image_pattern, processed_content))
+    
+    if original_images > 0:
+        print(f"Processed {original_images} images in content for {product}")
+    
+    return processed_content
 
 def load_articles():
     articles = []
@@ -623,6 +662,112 @@ async def debug_long_articles():
         }
     except Exception as e:
         return {"error": str(e)}
+
+@app.get("/debug-s3-images")
+async def debug_s3_images():
+    """Debug S3 image connection and processing"""
+    try:
+        # Test S3 connection
+        s3_config = {
+            "bucket": os.getenv('S3_BUCKET'),
+            "region": os.getenv('AWS_REGION', 'us-east-1'),
+            "access_key_set": bool(os.getenv("AWS_ACCESS_KEY_ID")),
+            "secret_key_set": bool(os.getenv("AWS_SECRET_ACCESS_KEY"))
+        }
+        
+        # Test image URL generation
+        test_images = [
+            ("radix", "example-image.png"),
+            ("rediq", "example-image.png"),
+            ("radix", "screenshot.png"),
+            ("rediq", "screenshot.png"),
+            ("radix", "attachments/19328829504013.png"),
+            ("rediq", "attachments/example-attachment.png")
+        ]
+        
+        image_urls = []
+        for product, filename in test_images:
+            try:
+                url = get_image_url(filename, product)
+                image_urls.append({
+                    "product": product,
+                    "filename": filename,
+                    "url": url,
+                    "success": bool(url)
+                })
+            except Exception as e:
+                image_urls.append({
+                    "product": product,
+                    "filename": filename,
+                    "url": "",
+                    "success": False,
+                    "error": str(e)
+                })
+        
+        # Test content processing
+        test_content = """
+        Here's an example with an image: ![Example](example-image.png)
+        And another: ![Screenshot](screenshot.png)
+        And an attachment: ![Map showing construction projects](attachments/19328829504013.png)
+        """
+        
+        processed_radix = process_content_images(test_content, "radix")
+        processed_rediq = process_content_images(test_content, "rediq")
+        
+        return {
+            "s3_config": s3_config,
+            "image_urls": image_urls,
+            "test_content_original": test_content,
+            "test_content_processed_radix": processed_radix,
+            "test_content_processed_rediq": processed_rediq
+        }
+        
+    except Exception as e:
+        return {"error": str(e), "error_type": type(e).__name__}
+
+@app.get("/debug-articles-with-images")
+async def debug_articles_with_images():
+    """Find articles that contain image references"""
+    try:
+        articles_with_images = []
+        products = ['radix', 'rediq']
+        
+        for product in products:
+            article_path = f"../data/{product}/articles/*.md"
+            files = glob.glob(article_path)
+            
+            for file_path in files:
+                try:
+                    with open(file_path, 'r', encoding='utf-8') as f:
+                        content = f.read()
+                    
+                    # Find image references
+                    image_pattern = r'!\[([^\]]*)\]\(([^)]+)\)'
+                    image_matches = re.findall(image_pattern, content)
+                    
+                    if image_matches:
+                        title_match = re.search(r'^#\s+(.+)$', content, re.MULTILINE)
+                        title = title_match.group(1) if title_match else os.path.basename(file_path).replace('.md', '')
+                        
+                        articles_with_images.append({
+                            'filename': os.path.basename(file_path),
+                            'title': title,
+                            'product': product,
+                            'image_count': len(image_matches),
+                            'images': image_matches,
+                            'sample_content': content[:500] + "..." if len(content) > 500 else content
+                        })
+                        
+                except Exception as e:
+                    print(f"Error reading {file_path}: {e}")
+        
+        return {
+            "total_articles_with_images": len(articles_with_images),
+            "articles": articles_with_images[:10]  # Show first 10
+        }
+        
+    except Exception as e:
+        return {"error": str(e), "error_type": type(e).__name__}
 
 
 if __name__ == "__main__":
