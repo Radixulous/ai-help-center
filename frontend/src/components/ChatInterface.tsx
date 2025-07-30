@@ -391,7 +391,7 @@ const ChatInterface = () => {
   };
 
   const scrollToBottom = () => {
-    messagesEndRef.current?.scrollIntoView({ behavior: "smooth" });
+    (messagesEndRef.current as HTMLDivElement | null)?.scrollIntoView({ behavior: "smooth" });
   };
 
   useEffect(() => {
@@ -491,7 +491,7 @@ const ChatInterface = () => {
     } catch (error) {
       const errorMessage: Message = {
         role: 'assistant',
-        content: `Sorry, I encountered an error: ${error.message}. Please try again.`
+        content: `Sorry, I encountered an error: ${error instanceof Error ? error.message : 'Unknown error'}. Please try again.`
       };
       setMessages([...newMessages, errorMessage]);
     }
@@ -508,7 +508,7 @@ const ChatInterface = () => {
     handleSend(query);
   };
 
-  const handleKeyPress = (e) => {
+  const handleKeyPress = (e: React.KeyboardEvent<HTMLTextAreaElement>) => {
     if (e.key === 'Enter' && !e.shiftKey) {
       e.preventDefault();
       handleSend();
