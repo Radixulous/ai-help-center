@@ -1,15 +1,10 @@
 ---
-attachments:
-- 9034871750804.jpg
-category: valuationIQ
-created_at: '2022-09-02T16:29:05Z'
-id: 9034902945812
-original_url: https://rediq.zendesk.com/hc/en-us/articles/9034902945812-Blocked-Macros-in-valuationIQ-Model
-section: Troubleshooting
-title: Blocked Macros in valuationIQ Model
-updated_at: '2024-11-21T00:29:45Z'
+attachments: 
+suggested_queries:
+- - "How do I unblock macros in valuationIQ model in Excel?"
+- - "What are trusted locations for enabling VBA macros in valuationIQ?"
+- - "How can I change Trust Center settings to allow macros in valuationIQ?"
 ---
-
 Much of the powerful functionality in valuationIQ is enabled by VBA, a programming language that uses macros. These are custom functions that streamline and extend the model’s features.
 
 Depending on your organization’s settings, macros may be blocked from running when opening the model.

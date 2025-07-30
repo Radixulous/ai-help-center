@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: dataIQ
-created_at: '2019-11-21T17:10:29Z'
-id: 360036508791
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360036508791-Recent-Lease-Analysis
-section: Rent Rolls
-title: Recent Lease Analysis
-updated_at: '2020-04-21T16:35:17Z'
+suggested_queries:
+- - "What is included in the Recent Lease Analysis report in rediq?"
+- - "Why is my Recent Lease Analysis not showing for an occupied unit?"
+- - "How does the Recent Lease Analysis calculate market rent based on leases?"
 ---
-
 The Recent Lease Analysis appears on the Floor Plan Summary. This report shows the last 30/60/90 days of leasing as well as the most recent *x* number of leases. Filters for the Recent Lease Analysis appear in the Report Settings on the left side of the screen.
 
 ![](https://s3.amazonaws.com/cdn.freshdesk.com/data/helpdesk/attachments/production/5093054991/original/OXoWDEkIJ5JCzpJ7GoFecELpHESgQCubrw?1516635525)

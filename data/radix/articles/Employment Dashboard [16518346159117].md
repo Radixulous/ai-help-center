@@ -1,19 +1,10 @@
 ---
-attachments:
-- 33466916516237.png
-- 16518532121869.png
-- 16552268786317.png
-- 16554190593549.png
-- 16554507874445.png
-category: Research
-created_at: '2023-06-07T22:52:20Z'
-id: 16518346159117
-original_url: https://help.radix.com/hc/en-us/articles/16518346159117-Employment-Dashboard
-section: Research
-title: Employment Dashboard
-updated_at: '2025-01-14T14:31:31Z'
+attachments: 
+suggested_queries:
+- - "What insights can I get from the Employment Dashboard in Radix?"
+- - "How do I access the Employment data for my MSA in Radix?"
+- - "What trends can I see in the unemployment rate using the Employment Dashboard?"
 ---
-
 The Employment Dashboard within Radix Research offers valuable employment insights at the National, State, and MSA level. Interactive visuals coupled with data from the Bureau of Labor Statistics can be used to answer questions such as:
 
 * What is the unemployment rate?

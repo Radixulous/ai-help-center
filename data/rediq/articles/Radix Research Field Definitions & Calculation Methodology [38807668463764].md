@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: dataIQ
-created_at: '2025-06-27T15:04:45Z'
-id: 38807668463764
-original_url: https://rediq.zendesk.com/hc/en-us/articles/38807668463764-Radix-Research-Field-Definitions-Calculation-Methodology
-section: Radix Research
-title: Radix Research Field Definitions & Calculation Methodology
-updated_at: '2025-07-02T18:19:48Z'
+suggested_queries:
+- - "What are the definitions and calculations for Radix Research metrics?"
+- - "How is Net Effective Rent calculated in Radix Analytics?"
+- - "What metrics are used to assess housing affordability in Radix Research?"
 ---
-
 This article defines and explains the methodology behind each metric used in Radix Research.
 
 ## Snapshots and Trends

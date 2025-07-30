@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: Benchmark
-created_at: '2024-05-17T10:06:28Z'
-id: 26798199106573
-original_url: https://help.radix.com/hc/en-us/articles/26798199106573-Model-Admin-Down-MAD-Units-PMS-Integrations
-section: Data Dictionary
-title: Model, Admin, Down (MAD) Units  (PMS Integrations)
-updated_at: '2024-05-17T12:18:46Z'
+suggested_queries:
+- - "What are MAD units in PMS integrations for Radix?"
+- - "How is rent calculated for properties with MAD units?"
+- - "When are MAD units included in rent calculations for Radix?"
 ---
-
 When a PMS is configured for your organization we import data for your property that includes residents, the status of units, lease agreements, and the data for all your units on our Data Source, correlated with our main six data points.
 
 ### Rent Calculation

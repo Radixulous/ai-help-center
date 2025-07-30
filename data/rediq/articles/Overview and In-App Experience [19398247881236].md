@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: dataIQ
-created_at: '2023-09-21T16:03:33Z'
-id: 19398247881236
-original_url: https://rediq.zendesk.com/hc/en-us/articles/19398247881236-Overview-and-In-App-Experience
-section: SmartMap+
-title: Overview and In-App Experience
-updated_at: '2023-10-31T12:47:21Z'
+suggested_queries:
+- - "What is SmartMap+ and how does it work in rediq?"
+- - "How can I automate mapping my Operating Statement to the Chart of Accounts?"
+- - "What is the in-app experience when using SmartMap+ for financial statements?"
 ---
-
 **Overview**
 
 SmartMap+ (“SM+”) is an innovative tool designed to streamline the process of mapping an Operating Statement’s line-item accounts to the Chart of Accounts (“COA”) as set up in the client’s Account Settings. By using an index and scoring process (rules engine), SmartMap+ greatly improve this process for our users. Prior to the release of SM+, users would need to manually map the line-item accounts to their account’s COA the first time an unmapped OS was uploaded. With SM+, that process is now automated.

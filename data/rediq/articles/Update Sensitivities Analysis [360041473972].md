@@ -1,16 +1,10 @@
 ---
-attachments:
-- 360053893372.png
-- 360053893452.png
-category: valuationIQ
-created_at: '2020-04-03T20:12:24Z'
-id: 360041473972
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360041473972-Update-Sensitivities-Analysis
-section: How to Use the Model
-title: Update Sensitivities Analysis
-updated_at: '2024-10-07T16:41:54Z'
+attachments: 
+suggested_queries:
+- - "How do I update the Sensitivity Table in redIQ?"
+- - "What steps are needed to perform a sensitivity analysis in redIQ?"
+- - "Why is my sensitivity table not updating in redIQ?"
 ---
-
 The redIQ model sensitivity analysis determines how different values of an independent variable affect a particular dependent variable under a given set of assumptions.
 
 Click **Update Sensitivities** on redIQ ribbon

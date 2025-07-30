@@ -1,19 +1,10 @@
 ---
-attachments:
-- 37756564339220.png
-- 37756564340628.png
-- 37756564341396.png
-- 37756740207252.png
-- 37756755956628.png
-category: valuationIQ
-created_at: '2025-05-22T21:20:48Z'
-id: 37756528602644
-original_url: https://rediq.zendesk.com/hc/en-us/articles/37756528602644-How-to-Save-and-Print-as-PDF-in-valuationIQ-for-Mac
-section: How to Use the Model
-title: How to Save and Print as PDF in valuationIQ for Mac
-updated_at: '2025-05-28T20:19:05Z'
+attachments: 
+suggested_queries:
+- How do I save a file as a PDF in valuationIQ for Mac?
+- What are the steps to print as PDF in Excel for Mac using redIQ?
+- How can I manage custom margins when saving as a PDF in valuationIQ?
 ---
-
 1. To Save or Print a file as a PDF in Excel for Mac, first you will need to click the "Show Model" button on the ribbon to unhide all tabs.
 
 ![The screenshot displays a portion of the redIQ platform interface, specifically focusing on the ribbon area. Here's a detailed description:

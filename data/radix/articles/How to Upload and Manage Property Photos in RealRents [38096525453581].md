@@ -1,16 +1,10 @@
 ---
-attachments:
-- 38096525447053.png
-- 38096525450125.jpg
-category: RealRents
-created_at: '2025-07-16T12:01:16Z'
-id: 38096525453581
-original_url: https://help.radix.com/hc/en-us/articles/38096525453581-How-to-Upload-and-Manage-Property-Photos-in-RealRents
-section: Managing Listings
-title: How to Upload and Manage Property Photos in RealRents
-updated_at: '2025-07-16T12:34:30Z'
+attachments: 
+suggested_queries:
+- - "How do I upload property photos in RealRents?"
+- - "What steps are needed to manage existing property photos in RealRents?"
+- - "How can I change the cover photo for my property listing?"
 ---
-
 Strong visuals help your listing stand out. RealRents makes it easy to upload, organize, and update your property photos at any time.
 
 **Uploading New Photos**

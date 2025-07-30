@@ -1,16 +1,10 @@
 ---
-attachments:
-- 25805097261716.png
-- 25805097272084.png
-category: dataIQ
-created_at: '2020-03-13T19:29:01Z'
-id: 360040524412
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360040524412-Rent-Roll-Template
-section: Rent Rolls
-title: Rent Roll Template
-updated_at: '2024-10-07T16:41:44Z'
+attachments: 
+suggested_queries:
+- - "Where can I download the redIQ Rent Roll Template?"
+- - "What should I do if my rent roll fails to upload in redIQ?"
+- - "How do I enter rent charges in the redIQ Rent Roll Template?"
 ---
-
 If a rent roll fails to upload with Rent Roll Capture, two options are presented: download the Rent Roll Template or Submit to redIQ Support.
 
 #### To Manually upload the rent roll yourself

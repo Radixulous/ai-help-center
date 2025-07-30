@@ -1,16 +1,10 @@
 ---
-attachments:
-- 25808342071316.png
-- 25808342090644.png
-category: dataIQ
-created_at: '2020-03-17T14:17:19Z'
-id: 360040638732
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360040638732-Recent-Lease-Analysis
-section: Rent Rolls
-title: Recent Lease Analysis
-updated_at: '2024-10-07T16:40:55Z'
+attachments: 
+suggested_queries:
+- - "What is included in the Recent Lease Analysis report on the Floor Plan Summary?"
+- - "How does redIQ handle anomalies in Lease Start Dates for lease analysis?"
+- - "Where can I find the filters for Recent Lease Analysis in redIQ?"
 ---
-
 The Recent Lease Analysis appears on the Floor Plan Summary. This report shows the last 30/60/90 days of leasing as well as the most recent *x* number of leases. Filters for the Recent Lease Analysis appear in the Report Settings on the left side of the screen.
 
 ![Here's a detailed description of the SaaS application interface:

@@ -1,20 +1,10 @@
 ---
-attachments:
-- 29128812005517.png
-- 15334264156045.png
-- 15334365481997.png
-- 15334438261261.png
-- 15334509695117.png
-- 15334512459021.png
-category: Reports
-created_at: '2023-04-28T22:47:12Z'
-id: 15328580922637
-original_url: https://help.radix.com/hc/en-us/articles/15328580922637-Standardizing-Reporting-With-an-Organization-Template
-section: Customizing Reports
-title: Standardizing Reporting With an Organization Template
-updated_at: '2024-08-22T19:34:28Z'
+attachments: 
+suggested_queries:
+- - "How can I create an Organization Template for standardized reporting in Radix?"
+- - "What are the steps to share a report as an Organization Template in Radix?"
+- - "How do I customize report settings for an Organization Template in Radix?"
 ---
-
 If you're looking to create consistent, standardized reporting, be sure to leverage the Organization Template feature. Organization Templates allow you to share a template for a specific report with everyone in your organization.
 
 **Note:** Sharing a template means you are sharing the way data is viewed. You are not sharing the data itself. Organization Templates will include report settings and preferences you've customized. Only data for the properties a user has access to will be available when they go to use the template.

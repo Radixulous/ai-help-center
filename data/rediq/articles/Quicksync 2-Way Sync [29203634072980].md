@@ -1,19 +1,10 @@
 ---
-attachments:
-- 29203627849108.png
-- 29203634065812.png
-- 29203627853204.png
-- 29203634069396.png
-- 29203627855252.png
-category: QuickSync
-created_at: '2024-08-07T19:49:47Z'
-id: 29203634072980
-original_url: https://rediq.zendesk.com/hc/en-us/articles/29203634072980-Quicksync-2-Way-Sync
-section: Getting Started
-title: Quicksync 2-Way Sync
-updated_at: '2024-08-15T18:41:20Z'
+attachments: 
+suggested_queries:
+- - "What is QuickSync 2-Way Sync in redIQ?"
+- - "How do I sync data from Excel to redIQ using QuickSync?"
+- - "What are the steps to access QuickSync 2-Way Sync in redIQ?"
 ---
-
 **Overview**
 
 QuickSync, redIQ’s Excel add-in that populates your own underwriting model, now also includes the ability to sync data back from Excel to redIQ with QuickSync 2-Way Sync. This new “upload” sync (from your model to dataIQ) can be used independently or in tandem with the existing “download” sync functionality. QuickSync 2-Way Sync bolsters redIQ’s capabilities as a collaborative pipeline management tool, with the ability to sync back valuable underwriting metrics for any deal in your account. 2-Way Sync is currently limited to “Deal Details” fields and does not include rent rolls or operating statements.

@@ -1,15 +1,10 @@
 ---
-attachments:
-- 360043500131.png
-category: dataIQ
-created_at: '2019-11-20T19:27:48Z'
-id: 360036103132
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360036103132-Comparison-Expired-Lease-Analysis
-section: Rent Rolls
-title: Comparison - Expired Lease Analysis
-updated_at: '2024-10-07T16:41:57Z'
+attachments: 
+suggested_queries:
+- - "What is the Expired Lease Analysis in rediq?"
+- - "How does the Comparison Chart for rent rolls work?"
+- - "What outcomes does the Expired Lease Analysis summarize?"
 ---
-
 When multiple rent rolls have been uploaded in the same deal, two more options will appear when hovering over the Rent Roll tab: a Comparison Chart and Comparison Table. These reports do not show a straight comparison of one rent roll to another, but rather an Expired Lease Analysis.
 
 ![Xyhs1lXQ3bdHw88GwyioKZ7ljOiIcVKjYg.png](https://rediq.zendesk.com/hc/article_attachments/360043500131/Xyhs1lXQ3bdHw88GwyioKZ7ljOiIcVKjYg.png)

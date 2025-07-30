@@ -1,16 +1,10 @@
 ---
-attachments:
-- 25976165361172.png
-- 25975845928724.png
-category: valuationIQ
-created_at: '2019-11-21T16:22:04Z'
-id: 360036506331
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360036506331-Adjustments-and-Notes
-section: How to Use the Model
-title: Adjustments and Notes
-updated_at: '2024-10-07T16:40:47Z'
+attachments: 
+suggested_queries:
+- - "How do I adjust historicals in redIQ's Adjustments & Notes tab?"
+- - "What steps are needed to change annualization settings in redIQ?"
+- - "How can I add notes to cash flow line items in redIQ?"
 ---
-
 There are three actions that can be taken on the Adjustments & Notes tab of the model. The annualization of the historicals referenced throughout the model can be changed, adjustments can be made to the historicals, and notes/comments can be added to explain historical or proforma numbers. An detailed explanation of all three actions is below.
 
 Cell D9 of the Adjustments & Notes tab dictates the historicals that are referenced throughout the model. Assuming monthly historicals were on redIQ prior to generating the model, the default entry in this cell is T1 annualized historicals. Therefore any time the historicals are referenced on the Input tab or Property CF tab, the T1 numbers appear. To change this, type in the number of months you'd like to use to annualize the historicals. For example if you type "3" and press enter in cell D9 then the T3 historicals will be used throughout the model instead of T1.

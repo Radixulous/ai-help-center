@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: Support and Training
-created_at: '2022-05-05T14:03:24Z'
-id: 6069148172180
-original_url: https://rediq.zendesk.com/hc/en-us/articles/6069148172180-Callout-Block-Examples
-section: Training Resources
-title: Callout Block Examples
-updated_at: '2023-10-31T12:47:19Z'
+suggested_queries:
+- - "What are the different types of callout blocks in Rediq?"
+- - "Can you provide examples of success and warning callouts?"
+- - "How do I use icons in callout blocks?"
 ---
-
 #### Default
 
 This is a default block

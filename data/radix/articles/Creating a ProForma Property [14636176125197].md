@@ -1,22 +1,10 @@
 ---
-attachments:
-- 33466351987213.png
-- 15733841263757.png
-- 15732639107469.png
-- 33466351988877.png
-- 33466351990413.png
-- 15733892818061.png
-- 15733739219853.png
-- 15733965542285.png
-category: ProForma
-created_at: '2023-04-06T20:23:34Z'
-id: 14636176125197
-original_url: https://help.radix.com/hc/en-us/articles/14636176125197-Creating-a-ProForma-Property
-section: ProForma
-title: Creating a ProForma Property
-updated_at: '2025-01-14T14:13:43Z'
+attachments: 
+suggested_queries:
+- - "How do I create a ProForma property from scratch?"
+- - "What steps are involved in cloning an existing ProForma property?"
+- - "Can I create a custom property in Radix for investment analysis?"
 ---
-
 Creating a ProForma property allows you to build a custom property so you can evaluate whether it supports your investment objectives. Once you've built a custom property, you'll be able to test its' rents against selected competitors using their live market survey data.
 
 To create a ProForma property you can either:

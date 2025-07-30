@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: valuationIQ
-created_at: '2023-09-14T16:02:34Z'
-id: 19197468854804
-original_url: https://rediq.zendesk.com/hc/en-us/articles/19197468854804-Considerations-for-Models-Downloaded-Before-9-14-2023
-section: Troubleshooting
-title: Considerations for Models Downloaded Before 9/14/2023
-updated_at: '2023-10-31T12:47:21Z'
+suggested_queries:
+- - "What should I do with valuationIQ models downloaded before September 14, 2023?"
+- - "How can I check if my Excel model is affected by the sensitivity table issue?"
+- - "What are the steps to generate a new valuationIQ model after 9-14-2023?"
 ---
-
 ### valuationIQ and Excel's Architecture
 
 valuationIQ is a highly specialized Excel-based valuation model that relies on advanced Microsoft features and scripting. When Microsoft makes changes to Excel's architecture that require updates to the base valuationIQ template, any new models you generate from redIQ will inherit the new version, but any old copies you have stored locally remain unchanged. Fortunately, the need to for these updates to valuationIQ for this reason are extremely rare, as Excel is typically quite stable and mature, and most updates are related to adding features.

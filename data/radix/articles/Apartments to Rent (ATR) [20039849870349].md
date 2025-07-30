@@ -1,15 +1,10 @@
 ---
-attachments:
-- 20042157538957.png
-category: Benchmark
-created_at: '2023-10-02T21:19:53Z'
-id: 20039849870349
-original_url: https://help.radix.com/hc/en-us/articles/20039849870349-Apartments-to-Rent-ATR
-section: Data Dictionary
-title: Apartments to Rent (ATR)
-updated_at: '2024-09-11T21:08:29Z'
+attachments: 
+suggested_queries:
+- - "What is the Apartments to Rent (ATR) metric and why is it important?"
+- - "How does Radix calculate available units for rent in a property?"
+- - "What tools can I use to evaluate my property's ATR performance?"
 ---
-
 How many apartments does a property have available to rent? Your Apartments to Rent (ATR) metric is critical to continually monitor as it addresses this question for you. In this article, we'll define what this metric is, how Radix calculates it, and offer practical tips for gaining detailed ATR insights you can use to your competitive advantage.
 
 Definition Why it Matters

@@ -1,22 +1,10 @@
 ---
-attachments:
-- 29128062663437.png
-- 16543966003085.png
-- 16541673065485.png
-- 16544598437901.png
-- 16545105566221.png
-- 16545585432333.png
-- 16545980190861.png
-- 16546099061261.png
-category: Reports
-created_at: '2023-06-08T00:23:58Z'
-id: 16520774204301
-original_url: https://help.radix.com/hc/en-us/articles/16520774204301-Rent-Operating-Trends-Report-Overview
-section: Report Overviews
-title: Rent & Operating Trends Report Overview
-updated_at: '2024-08-22T19:10:23Z'
+attachments: 
+suggested_queries:
+- - "What is included in the Rent & Operating Trends Report for Radix subscribers?"
+- - "How can I customize the Rent & Operating Trends Report by MSA?"
+- - "Where can I access the Rent & Operating Trends Report in Radix?"
 ---
-
 The Rent & Operating Trends (RAOT) Report is an incredibly dynamic and customizable report. The report provides a weekly overview of leading operational metrics (i.e., occupancy, NER, traffic, leases, concessions, etc.) per MSA. Using this powerhouse report you can:
 
 * View operational metrics by MSA, or by submarkets within an MSA.

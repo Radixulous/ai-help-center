@@ -1,15 +1,10 @@
 ---
-attachments:
-- 38096652623757.png
-category: RealRents
-created_at: '2025-07-16T12:06:00Z'
-id: 38096652625549
-original_url: https://help.radix.com/hc/en-us/articles/38096652625549-How-to-Edit-Amenities-in-RealRents
-section: Managing Listings
-title: How to Edit Amenities in RealRents
-updated_at: '2025-07-16T12:23:10Z'
+attachments: 
+suggested_queries:
+- - "How do I edit property amenities in RealRents?"
+- - "What steps are needed to update location amenities in RealRents?"
+- - "How can I manage floor plan-specific amenities in RealRents?"
 ---
-
 Amenities help your property stand out and provide clarity for renters. In RealRents, you can manage property-wide, floor plan-specific, or unit-level amenities.
 
 **Updating Amenities**

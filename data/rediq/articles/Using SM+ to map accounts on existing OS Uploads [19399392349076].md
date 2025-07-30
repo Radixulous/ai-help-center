@@ -1,15 +1,10 @@
 ---
-attachments:
-- 19432791844244.png
-category: dataIQ
-created_at: '2023-09-21T16:37:40Z'
-id: 19399392349076
-original_url: https://rediq.zendesk.com/hc/en-us/articles/19399392349076-Using-SM-to-map-accounts-on-existing-OS-Uploads
-section: SmartMap+
-title: Using SM+ to map accounts on existing OS Uploads
-updated_at: '2024-04-23T14:24:19Z'
+attachments: 
+suggested_queries:
+- - "How do I use SmartMap+ to re-map accounts on existing OS uploads?"
+- - "What steps are needed to apply SmartMap+ mappings to existing uploads in rediq?"
+- - "Can I override existing mappings with SmartMap+ on my OS uploads?"
 ---
-
 **How to use SmartMap+ to map accounts on existing OS uploads**
 
 Yes, you can use SM+ to re-map accounts on existing OS uploads. While in the deal you wish to re-map, navigate to the Source Data page. Next, select the batch that you want to re-map and then press the "Mappings" button and select ‘SmartMap+’ from the list.

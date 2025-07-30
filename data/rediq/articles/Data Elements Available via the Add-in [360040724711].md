@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: QuickSync
-created_at: '2020-03-09T14:16:02Z'
-id: 360040724711
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360040724711-Data-Elements-Available-via-the-Add-in
-section: Getting Started
-title: Data Elements Available via the Add-in
-updated_at: '2024-11-21T00:37:41Z'
+suggested_queries:
+- - "What data elements are available in the rediq add-in?"
+- - "How can I access property details using the rediq add-in?"
+- - "What named ranges are included in the rediq add-in for operating statements?"
 ---
-
 | Group | Name | Named Range | Download/Upload/Both | Description |
 | --- | --- | --- | --- | --- |
 | Property Details | Deal Name | rediq\_dealname |  |  |

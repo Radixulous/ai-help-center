@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: RealRents
-created_at: '2025-04-09T07:26:40Z'
-id: 35702718961037
-original_url: https://help.radix.com/hc/en-us/articles/35702718961037-RealRents-Video-Tutorials-Fees-and-Deposits
-section: Fees, Deposits and Concessions
-title: 'RealRents Video Tutorials: Fees and Deposits'
-updated_at: '2025-06-23T12:35:50Z'
+suggested_queries:
+- - "How do I manage application fees in RealRents?"
+- - "What video tutorials are available for setting up fees and deposits in RealRents?"
+- - "How can I configure a smart home technology fee for my rental listings?"
 ---
-
 To help you get the most out of RealRents, we’ve created a series of short, practical videos that walk you through the key actions involved in setting up and managing your property listings. These tutorials cover everything from adding application fees and configuring smart home technology, to managing deposits and optional amenities like garage parking. Whether you're just getting started or want a refresher, these videos are designed to guide you step-by-step in keeping your listings transparent, accurate, and renter-ready.  
 
 ### 🎬Video: Fees & Deposits Overview

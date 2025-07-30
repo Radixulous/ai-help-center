@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: dataIQ
-created_at: '2023-11-27T22:18:14Z'
-id: 21311187041684
-original_url: https://rediq.zendesk.com/hc/en-us/articles/21311187041684-Export-Historical-Operating-Performance-Summary-to-CSV
-section: Operating Statements
-title: Export Historical Operating Performance Summary to CSV
-updated_at: '2023-11-27T22:28:04Z'
+suggested_queries:
+- - "How can I export the Historical Operating Performance Summary to CSV in rediq?"
+- - "What steps do I follow to download data from the Operating Statement dashboard?"
+- - "Where can I find my CSV file after exporting operating performance data?"
 ---
-
 How to quickly export the data from the trailing 12,3,1 operating statement summary into a csv directly from the Operating Statement dashboard.
 
 1. On the **Operating Statement Summary** screen, click the **export icon** in the upper right hand corner of the "Historical Operating Performance" table.

@@ -1,16 +1,10 @@
 ---
-attachments:
-- 28879198330125.png
-- 28858864135437.png
-category: Benchmark
-created_at: '2022-07-14T16:08:35Z'
-id: 7680815384333
-original_url: https://help.radix.com/hc/en-us/articles/7680815384333-Radix-Learning-Resources
-section: Data Dictionary
-title: Radix Learning Resources
-updated_at: '2024-11-01T20:14:36Z'
+attachments: 
+suggested_queries:
+- - "What resources are available in the Radix Help Center?"
+- - "How can I access live training and webinars for Radix products?"
+- - "Where can I find FAQs and help articles for Radix?"
 ---
-
 Our Help Center is the best place for end-to-end education on our suite of products. With a variety of step-by-step articles, videos, courses, and live learning opportunities, our Help Center allows you to easily search resources by topic, or browse for the support you need by product.
 
 !["Help Center page with search bar and 'Submit a request' button."](attachments/28879198330125.png)

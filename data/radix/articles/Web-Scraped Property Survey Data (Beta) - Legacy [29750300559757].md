@@ -1,16 +1,10 @@
 ---
-attachments:
-- 29785720003981.png
-- 29785677683469.png
-category: RealRents
-created_at: '2024-08-29T10:14:31Z'
-id: 29750300559757
-original_url: https://help.radix.com/hc/en-us/articles/29750300559757-Web-Scraped-Property-Survey-Data-Beta-Legacy
-section: Legacy
-title: Web-Scraped Property Survey Data (Beta) - Legacy
-updated_at: '2025-07-08T10:17:34Z'
+attachments: 
+suggested_queries:
+- - "What is the process for updating property surveys with web-scraped data in Radix?"
+- - "Why is web-scraped data not pre-populating in my property surveys?"
+- - "How does Radix collect and use web-scraped property survey data?"
 ---
-
 To streamline the collection of real-time survey data, Radix has introduced web-scraped data. Each Monday, ATR and Rent values will automatically pre-populate into the property surveys for competitors on your market survey who are not Benchmark subscribers. This data is obtained from internet listing services (ILS') and property websites.
 
 **Note:** This feature is currently in beta and our team is actively working on the ability to incorporate additional data points into surveys. Your feedback is invaluable to our ability to provide the best solutions to you, so feel free to reach out at [clientsuccess@radix.com](mailto:clientsuccess@radix.co) with your thoughts.

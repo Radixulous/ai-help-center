@@ -1,18 +1,10 @@
 ---
-attachments:
-- 32950854689037.png
-- 32950854690445.png
-- 28872988861581.png
-- 28918643456013.png
-category: Benchmark
-created_at: '2024-07-31T16:56:30Z'
-id: 28872972922893
-original_url: https://help.radix.com/hc/en-us/articles/28872972922893-Updating-Your-Account-Information
-section: Managing Users
-title: Updating Your Account Information
-updated_at: '2024-12-23T15:13:59Z'
+attachments: 
+suggested_queries:
+- - "How do I update my email address in Radix?"
+- - "What steps do I take to change my Radix password?"
+- - "How can I modify my time zone settings in my Radix account?"
 ---
-
 You can easily update your password, name, email address, and time zone settings directly within Radix. Check out this step-by-step guide for guidance on how.
 
 #### Accessing My Account

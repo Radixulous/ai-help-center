@@ -1,15 +1,10 @@
 ---
-attachments:
-- 25815410377108.png
-category: dataIQ
-created_at: '2019-11-21T16:30:00Z'
-id: 360036506851
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360036506851-Annual-Operating-Statements
-section: Operating Statements
-title: Annual Operating Statements
-updated_at: '2024-10-07T16:40:50Z'
+attachments: 
+suggested_queries:
+- - "What are the steps to upload an annual Operating Statement in redIQ?"
+- - "Do I need to include an annual column when uploading Operating Statement data?"
+- - "How do I change the drop-down to 'Annual' for uploading historical data in redIQ?"
 ---
-
 When uploading Operating Statement data there is no need to include an annual column, only the actual monthly data needs to be added. However if there is no monthly data available then annual Operating Statement can be added to redIQ. The same steps can be taken to [upload the Historicals](https://rediq.zendesk.com/hc/en-us/articles/360036412071), but after the data has been copied and pasted into the platform the "Monthly" drop-down must be changed to "Annual" before clicking Submit.
 
 ![The screenshot displays a section of a SaaS application interface, likely from the redIQ platform, focused on real estate data management. Here’s a detailed description of the interface elements:

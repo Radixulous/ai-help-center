@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: dataIQ
-created_at: '2020-09-18T16:38:26Z'
-id: 360049430192
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360049430192-What-is-the-difference-between-FirstPass-and-ValuationIQ-model
-section: FirstPass
-title: What is the difference between FirstPass and ValuationIQ model?
-updated_at: '2024-10-07T16:42:48Z'
+suggested_queries:
+- What are the key differences between FirstPass and valuationIQ?
+- How is IRR calculated differently in FirstPass compared to valuationIQ?
+- Does FirstPass support modeling reserves like valuationIQ does?
 ---
-
 FirstPass was designed to be as similar to the [valuationIQ](https://rediq.zendesk.com/hc/en-us/articles/360036505251-What-is-the-Valuation-Model-) model as possible, while still providing the ability to quickly underwrite a deal. However, due to FirstPass intended use as a high-level supplement to a full underwriting, some formulas and components were changed or omitted. Below is a list of these key differences:
 
 **IRR Calculations**: In FirstPass, the IRR is calculated based on Annual Cash Flows. In valuationIQ, users have the option to calculate IRRs based off either the Monthly or Annual Cash Flows with the default option being to calculate based on Monthly Cash Flows.

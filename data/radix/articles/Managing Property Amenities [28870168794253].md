@@ -1,20 +1,10 @@
 ---
-attachments:
-- 32947779061005.png
-- 28870183078541.png
-- 28886351382541.png
-- 28870168776845.png
-- 28870183089421.png
-- 28870183091213.png
-category: Benchmark
-created_at: '2024-07-31T15:47:44Z'
-id: 28870168794253
-original_url: https://help.radix.com/hc/en-us/articles/28870168794253-Managing-Property-Amenities
-section: Managing Properties
-title: Managing Property Amenities
-updated_at: '2024-12-23T13:47:37Z'
+attachments: 
+suggested_queries:
+- - "How do I edit community and location amenities in Radix?"
+- - "What steps are needed to update unit amenities for a property?"
+- - "How can I copy amenities from one floor plan to another in Radix?"
 ---
-
 Amenities can change and be updated over time. Within Radix, amenities can be edited so each property's information stays up to date. Amenity types in Radix include unit, community, and location amenities. In this article, we'll guide you through how to edit each of these amenity types as needed.
 
 ### Accessing Manage Properties

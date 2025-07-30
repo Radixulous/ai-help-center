@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: QuickSync
-created_at: '2020-03-13T18:50:49Z'
-id: 360040523232
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360040523232-Installation-Methods
-section: Getting Started
-title: Installation Methods
-updated_at: '2024-10-07T16:41:56Z'
+suggested_queries:
+- - "What are the installation methods for the redIQ QuickSync Excel Add-in?"
+- - "How do I install QuickSync using centralized deployment?"
+- - "What is sideloading and how do I use it for redIQ add-in?"
 ---
-
 ### **Purpose**
 
 This guide will explain how to install the redIQ QuickSync Excel Add-in.  Three different approaches for installation will be discussed.  

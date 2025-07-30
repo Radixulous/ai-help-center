@@ -1,18 +1,10 @@
 ---
-attachments:
-- 19779005993748.png
-- 19778997511316.png
-- 19778997511828.png
-- 19757964925460.png
-category: dataIQ
-created_at: '2023-10-04T20:00:44Z'
-id: 19758001192340
-original_url: https://rediq.zendesk.com/hc/en-us/articles/19758001192340-Support-for-Single-Family-Rental-SFR-Deals
-section: Deals
-title: Support for Single-Family Rental (SFR) Deals
-updated_at: '2023-10-31T12:47:21Z'
+attachments: 
+suggested_queries:
+- - "What are single-family rental assets in redIQ?"
+- - "How do I set a deal asset type to single-family rental?"
+- - "Can redIQ support scattered-site single-family rental properties?"
 ---
-
 redIQ supports the creation of single-site, single-family rental deals made up of multiple homes, in dataIQ. The process for creating these deals is the same as creating multifamily deals.
 
 #### An 'Asset Type' Must Be Set on Deals

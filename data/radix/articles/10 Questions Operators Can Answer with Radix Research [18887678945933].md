@@ -1,21 +1,10 @@
 ---
-attachments:
-- 19328829504013.png
-- 19329971139469.png
-- 19330239322381.png
-- 19330814508557.png
-- 19331066356493.png
-- 19331708430733.png
-- 19331890066701.png
-category: Research
-created_at: '2023-08-25T21:51:31Z'
-id: 18887678945933
-original_url: https://help.radix.com/hc/en-us/articles/18887678945933-10-Questions-Operators-Can-Answer-with-Radix-Research
-section: Research
-title: 10 Questions Operators Can Answer with Radix Research
-updated_at: '2024-08-22T19:53:55Z'
+attachments: 
+suggested_queries:
+- - "What are the key questions apartment operators can answer with Radix Research?"
+- - "How can I compare my property's performance to the market using Radix?"
+- - "What insights does Radix provide on new multifamily developments near my property?"
 ---
-
 > Explore the top 10 questions apartment operators are answering with Radix Research! Questions are broken into three main categories based on the insights they provide, with step-by-step guidance on how to access the data within Research!
 
 ### Market Insights

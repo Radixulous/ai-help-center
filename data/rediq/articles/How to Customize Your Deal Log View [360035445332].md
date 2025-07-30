@@ -1,17 +1,10 @@
 ---
-attachments:
-- 360042064311.png
-- 360042064491.png
-- 360042064631.png
-category: dataIQ
-created_at: '2019-11-01T16:27:57Z'
-id: 360035445332
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360035445332-How-to-Customize-Your-Deal-Log-View
-section: Deals
-title: How to Customize Your Deal Log View
-updated_at: '2022-10-31T16:01:52Z'
+attachments: 
+suggested_queries:
+- - "How can I customize my deal log view in redIQ?"
+- - "What settings can I adjust for my deal log display columns?"
+- - "How do I save filters for my deal log in redIQ?"
 ---
-
 Once logged into your account, you’ll notice the settings and filter buttons towards the upper right of the page…
 
 ![pic1.png](https://rediq.zendesk.com/hc/article_attachments/360042064311/pic1.png)

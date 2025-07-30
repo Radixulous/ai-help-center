@@ -1,15 +1,10 @@
 ---
-attachments:
-- 25816764528788.png
-category: dataIQ
-created_at: '2019-11-21T16:42:21Z'
-id: 360036139712
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360036139712-Add-Manage-Users
-section: Settings and Admin
-title: Add/Manage Users
-updated_at: '2024-07-01T20:22:08Z'
+attachments: 
+suggested_queries:
+- - "How can I manage users in redIQ as a Corporate Admin?"
+- - "What are the steps to add a new user in redIQ?"
+- - "Who can edit user accounts in redIQ?"
 ---
-
 #### Admin Role Required
 
 You must have the role "Corporate Admin" to manage users. If you do not know who your admins are, contact redIQ support.

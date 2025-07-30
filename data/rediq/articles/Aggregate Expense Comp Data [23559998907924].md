@@ -1,23 +1,10 @@
 ---
-attachments:
-- 23559998898836.png
-- 23560030322836.png
-- 23560030323220.png
-- 23560030323604.png
-- 23559998902676.png
-- 23559998903572.png
-- 23559998903956.png
-- 23560030326548.png
-- 23560030327060.png
-category: dataIQ
-created_at: '2024-02-08T15:29:34Z'
-id: 23559998907924
-original_url: https://rediq.zendesk.com/hc/en-us/articles/23559998907924-Aggregate-Expense-Comp-Data
-section: Operating Statements
-title: Aggregate Expense Comp Data
-updated_at: '2024-10-07T16:41:46Z'
+attachments: 
+suggested_queries:
+- - "How do I activate the Aggregate Expense Comp Data feature in redIQ?"
+- - "What types of operating expenses can I compare using Aggregate Expense Data?"
+- - "What markets are supported by the Aggregate Expense Comp Data feature in redIQ?"
 ---
-
 **Overview**
 
 The Aggregate Expense Data feature will provide you with the ability to access and utilize aggregated operating expense data based on the geographic location of your deal. This data will be derived from internal redIQ sources which are comprised of the Operating Statement (“OS”) data that has been uploaded into redIQ from accounts that have opted in to share their aggregate data. This feature will be a free “beta” offering at first, providing operating expense market data for free for a limited period. You will have an opportunity to upgrade to the Lifecycle Management Suite in the future to access more data, including revenue and occupancy data, for an additional fee when available.

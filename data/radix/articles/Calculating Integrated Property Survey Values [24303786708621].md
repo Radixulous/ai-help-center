@@ -1,15 +1,10 @@
 ---
-attachments:
-- 32945383359373.png
-category: Benchmark
-created_at: '2024-02-20T22:39:17Z'
-id: 24303786708621
-original_url: https://help.radix.com/hc/en-us/articles/24303786708621-Calculating-Integrated-Property-Survey-Values
-section: Data Dictionary
-title: Calculating Integrated Property Survey Values
-updated_at: '2024-12-23T12:18:15Z'
+attachments: 
+suggested_queries:
+- - "How are integrated property survey values calculated in Radix?"
+- - "What data points are included in an integrated property survey?"
+- - "How can I check if my property survey is using PMS imported data?"
 ---
-
 Integrated property surveys import the majority of a property's information directly from the Property Management Software (PMS) in use (i.e. Yardi, Entrata, ResMan, OneSite).
 
 Imported values are standardized within our software so you can use our built-in benchmarking tools to make uniform property comparisons. We've outlined how these values are calculated below for your reference.

@@ -1,19 +1,10 @@
 ---
-attachments:
-- 30222977500813.png
-- 30296597108237.png
-- 30360186885261.png
-- 30360171329165.png
-- 30362842141069.png
-category: Benchmark
-created_at: '2024-09-11T15:56:53Z'
-id: 30165499936781
-original_url: https://help.radix.com/hc/en-us/articles/30165499936781-Insights-Dashboard
-section: Evaluating Your Property's Performance
-title: Insights Dashboard
-updated_at: '2024-09-19T13:49:06Z'
+attachments: 
+suggested_queries:
+- - "How do I access the Insights Dashboard in Radix?"
+- - "What are the leading indicators of supply and demand on the Insights Dashboard?"
+- - "How can I improve data quality for my property insights?"
 ---
-
 For you to facilitate a better strategic decision Radix helps surface key insights on the leading indicators of supply and demand. Our Insights Dashboard will focus on ATR as a measurement of supply of units available and then Traffic and Leases per week as a measurement of demand for units. In the absence of the optimal ATR % with enough traffic and leases per week, to maintain an ideal ATR, use the insights dashboard to make the best data-driven decisions.
 
 ### How to access the Insights Dashboard

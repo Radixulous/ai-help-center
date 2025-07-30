@@ -1,17 +1,10 @@
 ---
-attachments:
-- 29128301928589.png
-- 15188112880653.png
-- 15188552053005.png
-category: Reports
-created_at: '2023-04-24T17:27:41Z'
-id: 15181922028429
-original_url: https://help.radix.com/hc/en-us/articles/15181922028429-Trend-Analysis-Report-Overview
-section: Report Overviews
-title: Trend Analysis Report Overview
-updated_at: '2024-08-22T19:34:28Z'
+attachments: 
+suggested_queries:
+- - "What is the Trend Analysis Report in Radix and how do I use it?"
+- - "How can I customize the Trend Analysis Report for multiple properties?"
+- - "What metrics can I view in the Trend Analysis Report and how do I access it?"
 ---
-
 The Trend Analysis Report is a helpful tool for those looking to view how a property metric (i.e., closing ratio, occupancy %, leased %, traffic, etc.) is trending over a period of time.
 
 Interactive capabilities within the report allow you to:

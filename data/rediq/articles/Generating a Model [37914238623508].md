@@ -1,20 +1,10 @@
 ---
-attachments:
-- 37918047990932.jpg
-- 37918047991828.jpg
-- 37918063963156.png
-- 37921587016596.png
-- 37921587018004.png
-- 37921602491668.png
-category: valuationIQ
-created_at: '2025-05-28T16:26:51Z'
-id: 37914238623508
-original_url: https://rediq.zendesk.com/hc/en-us/articles/37914238623508-Generating-a-Model
-section: About
-title: Generating a Model
-updated_at: '2025-05-28T20:18:35Z'
+attachments: 
+suggested_queries:
+- - "How do I generate a model in redIQ after uploading rent and expenses?"
+- - "What steps are needed to select a deal and generate a model in redIQ?"
+- - "How can I enable macros after downloading a model from redIQ?"
 ---
-
 ## Select or Create a Deal
 
 Log into your redIQ account and select a deal from the "All Deals" section of the Deals page

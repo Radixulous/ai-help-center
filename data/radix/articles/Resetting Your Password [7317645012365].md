@@ -1,19 +1,10 @@
 ---
-attachments:
-- 33035728752397.png
-- 33035728753805.png
-- 33035764800269.png
-- 33035764800909.png
-- 33035728768525.png
-category: Benchmark
-created_at: '2022-06-30T14:42:51Z'
-id: 7317645012365
-original_url: https://help.radix.com/hc/en-us/articles/7317645012365-Resetting-Your-Password
-section: Managing Users
-title: Resetting Your Password
-updated_at: '2025-06-24T10:20:31Z'
+attachments: 
+suggested_queries:
+- - "How do I reset my Radix password?"
+- - "What steps do I follow to recover my Radix account password?"
+- - "Where can I find the password reset link for Radix?"
 ---
-
 ### Resetting your password
 
 If you're having trouble logging in to your account or simply need to update your credentials, follow these quick steps to reset your password securely. This guide walks you through the entire process — from requesting a reset link to creating a new password.

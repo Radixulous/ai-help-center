@@ -1,15 +1,10 @@
 ---
-attachments:
-- 28884295015565.png
-category: Benchmark
-created_at: '2024-07-31T14:35:24Z'
-id: 28867170371725
-original_url: https://help.radix.com/hc/en-us/articles/28867170371725-Benchmark-Portfolio-Dashboard
-section: Evaluating Your Portfolio's Performance
-title: Benchmark Portfolio Dashboard
-updated_at: '2024-08-22T18:41:52Z'
+attachments: 
+suggested_queries:
+- - "How do I access my portfolio dashboard in Benchmark?"
+- - "What tools are available on the Benchmark portfolio dashboard for performance analysis?"
+- - "How can I view historical trends for my portfolio in Benchmark?"
 ---
-
 Within Benchmark, your portfolio dashboard offers several powerful tools to help you visualize, analyze, and compare the performance of your portfolio and the properties within it. Within this article, you'll learn more about how to access this dashboard, and ways you can start leveraging the tools on it to their fullest potential.
 
 ### Accessing your Portfolio Dashboard

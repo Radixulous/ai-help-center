@@ -1,16 +1,10 @@
 ---
-attachments:
-- 25807135029908.png
-- 25807135038996.png
-category: dataIQ
-created_at: '2019-11-21T17:08:48Z'
-id: 360036141212
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360036141212-Edit-Market-Rent-or-Square-Footage-by-Floor-Plan
-section: Rent Rolls
-title: Edit Market Rent or Square Footage by Floor Plan
-updated_at: '2024-10-07T16:40:55Z'
+attachments: 
+suggested_queries:
+- - "How do I edit market rent for a floor plan in rediq?"
+- - "What steps are needed to change square footage by floor plan?"
+- - "Where can I find instructions to update floor plan details in rediq?"
 ---
-
 If the market rent or square footage of an entire floor plan needs to be edited, it can be done on the [Edit Rent Roll screen](https://rediq.zendesk.com/hc/en-us/articles/360036141132). Click on the Mappings drop-down in the top right and select Floor Plans. This will open a screen with instructions on how to edit the market rent or square footage of units by floor plan.
 
 ![The screenshot displays a dropdown menu from a SaaS application interface, likely related to property management or real estate analytics. Here's a detailed description:

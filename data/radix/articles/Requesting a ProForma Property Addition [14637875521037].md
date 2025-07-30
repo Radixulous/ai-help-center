@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: ProForma
-created_at: '2023-04-06T21:23:25Z'
-id: 14637875521037
-original_url: https://help.radix.com/hc/en-us/articles/14637875521037-Requesting-a-ProForma-Property-Addition
-section: ProForma
-title: Requesting a ProForma Property Addition
-updated_at: '2023-11-01T17:57:20Z'
+suggested_queries:
+- - "How do I request a new property addition in Radix?"
+- - "What information do I need to provide for a ProForma property request?"
+- - "Where do I send the New Property Import Template for Radix?"
 ---
-
 Are you looking for an existing property to underwrite, but can't find it? Do you need to add a competitor to your ProForma property, but can't locate them in our system?
 
 If you cannot locate a property in our system, our team would be happy to add it for you.

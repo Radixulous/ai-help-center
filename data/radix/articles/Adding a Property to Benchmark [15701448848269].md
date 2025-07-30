@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: Benchmark
-created_at: '2023-05-11T21:30:49Z'
-id: 15701448848269
-original_url: https://help.radix.com/hc/en-us/articles/15701448848269-Adding-a-Property-to-Benchmark
-section: Managing Properties
-title: Adding a Property to Benchmark
-updated_at: '2023-11-01T17:57:21Z'
+suggested_queries:
+- - "How do I request to add a subject property to Benchmark?"
+- - "What information do I need to provide for a competitor property addition in Benchmark?"
+- - "Where can I find the Property & User Data Form for Benchmark?"
 ---
-
 Do you need a property added to Benchmark? Current Benchmark users can contact our team at any time to request property additions. Our team handles requests to add subject properties as well as requests to add competitor properties.
 
 ### **Requesting a Subject Property Addition**

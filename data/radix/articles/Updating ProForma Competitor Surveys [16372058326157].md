@@ -1,21 +1,10 @@
 ---
-attachments:
-- 16373230473229.png
-- 16373857505421.png
-- 16374119627917.png
-- 16374356743181.png
-- 16375268547597.png
-- 16375602307981.png
-- 16375653121933.png
-category: ProForma
-created_at: '2023-06-02T21:09:33Z'
-id: 16372058326157
-original_url: https://help.radix.com/hc/en-us/articles/16372058326157-Updating-ProForma-Competitor-Surveys
-section: ProForma
-title: Updating ProForma Competitor Surveys
-updated_at: '2024-08-22T18:48:32Z'
+attachments: 
+suggested_queries:
+- - "How do I update a competitor's property survey in ProForma?"
+- - "What steps are involved in refreshing a property survey in Radix?"
+- - "How can I create a new property survey using ProForma?"
 ---
-
 When you need to update a competitor's property survey, ProForma provides multiple ways to do so. You can:
 
 * **Refresh the Property Survey:** Use the Refresh feature to pull in the property's most recently published survey data from Benchmark.

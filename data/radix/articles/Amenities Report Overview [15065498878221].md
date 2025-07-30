@@ -1,17 +1,10 @@
 ---
-attachments:
-- 29127584322701.png
-- 15072206333837.png
-- 15072817395085.png
-category: Reports
-created_at: '2023-04-21T00:01:50Z'
-id: 15065498878221
-original_url: https://help.radix.com/hc/en-us/articles/15065498878221-Amenities-Report-Overview
-section: Report Overviews
-title: Amenities Report Overview
-updated_at: '2024-08-22T19:10:23Z'
+attachments: 
+suggested_queries:
+- - "What is included in the Amenities Report for property comparison?"
+- - "How do I access and customize the Amenities Report in Radix?"
+- - "What are the key sections of the Amenities Report for benchmarking?"
 ---
-
 Our Amenities Report an be leveraged to address questions surrounding how a property's unit, community, and location amenities stack up against its' selected competitors. With detailed amenity scores, the report can be used to benchmark amenities and answer questions such as:
 
 * How do the property's amenities compare to its' competitor's?

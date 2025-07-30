@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: valuationIQ
-created_at: '2021-10-28T19:00:25Z'
-id: 4409290631828
-original_url: https://rediq.zendesk.com/hc/en-us/articles/4409290631828-Future-Value-Refinance-Deep-Dive
-section: How to Use the Model
-title: Future Value Refinance Deep Dive
-updated_at: '2024-12-03T14:51:08Z'
+suggested_queries:
+- - "How do I size a refinance loan based on future value in redIQ?"
+- - "What are the steps to use the refinance feature in valuationIQ?"
+- - "How do I link refinance loan sizing results to loan inputs in redIQ?"
 ---
-
 **valuationIQ now features an option to automatically size a refinance loan based on a future value.**
 
 To use the refinance feature, click the button on the redIQ ribbon with the calculator icon labeled “Advanced Loan Calcs”, which can be found in the model settings section.

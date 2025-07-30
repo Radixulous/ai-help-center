@@ -1,15 +1,10 @@
 ---
-attachments:
-- 20242942207501.png
-category: RealRents
-created_at: '2023-10-09T22:10:06Z'
-id: 20242439129997
-original_url: https://help.radix.com/hc/en-us/articles/20242439129997-Locked-Properties
-section: General
-title: Locked Properties
-updated_at: '2025-06-23T12:40:35Z'
+attachments: 
+suggested_queries:
+- - "What is a locked property in the Competitors Table?"
+- - "Why are some competitor properties locked for updates?"
+- - "When will a locked competitor property become unlocked?"
 ---
-
 Are you dealing with a locked property? In this article, we'll bring you up to speed on what a locked property is and how to handle it when you've encountered one.
 
 #### What is a Locked Property?

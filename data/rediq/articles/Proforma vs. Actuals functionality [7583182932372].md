@@ -1,17 +1,10 @@
 ---
-attachments:
-- 7583060212244.png
-- 7583078145812.png
-- 7583122004500.png
-category: dataIQ
-created_at: '2022-07-06T18:57:21Z'
-id: 7583182932372
-original_url: https://rediq.zendesk.com/hc/en-us/articles/7583182932372-Proforma-vs-Actuals-functionality
-section: Operating Statements
-title: Proforma vs. Actuals functionality
-updated_at: '2023-11-03T17:07:21Z'
+attachments: 
+suggested_queries:
+- - "What is the difference between Proforma and Actuals in redIQ?"
+- - "How do I upload a Proforma financial report in redIQ?"
+- - "Where can I edit the name of a Proforma document in redIQ?"
 ---
-
 The Proforma vs. Actuals functionality feature relies on support for Below Net Operating Income line items. With it, users can compare Operating Statements uploaded to the system and proforma financial reports, letting you, the user, better understand how a given property could perform in the future.
 
 For our Multi-family users, Proforma will be a key report that will help gather current or estimated income and expense data to project the net operating income and cash flow of a property. redIQ already provides the ability to upload “actual financial reports” using Operating statement within a deal which reports the true financial performance of a rental property. The Proforma feature allows a user to upload up to three proforma financial reports which will help the users to make an informed decision on how a property could, should or would perform over the incremental years.

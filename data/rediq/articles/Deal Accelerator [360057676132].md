@@ -1,27 +1,10 @@
 ---
-attachments:
-- 10070371910804.png
-- 10070410757396.png
-- 10070465717140.png
-- 10070453359764.png
-- 10070471317524.png
-- 10070491790868.png
-- 10070495727892.png
-- 10070513165076.png
-- 10070567533332.png
-- 10070570843284.png
-- 10070594202004.png
-- 10070594202900.png
-- 10070649751444.png
-category: dataIQ
-created_at: '2021-03-09T14:17:12Z'
-id: 360057676132
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360057676132-Deal-Accelerator
-section: Deals
-title: Deal Accelerator
-updated_at: '2025-07-24T17:56:55Z'
+attachments: 
+suggested_queries:
+- - "What are the steps to set up Deal Accelerator in redIQ?"
+- - "How do I input investment criteria in the Deal Accelerator?"
+- - "What notification settings can I configure for Deal Accelerator in redIQ?"
 ---
-
 ### **Overview**
 
 ***What is the in-app experience for clients with Deal Accelerator?***

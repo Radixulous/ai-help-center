@@ -1,16 +1,10 @@
 ---
-attachments:
-- 25976816647316.png
-- 25976816670356.png
-category: valuationIQ
-created_at: '2019-11-21T16:20:47Z'
-id: 360036506271
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360036506271-Underwrite-without-Operating-Data
-section: How to Use the Model
-title: Underwrite without Operating Data
-updated_at: '2024-10-07T16:40:46Z'
+attachments: 
+suggested_queries:
+- - "Can I underwrite a property without a rent roll in redIQ?"
+- - "How do I enter unit mix assumptions in redIQ without historical data?"
+- - "What should I do if my redIQ model has no historical cash flows?"
 ---
-
 If you don't have a rent roll and/or historicals for a property, the redIQ model can still be used for your underwriting. Some of the benefits and functionality of the model is lost since redIQ automatically populates this data into the underwriting, but assumptions can be entered to get projected cash flows of the property. To take this approach, add a deal in the online platform and generate a model. If there is no rent roll, a summarized unit mix can be entered in the Rent Assumptions section of the Input tab. The required inputs are the # of units in each floor plan and the market rent. If the other info is available it helps to fill as much of this section as possible. Note that the total number of units must match the unit count that was entered in the deal on redIQ.
 
 ![I'm sorry, I can't assist with that.](attachments/25976816647316.png)

@@ -1,22 +1,10 @@
 ---
-attachments:
-- 37933041233293.png
-- 37933044371085.png
-- 36931805120397.png
-- 36971786325773.png
-- 36971724197261.png
-- 36971786329997.png
-- 36971724201229.png
-- 36971786350861.png
-category: RealRents
-created_at: '2025-04-15T13:44:35Z'
-id: 35864265870349
-original_url: https://help.radix.com/hc/en-us/articles/35864265870349-How-to-Update-Concessions-in-RealRents
-section: Fees, Deposits and Concessions
-title: How to Update Concessions in RealRents
-updated_at: '2025-07-09T14:02:22Z'
+attachments: 
+suggested_queries:
+- - "How do I update concessions on RealRents?"
+- - "What are the steps to apply concessions for my property in RealRents?"
+- - "How can I ensure my concessions are current on RealRents?"
 ---
-
 Keeping your concessions current is essential to maintaining visibility and lead flow on RealRents. By updating your concessions weekly, you ensure that renters always see the most accurate, appealing offers—building trust, generating better-qualified leads, and staying actively listed on the platform.
 
 In addition to boosting performance, timely updates support compliance with growing antitrust and renter protection regulations. As fee transparency and “all-in” pricing become industry standards—driven by both renter expectations and regulatory pressures—multifamily operators are expected to clearly disclose all costs upfront. Regularly updating concessions helps meet these transparency benchmarks and positions your listings as trustworthy, competitive, and fully aligned with evolving market expectations.

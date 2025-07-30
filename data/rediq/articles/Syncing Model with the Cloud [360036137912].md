@@ -1,23 +1,10 @@
 ---
-attachments:
-- 25775990353556.png
-- 37921864029332.png
-- 37921864032788.png
-- 37921878988308.png
-- 37921864035348.png
-- 37921864036628.png
-- 37921878991636.png
-- 37921878992788.png
-- 25775958356500.png
-category: valuationIQ
-created_at: '2019-11-21T16:08:36Z'
-id: 360036137912
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360036137912-Syncing-Model-with-the-Cloud
-section: How to Use the Model
-title: Syncing Model with the Cloud
-updated_at: '2025-05-28T19:48:39Z'
+attachments: 
+suggested_queries:
+- - "How do I sync my redIQ model with the cloud?"
+- - "What steps are needed to log into redIQ from Excel?"
+- - "How can I select items to sync in redIQ?"
 ---
-
 The redIQ model is built in Excel and functions as a regular Excel file. However, it can be synced with the online redIQ platform by using the Sync with Cloud button in the redIQ tab of the Ribbon.
 
 ![Certainly! Here's a detailed description of the interface:

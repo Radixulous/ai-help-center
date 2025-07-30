@@ -1,17 +1,10 @@
 ---
-attachments:
-- 360079451612.png
-- 360079451912.png
-- 360079452412.png
-category: dataIQ
-created_at: '2020-11-13T17:11:29Z'
-id: 360052540851
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360052540851-Operating-Statement-Format-Upload
-section: Operating Statements
-title: Operating Statement Format Upload
-updated_at: '2023-10-31T12:47:19Z'
+attachments: 
+suggested_queries:
+- - "What is the correct format for uploading historical financial data in redIQ?"
+- - "How do I ensure my Excel spreadsheet meets the requirements for redIQ historical uploads?"
+- - "What are the formatting rules for the Add Historicals feature in redIQ?"
 ---
-
 redIQ allows you to easily upload historicals and trailing financials to the platform. 
 
 Excel Spreadsheets from which the data can be copied and pasted can be added directly to the into the platform from the web interface.

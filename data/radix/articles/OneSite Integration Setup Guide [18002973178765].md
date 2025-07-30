@@ -1,16 +1,10 @@
 ---
-attachments:
-- 18200042435725.png
-- 18138173726605.png
-category: API & Integrations
-created_at: '2023-07-27T23:45:13Z'
-id: 18002973178765
-original_url: https://help.radix.com/hc/en-us/articles/18002973178765-OneSite-Integration-Setup-Guide
-section: Integrations
-title: OneSite Integration Setup Guide
-updated_at: '2024-08-22T11:30:05Z'
+attachments: 
+suggested_queries:
+- - "What are the steps to set up OneSite integration with Radix?"
+- - "How do I enable Radix integrations in RealPage's Integration Marketplace?"
+- - "What requirements are needed to create an SDE user for Radix integration?"
 ---
-
 Streamline the market survey process for your teams even more with our OneSite integration. When you leverage our OneSite integration, the majority of the data your team needs to update their property surveys will be imported directly from your property management system.
 
 ### What You'll Need

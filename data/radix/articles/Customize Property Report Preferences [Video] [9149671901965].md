@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: Reports
-created_at: '2022-09-14T01:33:21Z'
-id: 9149671901965
-original_url: https://help.radix.com/hc/en-us/articles/9149671901965-Customize-Property-Report-Preferences-Video
-section: Customizing Reports
-title: Customize Property Report Preferences [Video]
-updated_at: '2023-11-01T17:57:20Z'
+suggested_queries:
+- - "How can I customize my property report preferences in Radix?"
+- - "What are the steps to adjust property report settings in Radix?"
+- - "Is there a video on customizing property report preferences in Radix?"
 ---
-
 ## Property Reports Links
 
 1. [Customize Preferences](https://help.radix.com/hc/en-us/articles/9149671901965-Customize-Property-Report-Preferences-Video-)

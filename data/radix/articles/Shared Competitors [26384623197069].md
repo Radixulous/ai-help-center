@@ -1,17 +1,10 @@
 ---
-attachments:
-- 33237229304589.png
-- 33237229308685.png
-- 33237229327245.png
-category: RealRents
-created_at: '2024-05-02T09:13:00Z'
-id: 26384623197069
-original_url: https://help.radix.com/hc/en-us/articles/26384623197069-Shared-Competitors
-section: General
-title: Shared Competitors
-updated_at: '2025-06-23T12:40:35Z'
+attachments: 
+suggested_queries:
+- - "What are shared competitors in my market survey on Radix?"
+- - "How can I identify shared competitors in Benchmark surveys?"
+- - "What happens when a shared competitor's property survey is updated?"
 ---
-
 A *shared competitor* is any property on your market survey that another Benchmark customer also includes as a competitor on their market survey. Sharing competitors with other Benchmark customers can help you streamline the collection of market survey data. How?
 
 Within our platform, only one of each property can exist; when a shared competitor's property survey has been updated by another Benchmark customer, the survey is automatically up to date for you as well.

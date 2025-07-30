@@ -1,16 +1,10 @@
 ---
-attachments:
-- 33236591345421.png
-- 33236630292365.png
-category: Benchmark
-created_at: '2024-04-30T12:54:45Z'
-id: 26325272809997
-original_url: https://help.radix.com/hc/en-us/articles/26325272809997-Understanding-Clock-Colors
-section: Updating your Market Survey now on RealRents
-title: Understanding Clock Colors
-updated_at: '2025-01-06T12:53:57Z'
+attachments: 
+suggested_queries:
+- - "What do the different colored clocks mean in Radix?"
+- - "How can I tell if a property's survey data is up-to-date?"
+- - "What is the significance of green, orange, and red clocks in property benchmarking?"
 ---
-
 When you're benchmarking your property's performance against others, it's crucial to understand how recent the data you're analyzing is. This is why you'll often see different colored clocks throughout our Radix products. These clocks exist to help you understand how up-to-date the survey data you're using is.
 
 ### What do Colored Clocks Represent?

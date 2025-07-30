@@ -1,20 +1,10 @@
 ---
-attachments:
-- 37875079541517.png
-- 37875102107021.png
-- 37875102109581.png
-- 37875102113549.png
-- 37880483856397.png
-- 37875079553549.png
-category: RealRents
-created_at: '2025-07-07T13:33:06Z'
-id: 37874525132941
-original_url: https://help.radix.com/hc/en-us/articles/37874525132941-Updating-Competitor-Surveys
-section: General
-title: Updating Competitor Surveys
-updated_at: '2025-07-16T11:58:17Z'
+attachments: 
+suggested_queries:
+- - "How do I update competitor surveys in RealRents?"
+- - "What are the steps to identify and update outdated competitor surveys in Radix?"
+- - "How can I unlock and manually update a competitor's survey data?"
 ---
-
 Updating your daily market survey in RealRents means ensuring current, high-quality data for both your property as well as your select competitors. This article will show you how to find outdated competitor surveys and then guide you on updating them directly within the platform.
 
 Comp data in Radix is updated in a few ways:

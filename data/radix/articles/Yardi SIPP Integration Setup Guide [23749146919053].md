@@ -1,18 +1,10 @@
 ---
-attachments:
-- 23751375008653.png
-- 23751375028493.png
-- 23938426444941.png
-- 27002693649037.png
-category: API & Integrations
-created_at: '2024-02-01T22:50:13Z'
-id: 23749146919053
-original_url: https://help.radix.com/hc/en-us/articles/23749146919053-Yardi-SIPP-Integration-Setup-Guide
-section: Integrations
-title: Yardi SIPP Integration Setup Guide
-updated_at: '2024-08-22T19:10:24Z'
+attachments: 
+suggested_queries:
+- - "What are the steps to set up Yardi SIPP integration with Radix?"
+- - "What requirements does my Voyager instance need for Yardi SIPP integration?"
+- - "How do I create a username and password for Yardi SIPP integration?"
 ---
-
 Streamline the market survey process for your teams further with our Yardi SIPP integration. When you leverage our Yardi SIPP integration, the majority of the data your teams need to update their property surveys will be imported directly from your Voyager property management system.
 
 #### What is Yardi SIPP?

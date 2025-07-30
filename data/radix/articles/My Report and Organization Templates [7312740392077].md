@@ -1,15 +1,10 @@
 ---
-attachments:
-- 29128663786125.png
-category: Reports
-created_at: '2022-06-30T11:49:43Z'
-id: 7312740392077
-original_url: https://help.radix.com/hc/en-us/articles/7312740392077-My-Report-and-Organization-Templates
-section: Customizing Reports
-title: My Report and Organization Templates
-updated_at: '2024-08-22T17:47:19Z'
+attachments: 
+suggested_queries:
+- - "How do I save a report in My Reports on Radix?"
+- - "What are Organization Templates in Radix and how do I use them?"
+- - "How can I schedule reports to be emailed in Radix?"
 ---
-
 The reporting home page provides a quick summary of each available report. Users can navigate between standard Radix reports, ***My Reports*** and ***Organization Templates***. After running and configuring a radix report, My Reports allows users to save a report for easy access in the future.
 
 Accessing Reports

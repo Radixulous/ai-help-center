@@ -1,18 +1,10 @@
 ---
-attachments:
-- 32947678062733.png
-- 28869070050957.png
-- 28869070055693.png
-- 28869070066701.png
-category: Benchmark
-created_at: '2024-07-31T15:04:44Z'
-id: 28868353600269
-original_url: https://help.radix.com/hc/en-us/articles/28868353600269-How-to-Edit-Property-Information
-section: Managing Properties
-title: How to Edit Property Information
-updated_at: '2024-12-23T13:44:21Z'
+attachments: 
+suggested_queries:
+- - "How can I edit property information in Radix?"
+- - "What steps do I take to update amenities and fees for a property?"
+- - "Where do I find the Manage Properties section in Radix?"
 ---
-
 In a dynamic market, properties change frequently. Whether it's extensive upgrades that have occurred, or a simple update the fees and deposits being charged, when these changes occur, the property's general information and characteristics can be updated in Radix. What type of changes can you make? Common changes you can update include:
 
 * **Property Information:**The property's name, owner, and management company can easily be changed.

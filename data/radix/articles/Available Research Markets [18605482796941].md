@@ -1,15 +1,10 @@
 ---
-attachments:
-- 24512684313997.png
-category: Research
-created_at: '2023-08-16T23:35:30Z'
-id: 18605482796941
-original_url: https://help.radix.com/hc/en-us/articles/18605482796941-Available-Research-Markets
-section: Research
-title: Available Research Markets
-updated_at: '2024-08-22T18:21:41Z'
+attachments: 
+suggested_queries:
+- - "What research markets are available in Radix?"
+- - "How can I access market performance insights for different states?"
+- - "Which cities are included in Radix Research's available markets?"
 ---
-
 With 38 markets spanning 21 states, Radix Research gives you the tools needed to track key operating metrics at the national level or drill down into submarket performance insights. Whether you're looking to compare your portfolio performance to submarket averages, or are exploring new markets to expand your portfolio into, you can dig into the following markets today with your Research subscription.
 
 #### Available Research Markets by State

@@ -1,17 +1,10 @@
 ---
-attachments:
-- 37551637965069.png
-- 37551637965453.png
-- 37551625957645.png
-category: RealRents
-created_at: '2025-06-23T12:31:03Z'
-id: 37551625959309
-original_url: https://help.radix.com/hc/en-us/articles/37551625959309-Viewing-PMS-Imported-Survey-Data
-section: General
-title: Viewing PMS Imported Survey Data
-updated_at: '2025-06-23T12:40:35Z'
+attachments: 
+suggested_queries:
+- - "How can I view the calculations for imported survey data in Radix?"
+- - "What details are available in the Integration Details for my property survey?"
+- - "Where can I find information on how Radix calculates occupancy and rent values?"
 ---
-
 When you need to verify how your imported property survey values have been calculated,
 the ***Integration Details*** on your property survey will
 offer you a detailed view. You can use this detailed view to:

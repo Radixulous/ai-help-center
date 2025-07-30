@@ -1,15 +1,10 @@
 ---
-attachments:
-- 32945520645773.png
-category: Benchmark
-created_at: '2022-07-01T13:23:32Z'
-id: 7343728269453
-original_url: https://help.radix.com/hc/en-us/articles/7343728269453-How-Radix-Calculates-Rents
-section: Data Dictionary
-title: How Radix Calculates Rents
-updated_at: '2024-12-23T12:23:05Z'
+attachments: 
+suggested_queries:
+- - "How does Radix calculate rental rates for integrated properties?"
+- - "What methods does Radix use for determining rents for non-integrated properties?"
+- - "How are asking rents and achieved rents defined in Radix?"
 ---
-
 Radix collects the **best available rental rate for a 12-month** lease term directly from properties via weekly survey updates. Rents are then displayed by unit type throughout our platform for you to leverage.
 
 #### Integrated Properties

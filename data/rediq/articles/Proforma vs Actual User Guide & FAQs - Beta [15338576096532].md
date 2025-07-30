@@ -1,29 +1,10 @@
 ---
-attachments:
-- 15337518872596.png
-- 15337518869524.png
-- 15337518949268.png
-- 15337518990356.png
-- 15337519132308.png
-- 15337502737300.png
-- 15337502845588.png
-- 15337519291540.png
-- 15337519333396.png
-- 15337519402516.png
-- 15337503044116.png
-- 15337503109012.png
-- 15337503145748.png
-- 15337519609108.png
-- 15338247583892.png
-category: dataIQ
-created_at: '2023-05-02T19:59:12Z'
-id: 15338576096532
-original_url: https://rediq.zendesk.com/hc/en-us/articles/15338576096532-Proforma-vs-Actual-User-Guide-FAQs-Beta
-section: Operating Statements
-title: Proforma vs Actual User Guide & FAQs - Beta
-updated_at: '2023-10-31T12:47:21Z'
+attachments: 
+suggested_queries:
+- - "What is the difference between Proforma and Actual in redIQ?"
+- - "How do I upload Proforma statements in redIQ?"
+- - "What features are included in the Proforma vs Actual tool?"
 ---
-
 #### Beta Feature
 
 This feature is currently in a free beta ahead of redIQ’s release of a standalone add-on, the Lifecycle Management Suite (“LMS”), focused on tracking the health and performance of portfolio properties. This feature will eventually be available only to LMS subscribers, but to deliver immediate value, redIQ has decided to make these features temporarily available to all users free of charge.

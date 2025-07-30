@@ -1,17 +1,10 @@
 ---
-attachments:
-- 29127878574477.png
-- 15099021464845.png
-- 15099024494733.png
-category: Reports
-created_at: '2023-04-21T20:29:28Z'
-id: 15099362927501
-original_url: https://help.radix.com/hc/en-us/articles/15099362927501-Fees-Deposits-Report-Overview
-section: Report Overviews
-title: Fees & Deposits Report Overview
-updated_at: '2024-08-22T18:41:52Z'
+attachments: 
+suggested_queries:
+- - "What is included in the Fees & Deposits Report for properties?"
+- - "How do I access and customize the Fees & Deposits Report in Radix?"
+- - "What competitive advantages can I identify from the Fees & Deposits Report?"
 ---
-
 The Fees & Deposits Report allows you to easily review all fees, deposits, and lease terms being offered at a property. When you need a visual rundown of what's being offered at a property in comparison to its' competitors, this report is your solution!
 
 Use this report to help answer questions such as:

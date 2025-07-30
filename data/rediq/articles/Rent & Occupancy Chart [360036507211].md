@@ -1,15 +1,10 @@
 ---
-attachments:
-- 25815606732948.png
-category: dataIQ
-created_at: '2019-11-21T16:36:51Z'
-id: 360036507211
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360036507211-Rent-Occupancy-Chart
-section: Operating Statements
-title: Rent & Occupancy Chart
-updated_at: '2024-10-07T16:40:50Z'
+attachments: 
+suggested_queries:
+- - "What is the Rent & Occupancy chart in rediq?"
+- - "How does Physical Occupancy relate to Net Rental Income?"
+- - "What metrics are used in the Rent & Occupancy analysis?"
 ---
-
 The Rent & Occupancy chart appears on the Revenue Analysis page within Operating Statements.  This chart compares Physical Occupancy to Net Rental Income.  It uses exclusively monthly data from uploaded Operating Statement data. This chart is intended to highlight the relationship between changes in Rent and Physical Occupancy.
 
 | Key Term | Definition |

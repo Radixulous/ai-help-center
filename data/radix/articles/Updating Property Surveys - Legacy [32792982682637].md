@@ -1,19 +1,10 @@
 ---
-attachments:
-- 32827733107981.png
-- 32793040007309.png
-- 32827228759565.png
-- 32792982658445.png
-- 32792982666253.png
-category: RealRents
-created_at: '2024-12-17T15:53:27Z'
-id: 32792982682637
-original_url: https://help.radix.com/hc/en-us/articles/32792982682637-Updating-Property-Surveys-Legacy
-section: Legacy
-title: Updating Property Surveys - Legacy
-updated_at: '2025-07-08T10:20:08Z'
+attachments: 
+suggested_queries:
+- - "How do I update my property's survey on RealRents?"
+- - "What steps are needed to refresh property surveys in Radix?"
+- - "How often should I update my property survey for accurate performance tracking?"
 ---
-
 Keeping your Property Survey updated ensures it remains visible on [RealRents](https://help.radix.com/hc/en-us/articles/32826267937933-RealRents), while also enabling you to track performance and make informed decisions based on real-time data. This article provides a guide on how to update your property's survey, which requires a weekly refresh.
 
 ### Updating property surveys

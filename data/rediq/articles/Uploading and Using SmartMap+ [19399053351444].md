@@ -1,29 +1,10 @@
 ---
-attachments:
-- 19432077722772.png
-- 19432061917588.png
-- 19432077734676.png
-- 19432061927956.png
-- 19432077739540.png
-- 19432077743636.png
-- 19432077750164.png
-- 19432077752340.png
-- 19432077757460.png
-- 19432061963540.png
-- 19432061965332.png
-- 25906914021012.png
-- 25906914036116.png
-- 25906881980436.png
-- 25906881994132.png
-category: dataIQ
-created_at: '2023-09-21T16:26:49Z'
-id: 19399053351444
-original_url: https://rediq.zendesk.com/hc/en-us/articles/19399053351444-Uploading-and-Using-SmartMap
-section: SmartMap+
-title: Uploading and Using SmartMap+
-updated_at: '2024-11-11T16:54:57Z'
+attachments: 
+suggested_queries:
+- - "How do I upload an operating statement using SmartMap+ in redIQ?"
+- - "What steps are needed to use the upload feature for operating statements in redIQ?"
+- - "Can I drag and drop files to upload operating statements in SmartMap+?"
 ---
-
 **How to upload operating statements utilizing SmartMap+**
 
 **1**. Upload the operating statement into the associated deal in your Deal List.  

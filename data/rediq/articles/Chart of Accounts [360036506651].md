@@ -1,16 +1,10 @@
 ---
-attachments:
-- 25815006685332.png
-- 25815006693140.png
-category: dataIQ
-created_at: '2019-11-21T16:27:57Z'
-id: 360036506651
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360036506651-Chart-of-Accounts
-section: Operating Statements
-title: Chart of Accounts
-updated_at: '2024-10-07T16:40:51Z'
+attachments: 
+suggested_queries:
+- - "How do I customize the Chart of Accounts in redIQ?"
+- - "Who can edit the Chart of Accounts in redIQ?"
+- - "What is the process to add or delete accounts in redIQ?"
 ---
-
 The Chart of Accounts is a list of categories that is used as line items in the Cash Flow of all Operating Statements. The Chart of Accounts in redIQ can be customized to match a company's internal Chart of Accounts used in its own analysis and underwritings. To Add, Edit, or Delete any of the accounts click click your name in the top right corner of the screen and select Chart of Accounts. Note that only Corporate Administrators can make these customizations. For a list of Corporate Administrators, go to the Manage Users screen.
 
 ![The screenshot displays a sidebar menu from a SaaS application interface, likely related to the redIQ platform. Here’s a detailed description:

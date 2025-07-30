@@ -1,25 +1,10 @@
 ---
-attachments:
-- 33238588745357.png
-- 33238619876237.png
-- 17547749861005.png
-- 17547749862541.png
-- 17547749863821.png
-- 17547749865357.png
-- 17547749866893.png
-- 17547795644045.png
-- 17547795645453.png
-- 17547749872525.png
-- 17547749874829.png
-category: Benchmark
-created_at: '2022-06-30T12:23:24Z'
-id: 7313516628749
-original_url: https://help.radix.com/hc/en-us/articles/7313516628749-How-to-use-Perspectives
-section: Evaluating Your Portfolio's Performance
-title: How to use Perspectives
-updated_at: '2025-01-06T13:59:25Z'
+attachments: 
+suggested_queries:
+- - "How can I create a perspective to exclude renovated units in Radix?"
+- - "What are the steps to edit and lock a perspective in Radix?"
+- - "Where can I access the perspectives feature in the Radix dashboard?"
 ---
-
 Our perspectives feature allows you to exclude certain competitor data when benchmarking your property's performance. No two properties are exactly alike; by excluding specific floor plans or an entire competitor property, you can obtain a more apples-to-apples comparison.
 
 Common scenarios where a perspective can come in handy are:

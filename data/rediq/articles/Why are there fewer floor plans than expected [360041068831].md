@@ -1,15 +1,10 @@
 ---
-attachments:
-- 25814476362388.png
-category: dataIQ
-created_at: '2020-03-17T14:13:36Z'
-id: 360041068831
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360041068831-Why-are-there-fewer-floor-plans-than-expected
-section: Rent Rolls
-title: Why are there fewer floor plans than expected?
-updated_at: '2024-10-07T16:40:52Z'
+attachments: 
+suggested_queries:
+- - "Why are there fewer unique floor plans in my redIQ report?"
+- - "How can I see units broken out by size instead of floor plan?"
+- - "What do I do if my rent roll has duplicate floor plan codes?"
 ---
-
 Sometimes property managers assign the same floor plan to units that are different sizes. The Floor Plan Summary in redIQ can break out all units by each unique floor plan code or each unique unit size.
 
 Right after the rent roll has been uploaded, Step 1 of the mapping will present each unique floor plan code provided in the rent roll. The bed/bath count for each of these floor plans needs to be entered to map the rent roll data and view the reports. Once the data has been mapped, hover over the Rent Roll tab and navigate to the Floor Plan Summary. Change the Report Type from Floor Plan to Unit Size. This will break out the units by each unique floor plan size regardless of how the property manager assigned the floor plans. An important thing to note is that all units within the uploaded rent roll data need to have a square foot value higher than zero for the option to filter report type by Unit Size.

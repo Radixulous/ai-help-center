@@ -1,18 +1,10 @@
 ---
-attachments:
-- 29128504275085.png
-- 15385580163853.png
-- 15385901553421.png
-- 15386330992269.png
-category: Reports
-created_at: '2023-05-01T19:17:05Z'
-id: 15386404011405
-original_url: https://help.radix.com/hc/en-us/articles/15386404011405-Customizing-Reports-with-My-Reports
-section: Customizing Reports
-title: Customizing Reports with "My Reports"
-updated_at: '2024-08-22T18:08:39Z'
+attachments: 
+suggested_queries:
+- - "How do I customize reports in Radix and save them to My Reports?"
+- - "What preferences can I set when creating a report in Radix?"
+- - "How do I access and manage my saved reports in Radix's My Reports section?"
 ---
-
 Radix offers a wide variety of reports and each is customizable in unique ways.
 
 My Reports is a section of your Reports page you can save your frequently used and favorite reports to. The settings and preferences you've made to a specific report will be preserved, streamlining the process of pulling the report again in the future.

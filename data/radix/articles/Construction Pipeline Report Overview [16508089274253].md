@@ -1,19 +1,10 @@
 ---
-attachments:
-- 29127868961037.png
-- 16510856243853.png
-- 16510870858125.png
-- 16510856250253.png
-- 16511311858573.png
-category: Reports
-created_at: '2023-06-07T18:33:39Z'
-id: 16508089274253
-original_url: https://help.radix.com/hc/en-us/articles/16508089274253-Construction-Pipeline-Report-Overview
-section: Report Overviews
-title: Construction Pipeline Report Overview
-updated_at: '2024-08-22T17:47:19Z'
+attachments: 
+suggested_queries:
+- - "What information can I find in the Construction Pipeline Report?"
+- - "How do I access and customize the Construction Pipeline Report in Radix?"
+- - "What stages of construction are included in the Construction Pipeline Report?"
 ---
-
 The Construction Pipeline Report allows you to view, export, and share information on multifamily projects at different stages of their construction lifecycle. This report offers high levels of customization and can be used to help address questions such as:
 
 * What projects are scheduled or currently underway?

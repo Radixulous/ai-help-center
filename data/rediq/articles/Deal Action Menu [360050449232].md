@@ -1,20 +1,10 @@
 ---
-attachments:
-- 360072446112.png
-- 360072446472.png
-- 360072446432.png
-- 360072689491.png
-- 360072688411.png
-- 360072688291.png
-category: dataIQ
-created_at: '2020-10-13T14:31:20Z'
-id: 360050449232
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360050449232-Deal-Action-Menu
-section: Deals
-title: Deal Action Menu
-updated_at: '2024-10-07T16:41:48Z'
+attachments: 
+suggested_queries:
+- - "What actions can I take from the deal action menu in Rediq?"
+- - "How do I edit deal and property information in Rediq?"
+- - "What are the steps to update a deal status in Rediq?"
 ---
-
 To access deals, click on the name of the deal under deal name.
 
 ![mceclip0.png](https://rediq.zendesk.com/hc/article_attachments/360072446112/mceclip0.png)

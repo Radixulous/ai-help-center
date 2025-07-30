@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: Benchmark
-created_at: '2024-09-27T20:41:28Z'
-id: 30626599368845
-original_url: https://help.radix.com/hc/en-us/articles/30626599368845-Insights-Dashboard-Ratings-Key
-section: Evaluating Your Property's Performance
-title: Insights Dashboard Ratings Key
-updated_at: '2024-09-30T18:00:55Z'
+suggested_queries:
+- - "What are the ratings for Apartments to Rent (ATR) in the Insights Dashboard?"
+- - "How is the strength of a property's leasing velocity determined in Radix?"
+- - "What criteria trigger Strong, Fair, and Weak ratings on the Insights Dashboard?"
 ---
-
 The Strong, Fair, and Weak ratings on your [Insights Dashboard](https://help.radix.com/hc/en-us/articles/30539442634253) are one of many tools designed to help you analyze the strength of the supply and demand indicators that can impact your property's performance. Using these ratings makes it quicker than ever to evaluate whether your property has the traffic and leasing velocity needed to keep unhealthy levels of apartments to rent (ATR) at bay.
 
 Use the ratings key below to understand the thresholds and logic that trigger these ratings.

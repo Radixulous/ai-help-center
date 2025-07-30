@@ -1,18 +1,10 @@
 ---
-attachments:
-- 33466626414989.png
-- 33466626424205.png
-- 16339115191821.png
-- 16339109535501.png
-category: ProForma
-created_at: '2023-05-30T19:27:34Z'
-id: 16262984619533
-original_url: https://help.radix.com/hc/en-us/articles/16262984619533-Add-Edit-a-ProForma-Property-s-Rents
-section: ProForma
-title: Add/Edit a ProForma Property's Rents
-updated_at: '2025-01-14T14:23:34Z'
+attachments: 
+suggested_queries:
+- - "How can I edit a ProForma property's rents in Radix?"
+- - "What steps do I follow to add rents for a custom property?"
+- - "How do I make rent projections for my ProForma property?"
 ---
-
 When you create a custom ProForma property, you can edit it's rents as many times as you would like. Adding and editing your custom property's rents will allow you to:
 
 * Make projections on how your property's rents will perform against its selected competitors.

@@ -1,18 +1,10 @@
 ---
-attachments:
-- 6796149974420.png
-- 6796149985172.png
-- 6796121180820.png
-- 6796149842196.png
-category: dataIQ
-created_at: '2022-06-06T18:32:26Z'
-id: 6796200773012
-original_url: https://rediq.zendesk.com/hc/en-us/articles/6796200773012-Operating-Statement-Aggregate-Analysis
-section: Operating Statements
-title: Operating Statement Aggregate Analysis
-updated_at: '2023-10-31T12:47:20Z'
+attachments: 
+suggested_queries:
+- - "How do I run an Aggregate Analysis on Operating Statements in rediq?"
+- - "What are the steps to aggregate multiple deals into one Operating Statement?"
+- - "Can I filter deals when performing an Aggregate report in rediq?"
 ---
-
 ### **To run an Aggregate Analysis:**
 
 Within the Comps page, there is an option to aggregate two or more Operating Statements into one complete Operating Statement file. Similar to running a “Comp Analysis”, to run a Aggregate Analysis, click the “Comps” option in the top left corner of the screen. By default, the Operating Statements option is selected, however a Rent Roll report can be run by selecting the corresponding button above the list of deals.

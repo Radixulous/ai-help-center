@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: Support and Training
-created_at: '2020-02-26T16:52:13Z'
-id: 360039824392
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360039824392-Holidays-and-Closures
-section: Contacting Support
-title: Holidays and Closures
-updated_at: '2025-02-17T20:33:18Z'
+suggested_queries:
+- - "What holidays does redIQ observe in 2025?"
+- - "When is redIQ customer support closed for holidays?"
+- - "Are there specific holidays when the US and Kosovo offices of redIQ are closed?"
 ---
-
 redIQ Support is available from **9:00 AM to 5:00 PM Eastern time from Monday to Friday** excluding holidays.
 
 Observed Holidays for 2025

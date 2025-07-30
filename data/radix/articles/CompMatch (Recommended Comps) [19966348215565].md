@@ -1,21 +1,10 @@
 ---
-attachments:
-- 20540013574669.png
-- 32947579677581.png
-- 21085627193869.png
-- 21085632082957.png
-- 20541039222413.png
-- 20541039231501.png
-- 20541799551245.png
-category: Benchmark
-created_at: '2023-09-29T19:27:02Z'
-id: 19966348215565
-original_url: https://help.radix.com/hc/en-us/articles/19966348215565-CompMatch-Recommended-Comps
-section: Managing Properties
-title: CompMatch (Recommended Comps)
-updated_at: '2024-12-23T13:41:25Z'
+attachments: 
+suggested_queries:
+- - "What is the CompMatch feature in Radix and how does it work?"
+- - "How do I review and manage recommended comps for my property?"
+- - "What criteria does CompMatch use to generate property similarity scores?"
 ---
-
 When it comes to benchmarking your property's performance, ensuring your property is being compared to the most relevant competition is critical. You can think of our **CompMatch** feature as your built-in assistant; it continually scopes out the potential competition, surfaces properties you may want to add as a comp, and helps you feel confident you have your eyes on the properties that matter.
 
 ![Recommended property comps list with similarity scores and options to ignore or accept.](attachments/20540013574669.png)

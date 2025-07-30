@@ -1,20 +1,10 @@
 ---
-attachments:
-- 16427128668685.png
-- 16427226321933.png
-- 16427910890637.png
-- 16428445847693.png
-- 16428777416845.png
-- 16429601567245.png
-category: ProForma
-created_at: '2023-02-07T22:42:28Z'
-id: 12923108367885
-original_url: https://help.radix.com/hc/en-us/articles/12923108367885-Sharing-Your-ProForma-Property
-section: ProForma
-title: Sharing Your ProForma Property
-updated_at: '2024-08-22T20:27:20Z'
+attachments: 
+suggested_queries:
+- - "How do I share a custom ProForma property with my team?"
+- - "What permissions can I grant when sharing ProForma properties?"
+- - "Where can I find ProForma properties shared with me as a Benchmark user?"
 ---
-
 Each of the custom ProForma properties you create is private and only accessible to you. However, there may be times you want to share your custom property with others within your organization. Based on the permission level you choose, others will be able to edit or view the custom property you have created in ProForma.
 
 To share a ProForma property you will need to:

@@ -1,18 +1,10 @@
 ---
-attachments:
-- 360055233351.png
-- 360055103892.png
-- 360055233831.png
-- 360055104172.png
-category: dataIQ
-created_at: '2020-04-21T16:33:56Z'
-id: 360042145132
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360042145132-Commercial-Units
-section: Rent Rolls
-title: Commercial Units
-updated_at: '2024-10-07T16:42:52Z'
+attachments: 
+suggested_queries:
+- - "How do I map commercial units in redIQ rent roll?"
+- - "What types of commercial units can I designate in redIQ?"
+- - "Are commercial units included in redIQ rent roll reporting?"
 ---
-
 redIQ asks for the total count of units in the rent roll. If your rent roll may contain commercial units, check to confirm that the value in this filed matches the number on the rent roll file.
 
 ![mceclip0.png](https://rediq.zendesk.com/hc/article_attachments/360055233351/mceclip0.png)

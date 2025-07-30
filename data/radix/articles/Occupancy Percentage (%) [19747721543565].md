@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: Benchmark
-created_at: '2023-09-22T18:46:39Z'
-id: 19747721543565
-original_url: https://help.radix.com/hc/en-us/articles/19747721543565-Occupancy-Percentage
-section: Data Dictionary
-title: Occupancy Percentage (%)
-updated_at: '2023-11-01T17:57:22Z'
+suggested_queries:
+- - "What is occupancy percentage and why is it important for multifamily properties?"
+- - "How do I calculate the occupancy percentage for my rental units?"
+- - "What metrics should I evaluate alongside occupancy data in Radix?"
 ---
-
 In the multifamily real estate realm, occupancy is a fundamental metric for all invested in the success of a property to monitor. This article not only defines what occupancy is but also offers practical tips for leveraging your Radix occupancy data.
 
 Definition Why it Matters

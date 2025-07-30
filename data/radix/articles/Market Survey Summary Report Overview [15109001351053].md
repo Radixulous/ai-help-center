@@ -1,29 +1,10 @@
 ---
-attachments:
-- 29127999238797.png
-- 15136162732045.png
-- 15136246863373.png
-- 15136361539213.png
-- 15136452786189.png
-- 15137009648141.png
-- 15137028226445.png
-- 15137030834061.png
-- 15137092392077.png
-- 15158391055501.png
-- 15149056475789.png
-- 15158411990925.png
-- 15158471417229.png
-- 15158512091917.png
-- 15158575674125.png
-category: Reports
-created_at: '2023-04-22T02:42:12Z'
-id: 15109001351053
-original_url: https://help.radix.com/hc/en-us/articles/15109001351053-Market-Survey-Summary-Report-Overview
-section: Report Overviews
-title: Market Survey Summary Report Overview
-updated_at: '2024-08-22T18:50:39Z'
+attachments: 
+suggested_queries:
+- - "What is the Market Survey Summary Report and how is it used?"
+- - "How can I customize the Market Survey Summary Report in Radix?"
+- - "Where can I find the Market Survey Summary Report in the reports tab?"
 ---
-
 The Market Survey Summary Report (MSSR) is a robust and highly customizable report commonly used in monthly reporting packages.
 
 Impactful and interactive data visuals make this one of our most popular reports to tell a property's story, understand how a property is performing and determine what opportunities exist to optimize its' performance.

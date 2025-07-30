@@ -1,19 +1,10 @@
 ---
-attachments:
-- 26011974376333.png
-- 26012224530957.png
-- 26012536768269.png
-- 26012822350989.png
-- 26012786814605.png
-category: Reports
-created_at: '2023-08-07T17:32:02Z'
-id: 18300039293581
-original_url: https://help.radix.com/hc/en-us/articles/18300039293581-Property-Ranking-Report-Overview
-section: Report Overviews
-title: Property Ranking Report Overview
-updated_at: '2024-08-22T19:10:23Z'
+attachments: 
+suggested_queries:
+- How do I access the Property Ranking Report in Radix?
+- What metrics can I customize in the Property Ranking Report?
+- How can I view changes in my property's rank over different date ranges?
 ---
-
 Your Property Ranking Report helps you dig into how a property ranks against its comps across a variety of metrics. When you've strategically positioned a property to sit a certain way within its comp set, this report is the perfect companion when you're seeking to understand whether a property ranks according to the strategy you've set for it.
 
 Pull the report for a single property, or for multiple properties in your portfolio, and answer questions such as:

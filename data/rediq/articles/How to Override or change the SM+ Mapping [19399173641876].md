@@ -1,18 +1,10 @@
 ---
-attachments:
-- 19432605586068.png
-- 19432605591700.png
-- 19432605594388.png
-- 19432605611412.png
-category: dataIQ
-created_at: '2023-09-21T16:30:50Z'
-id: 19399173641876
-original_url: https://rediq.zendesk.com/hc/en-us/articles/19399173641876-How-to-Override-or-change-the-SM-Mapping
-section: SmartMap+
-title: How to Override or change the SM+ Mapping
-updated_at: '2023-10-31T12:47:21Z'
+attachments: 
+suggested_queries:
+- - "How can I change the SM+ account mapping in redIQ?"
+- - "What steps do I take to override incorrect SM+ mappings?"
+- - "How do I manually correct account mapping in the SmartMap+ feature?"
 ---
-
 **How to override or change the SM+ account mapping**
 
 If the mapping is incorrect or missing (“No Match”), you will need to manually change the mapping. To do this,click on either the “Code” (2nd column) cell on the row to be re-mapped, or click on the “Account” (3rdcolumn) cell and select the correct account code or description from your account’s COA to correct the mapping.

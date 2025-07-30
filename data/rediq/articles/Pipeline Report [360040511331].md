@@ -1,33 +1,10 @@
 ---
-attachments:
-- 7613832844948.jpg
-- 25905304086804.png
-- 25905304098452.png
-- 25905304108564.png
-- 25905320207252.png
-- 25905320227220.png
-- 25905304141716.png
-- 25905304150420.png
-- 25905304167700.png
-- 25905320269972.png
-- 25905320281492.png
-- 25905320291860.png
-- 25905304213268.png
-- 25905304236436.png
-- 25905320339092.png
-- 25905320349204.png
-- 25905320357140.png
-- 25905320367892.png
-- 25905304304916.png
-category: dataIQ
-created_at: '2020-03-04T20:09:40Z'
-id: 360040511331
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360040511331-Pipeline-Report
-section: Deals
-title: Pipeline Report
-updated_at: '2024-11-11T16:56:54Z'
+attachments: 
+suggested_queries:
+- - "How can I access the Pipeline Report in redIQ?"
+- - "What deals are included in the Pipeline Report sections?"
+- - "How do I customize the date for inactive deals in the Pipeline Report?"
 ---
-
 The Pipeline Report can be accessed by clicking “Pipeline Report” on the Deals Page. This report splits all deals into "Deals we're working on," and "Deals that have gone Inactive."
 
 **All deals with status:** Active, Bid Placed, or Dormant, will appear in "Deals We’re Working On section."

@@ -1,16 +1,10 @@
 ---
-attachments:
-- 16513221139085.png
-- 16517319171725.png
-category: Research
-created_at: '2023-06-07T20:27:38Z'
-id: 16513190010893
-original_url: https://help.radix.com/hc/en-us/articles/16513190010893-Housing-Affordability-Dashboard
-section: Research
-title: Housing Affordability Dashboard
-updated_at: '2024-08-22T19:34:28Z'
+attachments: 
+suggested_queries:
+- - "What is the Housing Affordability dashboard in Radix?"
+- - "How can I access the Share of Wallet data for housing?"
+- - "What filters can I use in the Housing Affordability dashboard?"
 ---
-
 The Housing Affordability dashboard offers historical insights into rental share of wallet at the market level. Share of wallet data is provided by Radix and the US Census Bureau.
 
 #### What is Share of Wallet?

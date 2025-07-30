@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: valuationIQ
-created_at: '2021-10-28T19:06:36Z'
-id: 4409290714772
-original_url: https://rediq.zendesk.com/hc/en-us/articles/4409290714772-Bridge-Loan-Deep-Dive
-section: How to Use the Model
-title: Bridge Loan Deep Dive
-updated_at: '2024-12-03T14:55:48Z'
+suggested_queries:
+- - "What is a bridge loan and how is it sized in redIQ?"
+- - "How do I use the advanced loan calculations for bridge loans in redIQ?"
+- - "What are the constraints for sizing a bridge loan in valuationIQ?"
 ---
-
 valuationIQ now features an option to automatically size a bridge loan. Included within the bridge functionality is the ability to draw loan proceeds as needed to fund unit renovations and property wide capital expenses.
 
 It also offers the ability to size a bridge loan using two constraints, Loan to Cost and Debt Yield.

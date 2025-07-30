@@ -1,17 +1,10 @@
 ---
-attachments:
-- 25814075385236.png
-- 25814089767828.png
-- 25814089783316.png
-category: dataIQ
-created_at: '2020-03-13T19:33:57Z'
-id: 360040958251
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360040958251-Break-Out-Renovated-or-Affordable-Units
-section: Rent Rolls
-title: Break Out Renovated or Affordable Units
-updated_at: '2024-10-07T16:40:53Z'
+attachments: 
+suggested_queries:
+- - "How can I filter renovated and affordable units in the Floor Plan Summary?"
+- - "What steps do I take to break out lease types in the Rent Roll Dashboard?"
+- - "How do I separate different levels of renovation in the report settings?"
 ---
-
 If renovated or affordable units were labeled when mapping the data or on the [Edit Rent Roll screen](https://rediq.freshdesk.com/support/solutions/articles/5000742265-edit-rent-roll-screen), they can be broken out in the Floor Plan Summary. Go to the Detail drop-down in the Report Settings of the Floor Plan Summary and select Renovated and/or Lease Type. This will separate the different levels of renovation and lease types of each floor plan in the summary.
 
 ![The screenshot displays a SaaS application interface, likely from the redIQ platform, focusing on a "Floor Plan Summary" report. Here's a detailed description:

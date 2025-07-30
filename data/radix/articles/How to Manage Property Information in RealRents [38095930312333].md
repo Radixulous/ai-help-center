@@ -1,16 +1,10 @@
 ---
-attachments:
-- 38096930782989.png
-- 38096831163149.png
-category: RealRents
-created_at: '2025-07-16T11:30:43Z'
-id: 38095930312333
-original_url: https://help.radix.com/hc/en-us/articles/38095930312333-How-to-Manage-Property-Information-in-RealRents
-section: Managing Listings
-title: How to Manage Property Information in RealRents
-updated_at: '2025-07-16T12:23:10Z'
+attachments: 
+suggested_queries:
+- - "How do I update my property's information in RealRents?"
+- - "What fields can I edit in the Property Information section of RealRents?"
+- - "How do I contact support to change my property's address in RealRents?"
 ---
-
 Keeping your property information accurate ensures that renters always see the most up-to-date details for your property. In RealRents, you can easily review and update your property's core information directly from the platform.
 
 **Accessing Property Information**

@@ -1,17 +1,10 @@
 ---
-attachments:
-- 26635252473357.png
-- 28858924871821.png
-- 28858924874637.png
-category: RealRents
-created_at: '2024-05-10T21:16:52Z'
-id: 26635268428173
-original_url: https://help.radix.com/hc/en-us/articles/26635268428173-Property-Update-Reminder-Emails-Legacy
-section: Legacy
-title: Property Update Reminder Emails - Legacy
-updated_at: '2025-07-14T10:26:14Z'
+attachments: 
+suggested_queries:
+- - "What is a Property Update Reminder email in Radix?"
+- - "How can I turn off Property Update Reminder emails?"
+- - "When do I receive Property Update Reminder emails for my properties?"
 ---
-
 A Property Update Reminder is an email that is automatically delivered to your inbox when your property's survey has not been updated in 8 or more days. Within our ecosystem, every property's survey should be updated weekly. Property Update Reminder emails are designed to help each of our users maintain these weekly updates via a friendly reminder.
 
 **Note:** If you have a portfolio of properties assigned to you in Radix, you will receive a *weekly* Property Update Reminder that outlines all of your properties whose surveys have not been updated in 8 or more days. This email is auto-delivered every Wednesday at 8AM (PST).

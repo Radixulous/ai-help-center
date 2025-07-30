@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: API & Integrations
-created_at: '2024-02-07T20:11:05Z'
-id: 23945524196493
-original_url: https://help.radix.com/hc/en-us/articles/23945524196493-ResMan-Integration-Setup-Guide
-section: Integrations
-title: ResMan Integration Setup Guide
-updated_at: '2024-02-08T17:39:59Z'
+suggested_queries:
+- - "What steps are needed to set up the ResMan integration with Radix?"
+- - "How do I obtain my Account ID from ResMan for integration?"
+- - "What data does the Radix ResMan integration extract?"
 ---
-
 Make weekly survey updates more efficient with our ResMan integration. By utilizing our ResMan integration, the majority of the information your team enters to update their property survey will be imported directly from your property management system.
 
 #### Setting Up Your Integration

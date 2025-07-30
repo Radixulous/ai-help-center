@@ -1,12 +1,7 @@
 ---
-attachments: []
-category: dataIQ
-created_at: '2022-06-02T15:44:58Z'
-id: 6708230128532
-original_url: https://rediq.zendesk.com/hc/en-us/articles/6708230128532-CSM-Help-Article-Test
-section: Operating Statements
-title: CSM Help Article Test
-updated_at: '2023-10-31T12:47:20Z'
+suggested_queries:
+- - "What is the CSM Help Article Test for rediq?"
+- - "Can you explain the content of the CSM Article Test?"
+- - "Where can I find information on rediq CSM Help Article Test?"
 ---
-
 CSM Article Test Test

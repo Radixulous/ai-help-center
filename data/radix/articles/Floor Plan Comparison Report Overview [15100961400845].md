@@ -1,19 +1,10 @@
 ---
-attachments:
-- 33473541697037.png
-- 33473479511693.png
-- 33473541702285.png
-- 15102167047053.png
-- 15102056735245.png
-category: Reports
-created_at: '2023-04-21T21:19:58Z'
-id: 15100961400845
-original_url: https://help.radix.com/hc/en-us/articles/15100961400845-Floor-Plan-Comparison-Report-Overview
-section: Report Overviews
-title: Floor Plan Comparison Report Overview
-updated_at: '2025-01-14T17:30:59Z'
+attachments: 
+suggested_queries:
+- - "What metrics can I customize in the Floor Plan Comparison Report?"
+- - "How do I access the Floor Plan Comparison Report in Radix?"
+- - "What information does the Floor Plan Comparison Report provide about available units?"
 ---
-
 The Floor Plan Comparison Report is a popular powerhouse, beloved by operational and asset management teams for its' multi-faceted functionality. Sort, rank, and analyze a variety of customizable metrics to investigate a property's performance at the floor plan level.
 
 Whether you opt to keep the report high-level, or add metrics for additional layers of analysis, the report can be used to help address impactful questions such as:

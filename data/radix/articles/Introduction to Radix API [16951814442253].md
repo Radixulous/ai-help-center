@@ -1,15 +1,10 @@
 ---
-attachments:
-- 17285006567693.png
-category: API & Integrations
-created_at: '2023-06-21T17:35:24Z'
-id: 16951814442253
-original_url: https://help.radix.com/hc/en-us/articles/16951814442253-Introduction-to-Radix-API
-section: API
-title: Introduction to Radix API
-updated_at: '2024-08-22T11:30:05Z'
+attachments: 
+suggested_queries:
+- - "What is the Radix API and how can I access it?"
+- - "How does the Radix API integrate with business intelligence tools?"
+- - "What are the key features of the Radix API for portfolio operations?"
 ---
-
 The Radix API is a powerful feature designed to enable the seamless integration of your Radix data into your existing business intelligence tools and platforms. Our API serves as a conduit, enriching your applications with unique data sets, and fueling you with a more comprehensive perspective of portfolio operations.
 
 We've put together this quick guide to assist technical and non-technical individuals in gaining insights into the possibilities and potential offered by our API.

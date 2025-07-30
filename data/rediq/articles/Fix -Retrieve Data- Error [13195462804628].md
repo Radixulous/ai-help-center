@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: QuickSync
-created_at: '2023-02-14T15:05:31Z'
-id: 13195462804628
-original_url: https://rediq.zendesk.com/hc/en-us/articles/13195462804628-Fix-Retrieve-Data-Error
-section: Best Practices and Tips
-title: Fix "Retrieve Data" Error
-updated_at: '2024-04-12T18:55:13Z'
+suggested_queries:
+- - "How do I fix Retrieve Data Error 13195462804628 in rediq?"
+- - "What steps do I take to clear the Add-In cache for rediq in Excel?"
+- - "How can Mac users clear the web cache for QuickSync in rediq?"
 ---
-
 **Clear Add-In Cache**
 
 ### For Windows Users

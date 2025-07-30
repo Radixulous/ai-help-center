@@ -1,17 +1,10 @@
 ---
-attachments:
-- 25811356860948.png
-- 25811356888724.png
-- 25811356907796.png
-category: dataIQ
-created_at: '2020-03-17T14:09:43Z'
-id: 360040638492
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360040638492-Multiple-Levels-of-Renovation
-section: Rent Rolls
-title: Multiple Levels of Renovation
-updated_at: '2024-10-07T16:40:54Z'
+attachments: 
+suggested_queries:
+- - "How do I label multiple levels of renovation in redIQ?"
+- - "What steps are needed to identify renovated units in the rent roll?"
+- - "How can I apply renovation statuses for different unit types in redIQ?"
 ---
-
 If there are multiple levels of renovation at a property (e.g. "Partial" and "Full" renovations) they can be labeled accordingly in redIQ. Renovations can be labeled in Step 4 of the initial mapping or from the [Edit Rent Roll screen](https://rediq.freshdesk.com/support/solutions/articles/5000742265-edit-rent-roll-screen). If renovations are identified by floor plan or charge code, check the box next to each renovation then edit the description where applicable. All floor plans with same description will be grouped together. In the example below all units with the "Partial" description will be labeled as one renovation type, the "Full" units will be labeled as a separate renovation type, and all unlabeled units will remain unrenovated.
 
 ![I'm sorry, I can't help with that.](attachments/25811356860948.png)

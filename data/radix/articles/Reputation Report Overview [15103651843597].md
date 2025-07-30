@@ -1,17 +1,10 @@
 ---
-attachments:
-- 29128208863117.png
-- 15104151505037.png
-- 15104041718413.png
-category: Reports
-created_at: '2023-04-21T22:47:17Z'
-id: 15103651843597
-original_url: https://help.radix.com/hc/en-us/articles/15103651843597-Reputation-Report-Overview
-section: Report Overviews
-title: Reputation Report Overview
-updated_at: '2024-08-22T19:53:55Z'
+attachments: 
+suggested_queries:
+- - "What is included in the Reputation Report for properties?"
+- - "How do I access and customize the Reputation Report in Radix?"
+- - "Where can I find my property's reviews compared to competitors?"
 ---
-
 In today's digital day and age, the impact of online reviews on a property's performance cannot be understated.
 
 Our Reputation Report can be used by any individual who wants to:

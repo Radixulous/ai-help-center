@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: API & Integrations
-created_at: '2023-07-17T23:16:08Z'
-id: 17703147105421
-original_url: https://help.radix.com/hc/en-us/articles/17703147105421-API-Response-Data-Definitions
-section: API
-title: API Response Data Definitions
-updated_at: '2024-03-05T22:55:33Z'
+suggested_queries:
+- What are the definitions of API response data fields in Radix?
+- How is the subject property’s available to rent percentage calculated in Radix?
+- What information does the propertyId represent in the Radix API response?
 ---
-
 "propertyId":
 :   Unique Radix Subject Property ID
 

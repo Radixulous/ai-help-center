@@ -1,17 +1,10 @@
 ---
-attachments:
-- 29127736760205.png
-- 15091128153997.png
-- 15091284230413.png
-category: Reports
-created_at: '2023-04-21T17:30:04Z'
-id: 15090780637453
-original_url: https://help.radix.com/hc/en-us/articles/15090780637453-Competitor-Summary-Report-Overview
-section: Report Overviews
-title: Competitor Summary Report Overview
-updated_at: '2024-08-22T19:34:28Z'
+attachments: 
+suggested_queries:
+- - "What is included in the Competitor Summary Report for property comparisons?"
+- - "How do I customize the Competitor Summary Report in Radix?"
+- - "Where can I find the Competitor Summary Report in Radix?"
 ---
-
 The Competitor Summary Report offers a side-by-side comparison of property metrics and information for a subject property and its' selected competitors. In addition to overall property metrics such as Occupancy %, NER, Concessions, etc., the report includes metric comparisons at a floor plan level.
 
 Use this report anytime you're looking for a clear and visual comparison of metrics and information at a property level.

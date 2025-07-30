@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: QuickSync
-created_at: '2020-03-05T18:59:29Z'
-id: 360040155252
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360040155252-Getting-Started
-section: Getting Started
-title: Getting Started
-updated_at: '2024-10-07T16:41:56Z'
+suggested_queries:
+- - "How do I set up the redIQ QuickSync Excel Add-in for my model?"
+- - "What data can redIQ populate in my Excel template?"
+- - "How do I specify and save data element destinations in Excel using redIQ?"
 ---
-
 ### **Purpose**
 
 This guide will explain how to use the redIQ QuickSync Excel Add-in to populate an Excel model template.  The goal is to configure your template so data can be populated automatically using QuickSync.  This documentation will address make suggestions on how to use the QuickSync add-in for Microsoft Excel.  For additional documentation on installing QuickSync’s add-in into your instance of Excel, please click here.

@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: QuickSync
-created_at: '2020-03-09T14:14:48Z'
-id: 360040297752
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360040297752-Compatibility
-section: Getting Started
-title: Compatibility
-updated_at: '2024-10-07T16:42:51Z'
+suggested_queries:
+- - "What versions of Excel are compatible with rediq?"
+- - "Do I need to add rediq.io to Trusted Sites for Excel?"
+- - "Can I use Excel on Mac with rediq and Office 365?"
 ---
-
 * Excel on Windows Version 1509 (Build 4927.1000) or later connected to Office 365 **(RECOMMENDED)**
   + Note: for best performance, use the latest version of Excel 365 on Windows
   + Note: you may need to add https://\*.rediq.io to your list of Trusted Sites in Internet Explorer

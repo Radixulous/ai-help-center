@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: QuickSync
-created_at: '2020-03-09T14:13:12Z'
-id: 360040724591
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360040724591-Best-Practices-and-Tips
-section: Best Practices and Tips
-title: Best Practices and Tips
-updated_at: '2024-10-07T16:41:53Z'
+suggested_queries:
+- - "What are the best practices for organizing data tables in redIQ?"
+- - "How should I format reports in redIQ to match my workbook's theme?"
+- - "What steps should I take before updating rent roll data in redIQ?"
 ---
-
 * Do not put data tables with indeterminate numbers of rows, like a floor plan summary or rent roll, above other data elements, as the data below may get overwritten if the property has many floor plans or units.  Properties can have up to 100 floor plans.
 
 * Leave enough room in references for variable amounts of data.  If you are referencing a data table elsewhere, such as in a formula that is referencing all values in a table or another table that is transforming values, be sure to leave enough room for the maximum possible number of values.

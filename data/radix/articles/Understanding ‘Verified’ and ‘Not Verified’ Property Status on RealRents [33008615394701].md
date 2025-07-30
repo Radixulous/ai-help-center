@@ -1,15 +1,10 @@
 ---
-attachments:
-- 37481224786061.png
-category: RealRents
-created_at: '2024-12-26T12:00:53Z'
-id: 33008615394701
-original_url: https://help.radix.com/hc/en-us/articles/33008615394701-Understanding-Verified-and-Not-Verified-Property-Status-on-RealRents
-section: General
-title: Understanding ‘Verified’ and ‘Not Verified’ Property Status on RealRents
-updated_at: '2025-07-22T16:30:03Z'
+attachments: 
+suggested_queries:
+- - "What is the difference between Verified and Not Verified property status on RealRents?"
+- - "How often should I update my property information to maintain Verified status?"
+- - "Where can I check my property's verification status on Radix?"
 ---
-
 RealRents provides renters with clear, accurate, and up-to-date property data — including rent prices, availability, fees, and concessions. A key part of ensuring this data stays transparent and reliable is your property’s **verification status**, which is based on how recently its information has been updated.  
   
 Properties are now labeled as either **"Verified"** or **"Not Verified"**, depending on whether updates to your concessions have been made within the last 7 days and you have confirmed your fees and deposits in the last 90 days.

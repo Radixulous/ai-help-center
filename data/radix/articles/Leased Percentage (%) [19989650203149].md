@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: Benchmark
-created_at: '2023-09-30T16:31:43Z'
-id: 19989650203149
-original_url: https://help.radix.com/hc/en-us/articles/19989650203149-Leased-Percentage
-section: Data Dictionary
-title: Leased Percentage (%)
-updated_at: '2023-11-01T17:57:22Z'
+suggested_queries:
+- - "What is a leased percentage and how do I calculate it?"
+- - "Why is leased percentage important for evaluating property occupancy?"
+- - "How does leased percentage relate to Available to Rent (ATR) data?"
 ---
-
 A property's leased percentage is a common metric used to evaluate how occupied, or full, a property is going to be. This article not only defines what a leased percentage is but offers practical tips for using this metric in tandem with additional, real-time data Radix offers. 
 
 Definition Why it Matters

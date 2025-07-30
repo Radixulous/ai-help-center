@@ -1,20 +1,10 @@
 ---
-attachments:
-- 26813541558669.png
-- 26813557481357.png
-- 26813557490061.png
-- 26813557500429.png
-- 26813541613965.png
-- 26813541620621.png
-category: Benchmark
-created_at: '2022-09-22T20:18:48Z'
-id: 9369324672013
-original_url: https://help.radix.com/hc/en-us/articles/9369324672013-Filtering-Your-Portfolio-Dashboard
-section: Evaluating Your Portfolio's Performance
-title: Filtering Your Portfolio Dashboard
-updated_at: '2024-08-22T18:48:31Z'
+attachments: 
+suggested_queries:
+- - "How can I create a Portfolio Filter in my Portfolio Dashboard?"
+- - "What parameters can I use to filter my properties in Radix?"
+- - "How do I save and apply filters on my Portfolio Dashboard?"
 ---
-
 By default, your Portfolio Dashboard within Benchmark displays data for all of your properties. When you want more detailed insights on specific subsets of your portfolio, creating a Portfolio Filter will allow you to filter your Portfolio Dashboard and concentrate on the data you desire.
 
 !["Portfolio dashboard with property data, filters, and rankings for concessions."](attachments/26813541558669.png)

@@ -1,17 +1,10 @@
 ---
-attachments:
-- 30341463570957.png
-- 30192211275533.png
-- 30362759131917.png
-category: Reports
-created_at: '2024-09-11T16:11:00Z'
-id: 30166324579213
-original_url: https://help.radix.com/hc/en-us/articles/30166324579213-Best-Rate-Comparison-Report-Overview-Beta
-section: Report Overviews
-title: Best Rate Comparison Report Overview (Beta)
-updated_at: '2024-09-19T04:31:13Z'
+attachments: 
+suggested_queries:
+- - "What is the Best Rate Comparison Report in Radix?"
+- - "How can I customize the Best Rate Comparison Report for my property?"
+- - "How often is the Best Rate Comparison Report updated with rental rates?"
 ---
-
 The Best Rate Comparison Report allows you to investigate how your lowest available rental rates compare to your comps. Each Monday, this report will refresh with data sourced from integrated property management systems and data scraped from the web to bring you the lowest rental rates found for available floor plans.
 
 You can rely on this report when you want to know:

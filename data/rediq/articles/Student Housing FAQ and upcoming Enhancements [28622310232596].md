@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: Support and Training
-created_at: '2024-07-19T14:49:27Z'
-id: 28622310232596
-original_url: https://rediq.zendesk.com/hc/en-us/articles/28622310232596-Student-Housing-FAQ-and-upcoming-Enhancements
-section: Training Resources
-title: Student Housing FAQ and upcoming Enhancements
-updated_at: '2024-07-24T17:38:38Z'
+suggested_queries:
+- - "What are the new features for Student Housing in redIQ?"
+- - "How do I create a Student Housing deal in redIQ?"
+- - "What changes were made to the Rent Roll Dashboard for Student Housing?"
 ---
-
 **FAQ**
 
 * What is the purpose of the Student Housing feature in redIQ?  

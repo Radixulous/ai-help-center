@@ -1,15 +1,10 @@
 ---
-attachments:
-- 37671449158925.png
-category: RealRents
-created_at: '2025-06-25T09:34:48Z'
-id: 37606736624141
-original_url: https://help.radix.com/hc/en-us/articles/37606736624141-Web-Scraped-Property-Survey-Data
-section: General
-title: Web-Scraped Property Survey Data
-updated_at: '2025-07-16T11:47:00Z'
+attachments: 
+suggested_queries:
+- - "What is web-scraped data in Radix property surveys?"
+- - "How can I identify surveys with web-scraped data in Radix?"
+- - "What should I do if no new web-scraped data is found for a property?"
 ---
-
 To streamline the collection of real-time survey data, Radix has introduced web-scraped data. Main metrics — such as occupancy %, leased %, and net leases per week — are automatically pre-populated into competitor surveys three times a week (Monday, Tuesday, and Wednesday) for properties of competitors who are not Radix subscribers.
 
 #### Identifying Surveys with Web-Scraped Data

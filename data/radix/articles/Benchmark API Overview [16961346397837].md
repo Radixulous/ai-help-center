@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: API & Integrations
-created_at: '2023-06-21T22:12:43Z'
-id: 16961346397837
-original_url: https://help.radix.com/hc/en-us/articles/16961346397837-Benchmark-API-Overview
-section: API
-title: Benchmark API Overview
-updated_at: '2024-03-05T23:01:25Z'
+suggested_queries:
+- - "What is the Benchmark API and how do I use it?"
+- - "How can I retrieve property data using the Benchmark API?"
+- - "What headers are required for the Benchmark API request?"
 ---
-
 The Benchmark API returns data for your subject properties and the competitor properties you've selected for them within Benchmark. In order to leverage this API, you will need to create a unique token. You can follow the instructions on how to do so by reviewing our [Getting Your API Key](https://help.radix.com/hc/en-us/articles/17014663521037) resource.
 
 ## HTTP Request

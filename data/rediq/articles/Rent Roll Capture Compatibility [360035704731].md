@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: dataIQ
-created_at: '2019-10-30T18:14:47Z'
-id: 360035704731
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360035704731-Rent-Roll-Capture-Compatibility
-section: Rent Rolls
-title: Rent Roll Capture Compatibility
-updated_at: '2024-10-07T16:42:40Z'
+suggested_queries:
+- - "Which property management systems are compatible with redIQ's Rent Roll Capture?"
+- - "What types of rent roll reports can redIQ recognize from Excel or PDF?"
+- - "How can I troubleshoot unsupported PDF or Excel files in Rent Roll Capture?"
 ---
-
 redIQ can recognize and capture rent roll data from Excel or PDF reports generated from the most commonly used property management systems.
 
 The standard rent roll reports from the Yardi, OneSite, Entrata, and AMSI property management systems are compatible with the Rent Roll Capture feature. There are also one or two single line reports from MRI, Rent Manager, and ResMan that are compatible, but not all rent rolls from those management systems will upload automatically.

@@ -1,20 +1,10 @@
 ---
-attachments:
-- 32944643974541.png
-- 28882287309837.png
-- 28882965618445.png
-- 28883183586957.png
-- 32944643978893.png
-- 28883183604749.png
-category: Benchmark
-created_at: '2024-07-31T13:51:37Z'
-id: 28865401031949
-original_url: https://help.radix.com/hc/en-us/articles/28865401031949-Benchmark-Property-Dashboard
-section: Evaluating Your Property's Performance
-title: Benchmark Property Dashboard
-updated_at: '2024-12-23T11:44:02Z'
+attachments: 
+suggested_queries:
+- - "How do I access my property dashboard in Benchmark?"
+- - "What benchmarking tools are available on the Benchmark property dashboard?"
+- - "How can I visualize my property's market data using Benchmark?"
 ---
-
 Your property dashboard in Benchmark offers a variety of built-in tools we've designed to help you visualize, interpret, and leverage your market data. We've outlined how to access, customize, and use these tools so you can get started using them.
 
 ### Accessing your Property Dashboard

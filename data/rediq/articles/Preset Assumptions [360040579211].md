@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: valuationIQ
-created_at: '2020-03-05T21:52:15Z'
-id: 360040579211
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360040579211-Preset-Assumptions
-section: How to Use the Model
-title: Preset Assumptions
-updated_at: '2024-10-07T16:43:18Z'
+suggested_queries:
+- - "How do I create and manage preset assumptions in redIQ?"
+- - "Can I use preset assumptions for underwriting deals in redIQ?"
+- - "What happens to preset assumptions after syncing a model in redIQ?"
 ---
-
 Preset Assumptions allows redIQ valuationIQ users to save sets of assumptions that they commonly use when underwriting deals.  To get started building assumptions sets, open the menu with your name on the right side of the top toolbar in redIQ and click "Manage Assumptions."
 
 After a set of assumptions has been saved, a user has the option of choosing that assumption set when they are generating a model.  The assumptions will be prepopulated in the Excel model file when it is generated.

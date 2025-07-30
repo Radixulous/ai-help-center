@@ -2,8 +2,8 @@
 attachments: 
 suggested_queries:
 - - "What are the steps to add competitors using CompMatch in ProForma?"
-- - "How can I find and add competitors from a map in Radix?"
-- - "What is the process for searching competitors by name or address in ProForma?"
+- - "How can I locate competitors on the map in a ProForma property?"
+- - "What methods can I use to search for competitors by name or address in Radix?"
 ---
 When you create a custom ProForma property, you can find competitors and use their published market survey data for your underwriting endeavors. There are three ways you can locate a competitor to add:
 

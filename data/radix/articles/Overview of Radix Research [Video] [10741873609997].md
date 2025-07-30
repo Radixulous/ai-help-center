@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: Research
-created_at: '2022-11-18T21:28:20Z'
-id: 10741873609997
-original_url: https://help.radix.com/hc/en-us/articles/10741873609997-Overview-of-Radix-Research-Video
-section: Research
-title: Overview of Radix Research [Video]
-updated_at: '2024-09-23T21:48:02Z'
+suggested_queries:
+- - "What is Radix Research and its main features?"
+- - "Where can I find an overview video of Radix Research?"
+- - "What resources are available for learning about Radix Research?"
 ---
-
 If you're new to Radix Research and want a quick overview of what it is, this video is for you!
 
 Want to learn even more about Radix Research and its capabilities?

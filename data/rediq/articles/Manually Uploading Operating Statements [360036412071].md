@@ -1,17 +1,10 @@
 ---
-attachments:
-- 16153259321876.png
-- 25814604629140.png
-- 360061455952.jpg
-category: dataIQ
-created_at: '2019-11-19T16:52:45Z'
-id: 360036412071
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360036412071-Manually-Uploading-Operating-Statements
-section: Operating Statements
-title: Manually Uploading Operating Statements
-updated_at: '2024-10-07T16:40:51Z'
+attachments: 
+suggested_queries:
+- - "What are the steps to manually upload operating statements in redIQ?"
+- - "How can I submit PDF operating statements for data extraction in redIQ?"
+- - "What data format is required for uploading operating statements in redIQ?"
 ---
-
 redIQ allows you to easily upload Operating Statements and trailing financials to the platform in several ways.
 
 | **Excel Spreadsheets** | **PDF Operating Statements** |

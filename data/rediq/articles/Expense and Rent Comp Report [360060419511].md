@@ -1,23 +1,10 @@
 ---
-attachments:
-- 360093570232.png
-- 360093543871.png
-- 360093570412.png
-- 360093570472.png
-- 360093543991.png
-- 360093570552.png
-- 360093544051.png
-- 360093570852.png
-- 360093544211.png
-category: dataIQ
-created_at: '2021-04-26T21:29:40Z'
-id: 360060419511
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360060419511-Expense-and-Rent-Comp-Report
-section: Deals
-title: Expense and Rent Comp Report
-updated_at: '2023-10-31T12:47:20Z'
+attachments: 
+suggested_queries:
+- - "What is the Expense and Rent Comp Report in redIQ?"
+- - "How can the Expense and Rent Comp Report assist in property acquisition decisions?"
+- - "Where can I find an example of the Expense and Rent Comp Report?"
 ---
-
 The Expense and Rent Comp Report is a concept being piloted by redIQ to provide clients market analysis on properties they are evaluating to inform their acquisition decisions.
 
 To get an idea of what market insights we can provide, please see the example report below:

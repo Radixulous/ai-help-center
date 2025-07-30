@@ -1,16 +1,10 @@
 ---
-attachments:
-- 25968988333460.png
-- 25968988350740.png
-category: valuationIQ
-created_at: '2019-11-21T16:19:25Z'
-id: 360036506131
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360036506131--Partnership-Structures
-section: How to Use the Model
-title: ' Partnership Structures'
-updated_at: '2024-10-07T16:40:47Z'
+attachments: 
+suggested_queries:
+- - "How do I include a partnership structure when generating a model in redIQ?"
+- - "What are the tiers for promote structures in partnership calculations?"
+- - "Can I add a partnership structure after creating a model in redIQ?"
 ---
-
 To add a partnership structure into the underwriting, select "Yes" before generating a model. This will add a section to the Input tab where assumptions for equity split, promote structure, and partnership costs and fees can be entered.
 
 ![I'm unable to identify or describe individuals in images, but I can help explain the interface elements in the screenshot.

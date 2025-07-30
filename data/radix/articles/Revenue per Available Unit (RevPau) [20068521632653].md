@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: Benchmark
-created_at: '2023-10-03T18:37:02Z'
-id: 20068521632653
-original_url: https://help.radix.com/hc/en-us/articles/20068521632653-Revenue-per-Available-Unit-RevPau
-section: Data Dictionary
-title: Revenue per Available Unit (RevPau)
-updated_at: '2023-11-01T17:57:22Z'
+suggested_queries:
+- - "What is Revenue per Available Unit (RevPau) and how is it calculated?"
+- - "How can I optimize my property's RevPau using Radix tools?"
+- - "What metrics should I compare to evaluate my property's RevPau performance?"
 ---
-
 Radix gives you real-time data on supply and demand metrics in order to help you optimize your property's Revenue per Available Unit (RevPau). In this article, we'll unpack what RevPau is, how it's calculated, and offer tips and tools for leveraging this crucial data.
 
 Definition Why it Matters

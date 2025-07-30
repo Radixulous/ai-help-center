@@ -1,17 +1,10 @@
 ---
-attachments:
-- 360043590651.png
-- 360043545952.png
-- 360043590791.png
-category: valuationIQ
-created_at: '2020-04-03T20:33:52Z'
-id: 360041475232
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360041475232-Customize-Model-Colors
-section: How to Use the Model
-title: Customize Model Colors
-updated_at: '2024-12-12T20:51:21Z'
+attachments: 
+suggested_queries:
+- - "How can I customize model colors in redIQ?"
+- - "What steps do corporate admins take to set default model export colors?"
+- - "Can I change colors at the deal level in redIQ models?"
 ---
-
 redIQ users have the option to customize the color scheme of the model. This can be done either at the account or the deal level. The process is simple:
 
 Corporate admins can set the default account model export colors to reflect their company’s unique brand:

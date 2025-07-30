@@ -1,18 +1,10 @@
 ---
-attachments:
-- 26737352678157.jpg
-- 26737399418253.jpg
-- 26749222996877.jpg
-- 26749223009293.jpg
-category: Benchmark
-created_at: '2024-05-14T13:14:35Z'
-id: 26710609772685
-original_url: https://help.radix.com/hc/en-us/articles/26710609772685-Filtering-Your-Portfolio-Dashboard
-section: Evaluating Your Portfolio's Performance
-title: Filtering Your Portfolio Dashboard
-updated_at: '2024-08-22T18:50:39Z'
+attachments: 
+suggested_queries:
+- - "How can I filter my portfolio dashboard in Benchmark?"
+- - "What parameters can I use to customize my property data view?"
+- - "How do I save a filter for my portfolio metrics in Radix?"
 ---
-
 When using Benchmark's Portfolio View, by default, you'll find data displayed for all the properties linked to your portfolio. To facilitate accurate and detailed decision-making occasionally it's essential to access specific data for individual properties, MSAs, etc.. In such cases, utilizing the filtering option becomes crucial to concentrate on the desired data.
 
 ### Customize your Portfolio Benchmark

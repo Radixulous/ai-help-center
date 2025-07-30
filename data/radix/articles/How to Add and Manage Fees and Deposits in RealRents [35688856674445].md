@@ -1,20 +1,10 @@
 ---
-attachments:
-- 35702593775629.png
-- 35702593775885.png
-- 35702593776141.png
-- 35702609547405.png
-- 35702609547661.png
-- 35702593776781.png
-category: RealRents
-created_at: '2025-04-08T18:25:45Z'
-id: 35688856674445
-original_url: https://help.radix.com/hc/en-us/articles/35688856674445-How-to-Add-and-Manage-Fees-and-Deposits-in-RealRents
-section: Fees, Deposits and Concessions
-title: How to Add and Manage Fees and Deposits in RealRents
-updated_at: '2025-06-23T12:35:50Z'
+attachments: 
+suggested_queries:
+- How do I add fees and deposits to my property in RealRents?
+- What steps are involved in managing fees for my rental units?
+- How can I update refundable and non-refundable deposits in RealRents?
 ---
-
 Maintaining accurate and transparent property listings in RealRents is essential to building trust with prospective renters. One of the most impactful ways to do this is by clearly displaying all applicable fees and deposits. This article will guide you through the process of adding, updating, and managing fees and deposits for your properties.
 
 ### Step-by-Step: Adding Fees and Deposits

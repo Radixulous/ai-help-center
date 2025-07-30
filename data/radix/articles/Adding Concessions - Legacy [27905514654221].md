@@ -1,17 +1,10 @@
 ---
-attachments:
-- 27994587266189.png
-- 27994733521933.png
-- 27994733522829.png
-category: RealRents
-created_at: '2024-06-26T10:33:10Z'
-id: 27905514654221
-original_url: https://help.radix.com/hc/en-us/articles/27905514654221-Adding-Concessions-Legacy
-section: Legacy
-title: Adding Concessions - Legacy
-updated_at: '2025-07-08T10:21:57Z'
+attachments: 
+suggested_queries:
+- - "How do I use the concessions calculator in RealRents?"
+- - "What is the process for adding bulk concessions for multiple floor plans?"
+- - "How can I enter concessions for individual floor plans in RealRents?"
 ---
-
 |  |
 | --- |
 | ***RealRents v2.2.1 includes an update to how concessions are managed.***  *If your organization is using this new version, please check the [Concessions](https://help.radix.com/hc/en-us/articles/35864265870349-How-to-Update-Concessions-in-RealRents)* *article in the **RealRents Help Center**for updated instructions and guidance.* |

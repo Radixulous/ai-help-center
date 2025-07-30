@@ -1,15 +1,10 @@
 ---
-attachments:
-- 360069511551.png
-category: dataIQ
-created_at: '2020-09-18T15:31:35Z'
-id: 360049897551
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360049897551-What-is-FirstPass
-section: FirstPass
-title: What is FirstPass?
-updated_at: '2024-10-07T16:42:47Z'
+attachments: 
+suggested_queries:
+- - "What is FirstPass in redIQ and how does it work?"
+- - "How do I use FirstPass for property valuation in redIQ?"
+- - "What assumptions can I make in FirstPass for cash flow analysis?"
 ---
-
 FirstPass (formerly known as QuickVal) allows redIQ users to screen deals confidently in minutes. A user simply uploads a rent roll and operating statement into redIQ, and the mapped data flows automatically into FirstPass, where the user can make a few simple assumptions (cap rate, income growth rate, vacancy rate, etc.). 
 
 Adjustments will automatically generate a [pro forma cash flow table](https://rediq.zendesk.com/hc/en-us/articles/360049900111-Project-Cash-Flows-Table-), and users can walk away confidently with the purchase price of a property and associated deal return metrics.  

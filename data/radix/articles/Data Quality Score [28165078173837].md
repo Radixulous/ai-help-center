@@ -1,17 +1,10 @@
 ---
-attachments:
-- 28221649855373.png
-- 28221649857037.png
-- 28256935049613.png
-category: Benchmark
-created_at: '2024-07-05T12:53:13Z'
-id: 28165078173837
-original_url: https://help.radix.com/hc/en-us/articles/28165078173837-Data-Quality-Score
-section: Updating your Market Survey now on RealRents
-title: Data Quality Score
-updated_at: '2024-08-22T18:48:32Z'
+attachments: 
+suggested_queries:
+- - "What is the Data Quality Score and how does it impact my surveys?"
+- - "How can I resolve potential data issues in my survey for a higher quality score?"
+- - "Where can I find the Survey Quality Score for my competitors?"
 ---
-
 The Data Quality Score is crucial as it ensures the accuracy, completeness, and reliability of your data. High data quality leads to better decision-making, enhances operational efficiency, and maintains compliance with industry standards. By identifying and addressing issues early, the Data Quality Score helps safeguard the integrity of your data, ultimately supporting the success and credibility of your organization. The Data Quality Score will be available in two key areas:
 
 **Survey Quality Score:**

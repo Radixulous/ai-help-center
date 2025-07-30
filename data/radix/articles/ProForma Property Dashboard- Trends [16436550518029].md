@@ -1,20 +1,10 @@
 ---
-attachments:
-- 16436719591309.png
-- 16436995009165.png
-- 16437414391053.png
-- 16437493720845.png
-- 16437752517645.png
-- 16435141666701.png
-category: ProForma
-created_at: '2023-06-05T20:52:47Z'
-id: 16436550518029
-original_url: https://help.radix.com/hc/en-us/articles/16436550518029-ProForma-Property-Dashboard-Trends
-section: ProForma
-title: 'ProForma Property Dashboard: Trends'
-updated_at: '2024-08-22T21:38:33Z'
+attachments: 
+suggested_queries:
+- - "How do I customize trend lines on the ProForma Property Dashboard?"
+- - "What metrics can I analyze using the Trends feature in Radix?"
+- - "How can I adjust the date range for historical performance trends in my property dashboard?"
 ---
-
 When you're looking to gain a deeper understanding of historical property performance, the Trends feature located on your custom property's dashboard is readily available to assist.
 
 The Trends feature is interactive and uses published market survey data to show historical performance for metrics such as NER, Occupancy %, Concessions, Traffic, ATR, etc. Click on any of the available metrics to view historical trend lines and compare your property's performance.

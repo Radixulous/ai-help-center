@@ -1,17 +1,10 @@
 ---
-attachments:
-- 33467115379085.png
-- 16504939638541.png
-- 16507834584333.png
-category: Research
-created_at: '2023-06-06T23:20:15Z'
-id: 16479537376013
-original_url: https://help.radix.com/hc/en-us/articles/16479537376013-Construction-Pipeline-Dashboard
-section: Research
-title: Construction Pipeline Dashboard
-updated_at: '2025-01-14T14:36:52Z'
+attachments: 
+suggested_queries:
+- - "What features does the Construction Pipeline dashboard offer for viewing projects?"
+- - "How can I filter construction projects by MSA and stage in the dashboard?"
+- - "Where can I find the Construction Pipeline Report and its capabilities?"
 ---
-
 The Construction Pipeline dashboard offers an interactive map that can be used to gain visibility on what projects exist, and what stage of the construction lifecycle they're in.
 
 Using the interactive map you can:

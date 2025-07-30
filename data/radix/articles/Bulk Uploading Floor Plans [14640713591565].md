@@ -1,21 +1,10 @@
 ---
-attachments:
-- 15739740351245.png
-- 15739783081613.png
-- 15739806279437.png
-- 15739811754125.png
-- 15739918084237.png
-- 15739926459149.png
-- 15740001505933.png
-category: ProForma
-created_at: '2023-04-06T23:30:11Z'
-id: 14640713591565
-original_url: https://help.radix.com/hc/en-us/articles/14640713591565-Bulk-Uploading-Floor-Plans
-section: ProForma
-title: Bulk Uploading Floor Plans
-updated_at: '2024-08-22T18:41:52Z'
+attachments: 
+suggested_queries:
+- - "What are the steps to bulk upload floor plans in ProForma?"
+- - "How can I upload multiple floor plans at once in Radix?"
+- - "Where can I find the Excel template for bulk uploading floor plans?"
 ---
-
 While you can add floor plans to your ProForma property individually, you also have the option to upload multiple floor plans at once. This may be a more efficient option in scenarios where you have a large quantity of floor plans to add, or when you have multiple versions of the same floor plan to add.
 
 #### Bulk Uploading Your Floor Plans

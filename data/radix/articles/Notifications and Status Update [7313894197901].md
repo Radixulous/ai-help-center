@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: Reports
-created_at: '2022-06-30T12:37:51Z'
-id: 7313894197901
-original_url: https://help.radix.com/hc/en-us/articles/7313894197901-Notifications-and-Status-Update
-section: Customizing Reports
-title: Notifications and Status Update
-updated_at: '2023-04-15T05:58:12Z'
+suggested_queries:
+- - "How do I adjust my notification preferences for property updates in Radix?"
+- - "What are alerts and how can I set them for my properties?"
+- - "How can I receive weekly property status updates and reminders?"
 ---
-
 ***Notifications*** allow you to stay on top of daily tasks including property changes, property updates, and other information. Updating them will enhance your experience as a user and help you stay on track with your properties.
 
 ## Accessing Notifications

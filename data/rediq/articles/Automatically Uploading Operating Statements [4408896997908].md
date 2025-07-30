@@ -1,16 +1,10 @@
 ---
-attachments:
-- 9154941090708.png
-- 4408896990612.png
-category: dataIQ
-created_at: '2021-10-21T16:26:18Z'
-id: 4408896997908
-original_url: https://rediq.zendesk.com/hc/en-us/articles/4408896997908-Automatically-Uploading-Operating-Statements
-section: Operating Statements
-title: Automatically Uploading Operating Statements
-updated_at: '2024-10-07T16:41:51Z'
+attachments: 
+suggested_queries:
+- - "What file types can I upload using the Operating Statement Processor in redIQ?"
+- - "How do I submit an unsupported operating statement file to redIQ?"
+- - "What is the process for automatically uploading operating statements in redIQ?"
 ---
-
 ### **What is the Operating Statement Processor?**
 
 In addition to manual upload options, redIQ’s new Operating Statement Processor enables drag-and-drop functionality like existing Rent Roll Processor.  

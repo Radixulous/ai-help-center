@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: Benchmark
-created_at: '2022-09-09T23:03:04Z'
-id: 9060154685965
-original_url: https://help.radix.com/hc/en-us/articles/9060154685965-Property-Benchmark-Reputation-Map-Video
-section: Evaluating Your Property's Performance
-title: Property Benchmark Reputation & Map [Video]
-updated_at: '2023-11-01T17:57:19Z'
+suggested_queries:
+- - "Where can I find the Reputation & Map features in Property Benchmark?"
+- - "What is the Property Benchmark Reputation and Map video about?"
+- - "How do I access the Reputation & Map section in the Property Benchmark?"
 ---
-
 ## Property Benchmark Links
 
 1. [Snapshot](https://help.radix.com/hc/en-us/articles/9060091043981--Video-Property-Benchmark-Snapshot "https://help.radix.com/hc/en-us/articles/9060091043981--Video-Property-Benchmark-Snapshot")

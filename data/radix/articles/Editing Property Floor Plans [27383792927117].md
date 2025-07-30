@@ -1,17 +1,10 @@
 ---
-attachments:
-- 32947653860365.png
-- 28869252943501.png
-- 28432048714637.png
-category: Benchmark
-created_at: '2024-06-07T15:12:15Z'
-id: 27383792927117
-original_url: https://help.radix.com/hc/en-us/articles/27383792927117-Editing-Property-Floor-Plans
-section: Managing Properties
-title: Editing Property Floor Plans
-updated_at: '2024-12-23T13:42:52Z'
+attachments: 
+suggested_queries:
+- - "How can I edit property floor plans in Benchmark?"
+- - "What steps do I follow to update floor plans for a non-Benchmark competitor?"
+- - "How do I bulk upload floor plans in Radix?"
 ---
-
 There may be times when you need to update the floor plans associated with a property in Benchmark. Within Benchmark, you can update your property's floor plans at any time. You can also update the floor plans for competitors on your market survey who are *not* Benchmark customers.
 
 **A note for integrated properties:** When your property has an established integration, floor plans are imported from your property management system (PMS). Any floor plan changes you want to see in Benchmark must be made in your PMS for our system to reflect them.

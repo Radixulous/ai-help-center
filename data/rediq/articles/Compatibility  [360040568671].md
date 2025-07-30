@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: QuickSync
-created_at: '2020-03-05T19:22:38Z'
-id: 360040568671
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360040568671-Compatibility
-section: Best Practices and Tips
-title: 'Compatibility '
-updated_at: '2023-10-31T12:47:19Z'
+suggested_queries:
+- - "What versions of Excel are compatible with rediq?"
+- - "Do I need to configure cookies for rediq on Excel online?"
+- - "Is there a Mac version of Excel compatible with rediq?"
 ---
-
 * Excel on Windows Version 1509 (Build 4927.1000) or later connected to Office 365 **(RECOMMENDED)**
   + Note: for best performance, use the latest version of Excel 365 on Windows
 * Excel on the web January 2016 or later connected to Office 365

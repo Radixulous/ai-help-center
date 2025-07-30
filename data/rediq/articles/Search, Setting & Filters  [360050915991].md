@@ -1,18 +1,10 @@
 ---
-attachments:
-- 360072448912.png
-- 360072690251.png
-- 360072690291.png
-- 360072690371.png
-category: dataIQ
-created_at: '2020-10-13T14:47:30Z'
-id: 360050915991
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360050915991-Search-Setting-Filters
-section: Deals
-title: 'Search, Setting & Filters '
-updated_at: '2024-10-07T16:42:41Z'
+attachments: 
+suggested_queries:
+- - "How can I filter deals by category in rediq?"
+- - "What are the steps to use the search bar for deals in rediq?"
+- - "How do I customize my deal log settings and filters in rediq?"
 ---
-
 ### **Search Bar**
 
 To look for a deal, type the deal name here to immediately narrow deal results within your deal log.

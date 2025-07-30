@@ -1,16 +1,10 @@
 ---
-attachments:
-- 4407643079444.png
-- 4407643082516.png
-category: dataIQ
-created_at: '2021-09-27T19:13:22Z'
-id: 4407635958036
-original_url: https://rediq.zendesk.com/hc/en-us/articles/4407635958036-Automatically-Uploading-Operating-Statements
-section: Operating Statements
-title: Automatically Uploading Operating Statements
-updated_at: '2021-09-27T20:30:02Z'
+attachments: 
+suggested_queries:
+- - "What file types can I upload using redIQ's Operating Statement Processor?"
+- - "How do I submit an unsupported operating statement for manual processing in redIQ?"
+- - "Can I use drag-and-drop functionality for uploading operating statements in redIQ?"
 ---
-
 **Operating Statement Processor**  
 In addition to manual upload options, redIQ’s new Operating Statement Processor enables drag-and-drop functionality like existing Rent Roll Processor. Just upload your file to the processor, wait about 10-20 seconds for the processor to pull out your operating data, and that’s it: now your data is in your redIQ account. If your file is unsupported or otherwise unable to process, you will still have the option to submit your file to our manually processing team, which will process your document within 24 hours and add it to your account.
 

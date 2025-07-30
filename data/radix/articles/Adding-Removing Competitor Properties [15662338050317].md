@@ -1,17 +1,10 @@
 ---
-attachments:
-- 32947556582797.png
-- 28884600402317.png
-- 28884965958157.png
-category: Benchmark
-created_at: '2023-05-10T19:14:58Z'
-id: 15662338050317
-original_url: https://help.radix.com/hc/en-us/articles/15662338050317-Adding-Removing-Competitor-Properties
-section: Managing Properties
-title: Adding/Removing Competitor Properties
-updated_at: '2024-12-23T13:40:10Z'
+attachments: 
+suggested_queries:
+- - "How do I manage competitor properties in Radix?"
+- - "What steps are needed to add or remove competitors in Radix?"
+- - "Where can I find the Manage Comps section in Radix?"
 ---
-
 Whether you no longer consider a specific property to be a competitor, or have found a new property you want to add as a competitor, Benchmark has the built-in tools needed to quickly update your competitor set. Follow the steps outlined below to easily add or remove competitor properties.
 
 ### Accessing Manage Comps

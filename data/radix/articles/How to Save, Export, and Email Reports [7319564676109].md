@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: Reports
-created_at: '2022-06-30T15:39:46Z'
-id: 7319564676109
-original_url: https://help.radix.com/hc/en-us/articles/7319564676109-How-to-Save-Export-and-Email-Reports
-section: Sharing Reports
-title: How to Save, Export, and Email Reports
-updated_at: '2023-11-01T17:57:19Z'
+suggested_queries:
+- - "How can I save and export reports in Radix?"
+- - "What steps do I follow to email a report from Radix?"
+- - "How do I download reports in PDF or CSV format in Radix?"
 ---
-
 Saving, exporting and/or emailing reports helps streamline the delivery of Radix reports and encourages collaboration.
 
 ## Accessing & Choosing Reports

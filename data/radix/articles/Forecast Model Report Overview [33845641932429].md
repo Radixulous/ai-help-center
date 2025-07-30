@@ -1,18 +1,10 @@
 ---
-attachments:
-- 36129383570189.png
-- 33847427860621.png
-- 33846687757197.png
-- 34195099777037.png
-category: Reports
-created_at: '2025-01-28T14:40:26Z'
-id: 33845641932429
-original_url: https://help.radix.com/hc/en-us/articles/33845641932429-Forecast-Model-Report-Overview
-section: Report Overviews
-title: Forecast Model Report Overview
-updated_at: '2025-04-25T18:45:09Z'
+attachments: 
+suggested_queries:
+- - "What insights can I gain from the Forecast Model Report in Radix?"
+- - "How do I access the Forecast Report on the Research platform?"
+- - "What metrics are included in the Forecast Model Report for MSAs?"
 ---
-
 This report analyzes key market trends, including occupancy rates, rent growth, wage growth, Rent-to-Income (RTI) ratios, and job gains, with data for the current year and projections for the next. Metrics are ranked across MSAs accessible to your account on the Research platform, providing insights to better understand market dynamics and identify opportunities.
 
 A few questions this report can answer for you are:

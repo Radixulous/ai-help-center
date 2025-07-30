@@ -1,18 +1,10 @@
 ---
-attachments:
-- 16433521991949.png
-- 16433807708685.png
-- 16434788231309.png
-- 16435141666701.png
-category: ProForma
-created_at: '2023-06-05T19:13:15Z'
-id: 16432817354381
-original_url: https://help.radix.com/hc/en-us/articles/16432817354381-ProForma-Property-Dashboard-Snapshot
-section: ProForma
-title: 'ProForma Property Dashboard: Snapshot'
-updated_at: '2024-08-22T18:08:40Z'
+attachments: 
+suggested_queries:
+- - "How do I customize metrics in the ProForma Snapshot dashboard?"
+- - "What are the benefits of using the Perspectives feature in ProForma?"
+- - "How can I view competitor averages in my property Snapshot?"
 ---
-
 ProForma provides you with a variety of built-in tools to streamline the underwriting process and more efficiently evaluate your custom property. The Snapshot portion of your custom property's dashboard is one such tool. 
 
 Snapshot helps you strategically position your property within a comp set by allowing you to see where your property would rank across different metrics. 

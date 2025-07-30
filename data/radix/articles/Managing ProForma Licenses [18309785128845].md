@@ -1,21 +1,10 @@
 ---
-attachments:
-- 33463920033037.png
-- 19034260705293.png
-- 19035957237133.png
-- 19035957240973.png
-- 19035957237133.png
-- 19036684892941.png
-- 19036677940109.png
-category: ProForma
-created_at: '2023-08-07T21:14:46Z'
-id: 18309785128845
-original_url: https://help.radix.com/hc/en-us/articles/18309785128845-Managing-ProForma-Licenses
-section: ProForma
-title: Managing ProForma Licenses
-updated_at: '2025-01-14T12:59:33Z'
+attachments: 
+suggested_queries:
+- - "How do I manage ProForma licenses for my team in Radix?"
+- - "What steps do I take to assign or remove ProForma access for users?"
+- - "How can I identify which users have ProForma licenses in Radix?"
 ---
-
 Our *Manage Users* feature gives you the built-in tools needed to effortlessly manage the ProForma licenses your organization has purchased. You can easily assign and re-assign ProForma licenses as team members join or depart your organization. Read on to learn more about how to identify who has a ProForma license, and how to manage the licenses you have.
 
 **Note:** A *Corporate Manager* user role is required in order to manage licenses for your users. Some or all of the features discussed in this article will be unavailable to you if you do not have this role type.

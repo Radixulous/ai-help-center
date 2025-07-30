@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: Benchmark
-created_at: '2022-09-09T23:04:54Z'
-id: 9060169283213
-original_url: https://help.radix.com/hc/en-us/articles/9060169283213-Property-Benchmark-Terminology-and-Formulas-Video
-section: Data Dictionary
-title: Property Benchmark Terminology and Formulas [Video]
-updated_at: '2023-11-01T17:57:19Z'
+suggested_queries:
+- What are the key terminologies used in property benchmarking?
+- Can you explain the formulas related to property benchmarks?
+- Where can I find a video on property benchmark terminology and formulas?
 ---
-
 ## Property Benchmark Links
 
 1. [Snapshot](https://help.radix.com/hc/en-us/articles/9060091043981--Video-Property-Benchmark-Snapshot "https://help.radix.com/hc/en-us/articles/9060091043981--Video-Property-Benchmark-Snapshot")

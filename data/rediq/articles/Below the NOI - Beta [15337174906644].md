@@ -1,24 +1,10 @@
 ---
-attachments:
-- 15336544381716.png
-- 15336529697812.png
-- 15336544481428.png
-- 15336529835412.png
-- 15336529996820.png
-- 15336544589204.png
-- 15336544695956.png
-- 15336544759572.png
-- 15336530140820.png
-- 15336544855316.png
-category: dataIQ
-created_at: '2023-05-02T19:12:25Z'
-id: 15337174906644
-original_url: https://rediq.zendesk.com/hc/en-us/articles/15337174906644-Below-the-NOI-Beta
-section: Operating Statements
-title: Below the NOI - Beta
-updated_at: '2023-10-31T12:47:21Z'
+attachments: 
+suggested_queries:
+- - "What is the Below NOI feature in redIQ?"
+- - "How do I upload operating statements with below NOI line items?"
+- - "What financial metrics are included in the Below NOI feature?"
 ---
-
 #### Beta Feature
 
 This feature is currently in a free beta ahead of redIQ’s release of a standalone add-on, the Lifecycle Management Suite (“LMS”), focused on tracking the health and performance of portfolio properties. This feature will eventually be available only to LMS subscribers, but to deliver immediate value, redIQ has decided to make these features temporarily available to all users free of charge.

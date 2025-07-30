@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: Reports
-created_at: '2022-09-14T01:13:07Z'
-id: 9149373639693
-original_url: https://help.radix.com/hc/en-us/articles/9149373639693-Perspectives-Use-in-Reporting-Video
-section: Customizing Reports
-title: Perspectives Use in Reporting [Video]
-updated_at: '2023-11-01T17:57:19Z'
+suggested_queries:
+- - "What is the use of perspectives in reporting with Radix?"
+- - "How can I utilize perspectives for reporting purposes in Radix?"
+- - "Where can I find a video on perspectives use in Radix reporting?"
 ---
-
 ## Perspectives Links
 
 1. [Overview](https://help.radix.com/hc/en-us/articles/9149466388621-Perspectives-Overview-Video-)

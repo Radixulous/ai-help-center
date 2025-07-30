@@ -1,15 +1,10 @@
 ---
-attachments:
-- 360043595351.png
-category: dataIQ
-created_at: '2019-11-21T16:53:53Z'
-id: 360036140392
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360036140392-Operating-Statements-and-Property-Data-Bulk-Upload
-section: Operating Statements
-title: Operating Statements and Property Data Bulk Upload
-updated_at: '2024-03-15T18:01:22Z'
+attachments: 
+suggested_queries:
+- - "What is the process for bulk uploading property and operating statements in redIQ?"
+- - "How do I format files for property data upload in redIQ?"
+- - "What information is required for the redIQ operating statements bulk upload?"
 ---
-
 redIQ offers the ability to upload property and operating statements data from your property management system directly into redIQ system by means of bulk upload. 
 
 Bulk upload is designed to enter large amounts of data for multiple properties to avoid having to enter the information manually via the redIQ web interface. 

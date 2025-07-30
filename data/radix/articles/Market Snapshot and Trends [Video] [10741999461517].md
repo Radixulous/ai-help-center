@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: Research
-created_at: '2022-11-18T21:30:18Z'
-id: 10741999461517
-original_url: https://help.radix.com/hc/en-us/articles/10741999461517-Market-Snapshot-and-Trends-Video
-section: Research
-title: Market Snapshot and Trends [Video]
-updated_at: '2023-11-01T17:57:20Z'
+suggested_queries:
+- - "What are the latest market trends in Radix Research?"
+- - "Where can I find the Market Snapshot video for Radix?"
+- - "What insights does Radix provide on employment and housing affordability?"
 ---
-
 Want to learn even more about Radix Research and its capabilities?
 
 Explore the short videos linked below, or browse the additional articles in this section.

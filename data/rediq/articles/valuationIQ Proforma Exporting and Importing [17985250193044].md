@@ -1,20 +1,10 @@
 ---
-attachments:
-- 18011216380436.png
-- 18011243045524.png
-- 18011243048980.png
-- 17985250185236.png
-- 18011243051412.png
-- 18011243054996.png
-category: valuationIQ
-created_at: '2023-08-03T20:38:55Z'
-id: 17985250193044
-original_url: https://rediq.zendesk.com/hc/en-us/articles/17985250193044-valuationIQ-Proforma-Exporting-and-Importing
-section: How to Use the Model
-title: valuationIQ Proforma Exporting and Importing
-updated_at: '2023-10-31T12:47:21Z'
+attachments: 
+suggested_queries:
+- - "How do I export proforma data from redIQ?"
+- - "What steps are needed to upload proforma data in redIQ?"
+- - "Where can I find the proforma exporter template for redIQ?"
 ---
-
 With the ability to upload proforma data to your deal in redIQ, users can also generate and export proforma data from their own redIQ generated model. This feature allows users to deep dive into their data with the ability to generate and review multiple proforma models.
 
 The process below walks through the steps needed to generate and export data from an existing model, as well as deliver the needed template to input into your generated model. Once you have generated and exported the data to Excel, you can then upload and map the exported Excel file into one of the proforma upload options (proforma 1, 2 or 3) as you normally would with an operating statement.

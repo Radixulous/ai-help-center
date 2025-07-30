@@ -1,25 +1,10 @@
 ---
-attachments:
-- 360058243032.png
-- 360058483912.png
-- 360058484052.png
-- 360058648971.png
-- 360058649211.png
-- 5904584228756.png
-- 5904536639508.png
-- 16083397628820.jpg
-- 360058687971.png
-- 360058528032.png
-- 360061455952.jpg
-category: dataIQ
-created_at: '2020-05-28T23:55:43Z'
-id: 360043783112
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360043783112-Mapping-Operating-Statements
-section: Operating Statements
-title: 'Mapping Operating Statements '
-updated_at: '2024-10-07T16:41:47Z'
+attachments: 
+suggested_queries:
+- - "How do I map operating statements to the Chart of Accounts in rediq?"
+- - "What are the steps to apply legacy mappings for operating statements?"
+- - "How can I edit line items in the source data for cash flow mapping?"
 ---
-
 To produce a rolled-up cash flow, use the Map Operating Statements feature by assigning the line items of an operating statement to the Chart of Accounts. Refer to the [**Chart of Accounts**](https://rediq.zendesk.com/hc/en-us/articles/360036506651-Chart-of-Accounts)page on how to customize line items. 
 
 ### **Navigate to the Source Data**

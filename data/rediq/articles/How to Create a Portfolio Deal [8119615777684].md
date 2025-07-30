@@ -1,16 +1,10 @@
 ---
-attachments:
-- 8236348462228.png
-- 8236257887124.png
-category: dataIQ
-created_at: '2022-07-27T19:02:24Z'
-id: 8119615777684
-original_url: https://rediq.zendesk.com/hc/en-us/articles/8119615777684-How-to-Create-a-Portfolio-Deal
-section: Deals
-title: How to Create a Portfolio Deal
-updated_at: '2024-10-07T16:41:49Z'
+attachments: 
+suggested_queries:
+- - "How do I create a portfolio deal in redIQ?"
+- - "What steps are needed to combine rent rolls into one deal in redIQ?"
+- - "How can I aggregate operating statements for a portfolio in redIQ?"
 ---
-
 There may be instances where users have a portfolio Deal and need to have a few different properties Rent Rolls or Operating Statement files combined into one Deal and this can be done with a few easy steps in redIQ.
 
 To do this, you would start by creating a new deal in redIQ for each property that needs to be included in the intended Portfolio. After creating each new deal and successfully uploading and mapping the rent roll or Operating Statement files needed for each property to be included in the Portfolio, Users would then need to head to the "Comps" section of redIQ to combine the uploaded data. This is done by selecting the "Rent Roll" or "Operating Statement" tab at the top of the table, finding the uploaded rent rolls/operating statements needed to be included in the Portfolio, then select the "Roll Up" (rent rolls) or "Aggregate" (Operating Statements) options.

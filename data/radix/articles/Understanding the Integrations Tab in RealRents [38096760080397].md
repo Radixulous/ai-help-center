@@ -1,18 +1,10 @@
 ---
-attachments:
-- 38096760078477.png
-- 38096762950541.png
-- 38096762950669.png
-- 38096762951821.png
-category: RealRents
-created_at: '2025-07-16T12:09:33Z'
-id: 38096760080397
-original_url: https://help.radix.com/hc/en-us/articles/38096760080397-Understanding-the-Integrations-Tab-in-RealRents
-section: Managing Listings
-title: Understanding the Integrations Tab in RealRents
-updated_at: '2025-07-16T12:23:10Z'
+attachments: 
+suggested_queries:
+- - "What information is displayed in the Integrations tab of RealRents?"
+- - "How can I view occupancy and leased percentage breakdowns in RealRents?"
+- - "What traffic and lease data can I find in the RealRents Integrations section?"
 ---
-
 The **Integrations** section gives you visibility into how your leasing and performance data is pulled into RealRents.
 
 Here’s a breakdown of what each section shows:

@@ -252,7 +252,8 @@ async function processDirectory(dirPath, product) {
   console.log(`\n📁 Processing ${product} articles in: ${dirPath}`);
   
   try {
-    const pattern = path.join(dirPath, '*.md');
+    // Use glob pattern with forward slashes for cross-platform compatibility
+    const pattern = path.join(dirPath, '*.md').replace(/\\/g, '/');
     const files = glob.sync(pattern);
     
     if (files.length === 0) {

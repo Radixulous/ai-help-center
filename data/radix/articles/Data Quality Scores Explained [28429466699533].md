@@ -1,17 +1,10 @@
 ---
-attachments:
-- 28430282738701.png
-- 28430680103181.png
-- 33236001797517.png
-category: RealRents
-created_at: '2024-07-15T16:50:53Z'
-id: 28429466699533
-original_url: https://help.radix.com/hc/en-us/articles/28429466699533-Data-Quality-Scores-Explained
-section: General
-title: Data Quality Scores Explained
-updated_at: '2025-06-23T12:40:35Z'
+attachments: 
+suggested_queries:
+- - "What factors affect Data Quality Scores in RealRents?"
+- - "How can I improve my property's Data Quality Score?"
+- - "Where do I find Data Quality Scores for my property and competitors?"
 ---
-
 Within RealRents, every up-to-date property survey receives a Data Quality Score. Data Quality Scores are provided at the end of each property survey and are accompanied by recommendations to improve the score. As you prepare to take action on survey data, this score is designed to help you understand how accurate that survey data is.
 
 !["Data Quality Score at 90% with potential issues listed below, including occupancy and leased percentage decreases."](attachments/28430282738701.png)

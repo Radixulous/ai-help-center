@@ -1,18 +1,10 @@
 ---
-attachments:
-- 32794125688461.png
-- 32794125702541.png
-- 32863682136717.png
-- 32794125710093.png
-category: RealRents
-created_at: '2024-12-17T16:20:12Z'
-id: 32794149676173
-original_url: https://help.radix.com/hc/en-us/articles/32794149676173-Updating-Competitor-Surveys-Legacy
-section: Legacy
-title: Updating Competitor Surveys - Legacy
-updated_at: '2025-07-08T10:20:27Z'
+attachments: 
+suggested_queries:
+- - "How do I update competitor surveys in Benchmark for Radix?"
+- - "What do the colored clock icons mean for competitor survey updates?"
+- - "How can I improve data quality scores for competitor surveys?"
 ---
-
 When updating your weekly market survey in Benchmark, your goal is to have updated and quality data for your property *and* each of the competitors you've elected to include on your market survey. In this article, we'll break down how to update your competitor surveys and increase data quality scores as needed.
 
 ### Identifying out-of-date competitors

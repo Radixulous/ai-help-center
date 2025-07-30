@@ -1,18 +1,10 @@
 ---
-attachments:
-- 25805949248532.png
-- 9154732733716.png
-- 25805963544852.png
-- 25805963558548.png
-category: dataIQ
-created_at: '2019-11-21T17:07:45Z'
-id: 360036141132
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360036141132-Edit-Rent-Roll-Screen-Anomalies
-section: Rent Rolls
-title: Edit Rent Roll Screen / Anomalies
-updated_at: '2024-10-07T16:41:44Z'
+attachments: 
+suggested_queries:
+- - "What actions can I take on the Edit Rent Roll screen for anomalies in redIQ?"
+- - "How do I edit lease dates and charges in the Rent Roll section?"
+- - "What are the steps to resolve anomalies in the rent roll data?"
 ---
-
 The original mapping selections or mappings of individual units can be changed on the Edit Rent Roll screen. Hover over the Rent Roll tab, navigate to the Manage Rent Rolls screen and click Edit.
 
 ![The screenshot displays a user interface from a SaaS application, likely the redIQ platform, focused on managing rent rolls. Here's a detailed description:

@@ -1,15 +1,10 @@
 ---
-attachments:
-- 20037058141709.png
-category: Benchmark
-created_at: '2023-10-01T16:56:30Z'
-id: 20005843287949
-original_url: https://help.radix.com/hc/en-us/articles/20005843287949-Net-Effective-Rent-NER
-section: Data Dictionary
-title: Net Effective Rent (NER)
-updated_at: '2024-08-22T19:10:23Z'
+attachments: 
+suggested_queries:
+- - "What is Net Effective Rent and how is it calculated in Radix?"
+- - "Why is Net Effective Rent important for assessing property revenue?"
+- - "How can I optimize Net Effective Rent using Radix tools?"
 ---
-
 Net Effective Rents (NER) provide those invested in the success of a property with a metric that can be used to assess a property's revenue potential. By factoring in the impact of concessions, NER offers a more accurate depiction of revenue potential than rents alone can provide. In this article, we'll unpack what NER is, how Radix calculates NER, and outline key features to help evaluate NER.
 
 Definition Why it Matters

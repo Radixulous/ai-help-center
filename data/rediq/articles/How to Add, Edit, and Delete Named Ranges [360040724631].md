@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: QuickSync
-created_at: '2020-03-09T14:14:01Z'
-id: 360040724631
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360040724631-How-to-Add-Edit-and-Delete-Named-Ranges
-section: Getting Started
-title: How to Add, Edit, and Delete Named Ranges
-updated_at: '2024-10-07T16:43:18Z'
+suggested_queries:
+- - "How can I add a named range in rediq?"
+- - "What steps do I follow to edit a named range in rediq?"
+- - "How do I delete a named range using the Name Manager?"
 ---
-
 ### Add Named Range:
 
 * Copy (CTRL+C) the desired name of the named range

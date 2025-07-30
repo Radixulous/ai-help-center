@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: QuickSync
-created_at: '2020-03-05T19:11:04Z'
-id: 360040155952
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360040155952-Operating-Statements
-section: 'Operating Statements '
-title: 'Operating Statements '
-updated_at: '2022-05-05T13:41:57Z'
+suggested_queries:
+- - "How do I configure operating statements in redIQ?"
+- - "What steps are needed to link redIQ reports to my model?"
+- - "How can I create derivative data from operating statements?"
 ---
-
 ## Operating Statements
 
 Configuring the Operating Statement reports will be similar to configuring the rent roll reports. Some of the popular report exports frequently directly copied and pasted into user models are the Cash Flow and the source Line Items.  Before beginning here, confirm that the Chart of Accounts in your model template is compatible with your Chart of Accounts in redIQ.

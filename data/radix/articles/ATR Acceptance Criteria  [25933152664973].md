@@ -1,15 +1,10 @@
 ---
-attachments:
-- 25933473504013.jpg
-category: Benchmark
-created_at: '2024-04-16T09:17:36Z'
-id: 25933152664973
-original_url: https://help.radix.com/hc/en-us/articles/25933152664973-ATR-Acceptance-Criteria
-section: Data Dictionary
-title: 'ATR Acceptance Criteria '
-updated_at: '2024-08-22T19:34:29Z'
+attachments: 
+suggested_queries:
+- - "What are the acceptance criteria for ATR in Radix?"
+- - "How is ATR percentage calculated for available apartments?"
+- - "What happens if my ATR data does not meet acceptance criteria?"
 ---
-
 Monitoring the number of available apartments aids in your daily tasks and provides direction for necessary improvements. Radix only tracks the number of apartments that currently are, or that will be available in the upcoming 60 days 
 
 #### Apartments to Rent ATR = Vacant Units +  On-Notice Units

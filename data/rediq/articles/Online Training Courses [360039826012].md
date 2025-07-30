@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: Support and Training
-created_at: '2020-02-26T17:21:52Z'
-id: 360039826012
-original_url: https://rediq.zendesk.com/hc/en-us/articles/360039826012-Online-Training-Courses
-section: Training Resources
-title: Online Training Courses
-updated_at: '2025-06-10T19:35:19Z'
+suggested_queries:
+- - "Where can I find online training courses for underwriting deals with redIQ?"
+- - "What pre-recorded videos does redIQ offer for mastering deal analysis?"
+- - "How do I register for the DataIQ webinar on rent rolls and operating statements?"
 ---
-
 redIQ provides pre-recorded videos to help users quickly master underwriting deals, along with links to live webinar trainings.
 
 **DataIQ** - Join us for a step-by-step webinar focused on how to standardize and analyze rent rolls and operating statements, while creating a living database of deals.  

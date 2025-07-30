@@ -1,18 +1,10 @@
 ---
-attachments:
-- 29127992440717.png
-- 15159081858061.png
-- 15159241260813.png
-- 19001836722957.png
-category: Reports
-created_at: '2023-04-24T03:04:26Z'
-id: 15158782070413
-original_url: https://help.radix.com/hc/en-us/articles/15158782070413-Property-Data-Report-Overview
-section: Report Overviews
-title: Property Data Report Overview
-updated_at: '2024-08-22T18:08:39Z'
+attachments: 
+suggested_queries:
+- - "What metrics can I include in a Property Data Report?"
+- - "How do I customize my Property Data Report in Radix?"
+- - "Where can I find the Property Data Report feature in Radix?"
 ---
-
 With over 40 metrics to choose from, the Property Data Report gives you the ability to build your own report table with any available property data. You can include one or multiple properties in the report, and export it to excel if you want to continue building on it with supplemental data sources.
 
 ### Accessing the Report

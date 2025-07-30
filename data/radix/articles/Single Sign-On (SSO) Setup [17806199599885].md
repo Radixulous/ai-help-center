@@ -1,25 +1,10 @@
 ---
-attachments:
-- 17826866743693.png
-- 17826862209677.png
-- 17826934417421.png
-- 17932280778253.png
-- 17827576620557.png
-- 17827576628749.png
-- 17827576632845.png
-- 17827589098381.png
-- 17829685401229.png
-- 17829681525005.png
-- 17829699786509.png
-category: Benchmark
-created_at: '2023-07-20T23:14:16Z'
-id: 17806199599885
-original_url: https://help.radix.com/hc/en-us/articles/17806199599885-Single-Sign-On-SSO-Setup
-section: Managing Users
-title: Single Sign-On (SSO) Setup
-updated_at: '2024-08-22T19:34:28Z'
+attachments: 
+suggested_queries:
+- - "How do I set up Single Sign-On for Radix?"
+- - "What are the benefits of using SSO with Radix?"
+- - "Can I configure SSO for users with generic email addresses in Radix?"
 ---
-
 Single Sign-On is a convenient authentication method that allows your team members to access their Radix product(s) without entering a password. Your organization can enable SSO by integrating Radix with the internal user management systems outlined below.
 
 Please Note:

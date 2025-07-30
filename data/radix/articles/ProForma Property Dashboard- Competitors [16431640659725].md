@@ -1,19 +1,10 @@
 ---
-attachments:
-- 16432030143117.png
-- 16432176016141.png
-- 16432254736781.png
-- 16432509907213.png
-- 16373230473229.png
-category: ProForma
-created_at: '2023-06-05T18:43:15Z'
-id: 16431640659725
-original_url: https://help.radix.com/hc/en-us/articles/16431640659725-ProForma-Property-Dashboard-Competitors
-section: ProForma
-title: 'ProForma Property Dashboard: Competitors'
-updated_at: '2024-08-22T17:47:19Z'
+attachments: 
+suggested_queries:
+- - "How do I customize the Competitors table in ProForma?"
+- - "What do the colored clock icons mean for property survey updates in ProForma?"
+- - "How can I refresh or create a new property survey in ProForma?"
 ---
-
 ProForma provides you with a variety of built-in tools to efficiently evaluate your custom property. The Competitors portion of your custom property's dashboard is one such tool.
 
 The Competitors table allows you to view market survey data for the competitors you've selected.

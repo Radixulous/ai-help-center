@@ -1,16 +1,10 @@
 ---
-attachments:
-- 17014699806989.png
-- 17014670753037.png
-category: API & Integrations
-created_at: '2023-06-23T16:47:04Z'
-id: 17014663521037
-original_url: https://help.radix.com/hc/en-us/articles/17014663521037-Getting-Your-API-Key
-section: API
-title: Getting Your API Key
-updated_at: '2024-08-22T20:27:20Z'
+attachments: 
+suggested_queries:
+- - "How can I generate my API key for the Data API?"
+- - "What are the steps to access my organization's API key in Radix?"
+- - "How do I authenticate using my client ID and API key?"
 ---
-
 An API key will be necessary to unlock the API your organization has purchased. This API key will be utilized by your organization to generate the token used to make authenticated calls.
 
 #### Accessing Your API Key

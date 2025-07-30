@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: API & Integrations
-created_at: '2022-07-13T17:09:53Z'
-id: 7654585462285
-original_url: https://help.radix.com/hc/en-us/articles/7654585462285-Property-Management-System-PMS-Integration-Overview
-section: Integrations
-title: Property Management System (PMS) Integration Overview
-updated_at: '2024-10-08T20:14:39Z'
+suggested_queries:
+- - "What are the benefits of integrating Radix with my Property Management System?"
+- - "Which Property Management Systems are supported by Radix for integration?"
+- - "How does Radix calculate occupancy percentage in property surveys?"
 ---
-
 Radix currently offers integrations with the top Property Management System (PMS) providers in multifamily. When you establish an integration between Radix and your PMS, you can make weekly property survey updates more efficient for your teams. Via our integration, your weekly property surveys will be auto-updated with values calculated from data points imported from your property management system.
 
 #### Integration Benefits

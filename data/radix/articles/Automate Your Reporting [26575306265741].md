@@ -1,19 +1,10 @@
 ---
-attachments:
-- 26576181054221.png
-- 26576196003725.png
-- 26576196014349.png
-- 26576181123853.png
-- 26576181143309.png
-category: Reports
-created_at: '2024-05-08T21:36:42Z'
-id: 26575306265741
-original_url: https://help.radix.com/hc/en-us/articles/26575306265741-Automate-Your-Reporting
-section: Sharing Reports
-title: Automate Your Reporting
-updated_at: '2024-08-22T13:45:57Z'
+attachments: 
+suggested_queries:
+- - "How can I automate my reporting in Radix?"
+- - "What steps are involved in customizing and saving reports in Radix?"
+- - "How do I set up a delivery schedule for my Radix reports?"
 ---
-
 Every report that's available in Radix can be customized and automated to make it easier for you to stay on top of your reporting. When you automate your reporting, you enable your reports to automatically run and deliver to the recipients of your choosing. Follow the simple steps below to get started.
 
 ### Step 1: Customize your report

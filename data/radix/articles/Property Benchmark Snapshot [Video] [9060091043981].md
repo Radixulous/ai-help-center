@@ -1,14 +1,9 @@
 ---
-attachments: []
-category: Benchmark
-created_at: '2022-09-09T23:00:19Z'
-id: 9060091043981
-original_url: https://help.radix.com/hc/en-us/articles/9060091043981-Property-Benchmark-Snapshot-Video
-section: Evaluating Your Property's Performance
-title: Property Benchmark Snapshot [Video]
-updated_at: '2023-11-01T17:57:19Z'
+suggested_queries:
+- - "What is the Property Benchmark Snapshot video about?"
+- - "Where can I find the Property Benchmark Trends video?"
+- - "What are the key components of the Property Benchmark report?"
 ---
-
 ## Property Benchmark Links
 
 1. [Snapshot](https://help.radix.com/hc/en-us/articles/9060091043981--Video-Property-Benchmark-Snapshot "https://help.radix.com/hc/en-us/articles/9060091043981--Video-Property-Benchmark-Snapshot")

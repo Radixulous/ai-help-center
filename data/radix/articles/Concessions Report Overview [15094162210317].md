@@ -1,18 +1,10 @@
 ---
-attachments:
-- 29127810194445.png
-- 15094901164813.png
-- 15095251379469.png
-- 15095252645517.png
-category: Reports
-created_at: '2023-04-21T18:39:24Z'
-id: 15094162210317
-original_url: https://help.radix.com/hc/en-us/articles/15094162210317-Concessions-Report-Overview
-section: Report Overviews
-title: Concessions Report Overview
-updated_at: '2024-08-22T18:21:41Z'
+attachments: 
+suggested_queries:
+- - "What information does the Concessions Report provide for property analysis?"
+- - "How can I customize the Concessions Report in Radix?"
+- - "Where can I find the Concessions Report in the Radix platform?"
 ---
-
 The Concessions Report offers valuable information for those seeking to understand and strategize on a single property's concessions.
 
 It can be used to help address questions such as:

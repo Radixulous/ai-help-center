@@ -1,20 +1,10 @@
 ---
-attachments:
-- 19432753692820.png
-- 19432737741332.png
-- 19432737750036.png
-- 19432737758868.png
-- 19432737775636.png
-- 19432753751700.png
-category: dataIQ
-created_at: '2023-09-21T16:35:27Z'
-id: 19399320459412
-original_url: https://rediq.zendesk.com/hc/en-us/articles/19399320459412-Using-SM-with-Legacy-Mappings
-section: SmartMap+
-title: Using SM+ with Legacy Mappings
-updated_at: '2024-04-23T14:51:18Z'
+attachments: 
+suggested_queries:
+- - "How do I apply Legacy Mappings for future OS uploads in rediq?"
+- - "What steps are needed to use SM+ with Legacy Mappings in rediq?"
+- - "Can I apply Legacy Mappings from a different deal in rediq?"
 ---
-
 **How to map subsequent uploads using Legacy Mapping**
 
 If you made any changes to the SM+ mapping and you want to ensure that subsequent uploads are mapped identically, you can utilize the Legacy Mappings option for future OS uploads. This will ensure that all future Operating Statements uploaded into the deal are mapped consistently. The “Override Existing Mappings” option is also compatible with Legacy Mappings; you can first apply Legacy Mappings, and then apply SM+ with the “override” option *turned off* to leverage both the Legacy Mappings and SM+ tool.

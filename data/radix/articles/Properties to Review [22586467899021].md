@@ -1,16 +1,10 @@
 ---
-attachments:
-- 26574817928973.png
-- 22586735551629.png
-category: Benchmark
-created_at: '2023-12-21T23:19:26Z'
-id: 22586467899021
-original_url: https://help.radix.com/hc/en-us/articles/22586467899021-Properties-to-Review
-section: Evaluating Your Portfolio's Performance
-title: Properties to Review
-updated_at: '2024-08-22T21:38:33Z'
+attachments: 
+suggested_queries:
+- - "What is the Properties to Review feature in Radix?"
+- - "How can I find properties trailing competitors in my portfolio?"
+- - "How do I customize metrics in my Portfolio Snapshot?"
 ---
-
 Properties to Review is a Benchmark feature incorporated into your [Portfolio Snapshot](https://help.radix.com/hc/en-us/articles/7311719344781). Properties to Review is designed to help you pinpoint properties within your portfolio that are trailing their competitors for a selected metric (i.e., Occupancy %, Traffic per Week, NER, etc.).
 
 ### Leveraging Properties to Review
