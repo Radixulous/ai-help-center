@@ -1,6 +1,11 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Send, MessageCircle, Search, Book, Zap, Database, Calculator, RefreshCw, Users, BarChart3, Code, HelpCircle, ChevronDown, ChevronUp, ExternalLink } from 'lucide-react';
 
+// API Configuration - automatically detects environment
+const API_BASE_URL = process.env.NODE_ENV === 'production' 
+  ? 'https://ai-help-center-9x1b.onrender.com'
+  : 'http://127.0.0.1:8000';
+
 // Radix X Logo Component
 const RadixLogo = ({ className = "w-8 h-8" }: { className?: string }) => (
   <svg 
@@ -414,7 +419,7 @@ const ChatInterface = () => {
     setShowSuggestions(true);
     
     try {
-      const response = await fetch('http://127.0.0.1:8000/generate-queries', {
+      const response = await fetch(`${API_BASE_URL}/generate-queries`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
@@ -462,7 +467,7 @@ const ChatInterface = () => {
     setShowSuggestions(false); // Hide suggestions when sending a message
 
     try {
-      const response = await fetch('http://127.0.0.1:8000/chat', {
+      const response = await fetch(`${API_BASE_URL}/chat`, {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify({
