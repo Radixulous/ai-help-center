@@ -13,6 +13,123 @@ from typing import List, Optional
 import hashlib
 import re
 import base64
+import random
+
+ARTICLE_QUERIES_CACHE = None
+load_dotenv()
+
+app = FastAPI(title="AI Help Center", description="RAG-powered help center")
+
+# CORS for frontend
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
+# Initialize clients
+pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
+openai.api_key = os.getenv("OPENAI_API_KEY")
+s3_client = boto3.client(
+    's3',
+    aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
+    aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
+    region_name=os.getenv("AWS_REGION", "us-east-1")
+)
+
+# Pinecone index
+INDEX_NAME = "help-center"
+DIMENSION = 1536  # OpenAI text-embedding-3-small dimension
+
+# Request models
+class SearchRequest(BaseModel):
+    query: str
+    product: Optional[str] = None
+    limit: int = 5
+
+class ChatRequest(BaseModel):
+    message: str
+    product: Optional[str] = None
+    conversation_history: List[dict] = []
+
+class GenerateQueriesRequest(BaseModel):
+    category_name: str
+    category_description: str
+    sections: List[str]
+    product: str
+
+def get_article_queries_cache():
+    """Get cached article queries, loading if necessary"""
+    global ARTICLE_QUERIES_CACHE
+    if ARTICLE_QUERIES_CACHE is None:
+        ARTICLE_QUERIES_CACHE = load_article_queries()
+    return ARTICLE_QUERIES_CACHE
+
+def get_queries_for_category(category_name: str, product: Optional[str] = None, limit: int = 4) -> List[str]:
+    """Get suggested queries for a specific category from pre-generated article queries"""
+    article_queries = get_article_queries_cache()
+    
+    # Filter articles by category and product
+    matching_articles = []
+    
+    for article in article_queries:
+        # Check product filter
+        if product and article['product'] != product:
+            continue
+        
+        # Check category match (case-insensitive, partial match)
+        if (category_name.lower() in article['category'].lower() or 
+            article['category'].lower() in category_name.lower()):
+            matching_articles.append(article)
+    
+    # If no exact category matches, get articles from the same product
+    if not matching_articles and product:
+        matching_articles = [a for a in article_queries if a['product'] == product]
+    
+    # If still no matches, get from all articles
+    if not matching_articles:
+        matching_articles = article_queries
+    
+    # Collect all queries from matching articles
+    all_queries = []
+    for article in matching_articles:
+        for query in article['queries']:
+            all_queries.append({
+                'query': query,
+                'article_title': article['title'],
+                'category': article['category'],
+                'product': article['product']
+            })
+    
+    # Shuffle and select unique queries
+    random.shuffle(all_queries)
+    selected_queries = []
+    seen_queries = set()
+    
+    for query_info in all_queries:
+        query = query_info['query']
+        # Avoid duplicate queries
+        if query.lower() not in seen_queries and len(selected_queries) < limit:
+            selected_queries.append(query)
+            seen_queries.add(query.lower())
+    
+    # If we don't have enough unique queries, add fallback queries
+    while len(selected_queries) < limit:
+        fallback_queries = [
+            f"How do I get started with {category_name}?",
+            f"What are the main features of {category_name}?",
+            f"How can I troubleshoot issues with {category_name}?",
+            f"What are the best practices for using {category_name}?"
+        ]
+        
+        for fallback in fallback_queries:
+            if fallback not in selected_queries and len(selected_queries) < limit:
+                selected_queries.append(fallback)
+    
+    return selected_queries[:limit]
+
 
 def clean_base64_from_content(content: str) -> str:
     """Remove base64 encoded data from markdown content"""
@@ -81,49 +198,83 @@ def generate_clean_id(original_id: str) -> str:
     
     return clean_id
 
-load_dotenv()
+def extract_frontmatter_queries(content: str) -> List[str]:
+    """Extract suggested_queries from article frontmatter"""
+    queries = []
+    
+    # Look for frontmatter section
+    frontmatter_match = re.search(r'^---\s*\n(.*?)\n---\s*\n', content, re.DOTALL)
+    if not frontmatter_match:
+        return queries
+    
+    frontmatter = frontmatter_match.group(1)
+    
+    # Look for suggested_queries section in frontmatter
+    in_queries_section = False
+    for line in frontmatter.split('\n'):
+        line = line.strip()
+        
+        if line == 'suggested_queries:':
+            in_queries_section = True
+            continue
+        
+        if in_queries_section:
+            # Check if we've reached the end of the queries section
+            if line and not line.startswith('-') and ':' in line:
+                break
+            
+            # Extract query from list item
+            if line.startswith('-'):
+                query = line[1:].strip()
+                if query:
+                    queries.append(query)
+    
+    return queries
 
-app = FastAPI(title="AI Help Center", description="RAG-powered help center")
-
-# CORS for frontend
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
-
-# Initialize clients
-pc = Pinecone(api_key=os.getenv("PINECONE_API_KEY"))
-openai.api_key = os.getenv("OPENAI_API_KEY")
-s3_client = boto3.client(
-    's3',
-    aws_access_key_id=os.getenv("AWS_ACCESS_KEY_ID"),
-    aws_secret_access_key=os.getenv("AWS_SECRET_ACCESS_KEY"),
-    region_name=os.getenv("AWS_REGION", "us-east-1")
-)
-
-# Pinecone index
-INDEX_NAME = "help-center"
-DIMENSION = 1536  # OpenAI text-embedding-3-small dimension
-
-# Request models
-class SearchRequest(BaseModel):
-    query: str
-    product: Optional[str] = None
-    limit: int = 5
-
-class ChatRequest(BaseModel):
-    message: str
-    product: Optional[str] = None
-    conversation_history: List[dict] = []
-
-class GenerateQueriesRequest(BaseModel):
-    category_name: str
-    category_description: str
-    sections: List[str]
-    product: str
+def load_article_queries() -> List[Dict]:
+    """Load all articles and their suggested queries"""
+    articles_with_queries = []
+    products = ['radix', 'rediq']
+    
+    for product in products:
+        article_path = f"../data/{product}/articles/*.md"
+        files = glob.glob(article_path)
+        
+        for file_path in files:
+            try:
+                with open(file_path, 'r', encoding='utf-8') as f:
+                    content = f.read()
+                
+                # Extract suggested queries from frontmatter
+                suggested_queries = extract_frontmatter_queries(content)
+                
+                if suggested_queries:
+                    # Extract title and category from frontmatter
+                    title_match = re.search(r'^title:\s*(.+)$', content, re.MULTILINE)
+                    category_match = re.search(r'^category:\s*(.+)$', content, re.MULTILINE)
+                    
+                    title = title_match.group(1).strip() if title_match else os.path.basename(file_path).replace('.md', '')
+                    category = category_match.group(1).strip() if category_match else 'General'
+                    
+                    # Clean title if it has quotes
+                    if title.startswith('"') and title.endswith('"'):
+                        title = title[1:-1]
+                    elif title.startswith("'") and title.endswith("'"):
+                        title = title[1:-1]
+                    
+                    articles_with_queries.append({
+                        'title': title,
+                        'category': category,
+                        'product': product,
+                        'queries': suggested_queries,
+                        'file_path': file_path
+                    })
+                    
+            except Exception as e:
+                print(f"Error loading queries from {file_path}: {e}")
+    
+    print(f"Loaded {len(articles_with_queries)} articles with suggested queries")
+    return articles_with_queries
 
 # Initialize Pinecone index
 def init_pinecone():
@@ -654,10 +805,21 @@ async def test_openai():
         return {"status": "failed", "error": str(e)}
 
 @app.post("/generate-queries")
-async def generate_suggested_queries(request: GenerateQueriesRequest):
-    """Generate suggested queries based on category and sections"""
+async def generate_suggested_queries_updated(request: GenerateQueriesRequest):
+    """Generate suggested queries using pre-generated article queries"""
     try:
-        # Build context about the category and its sections
+        # Try to get queries from pre-generated article queries first
+        queries = get_queries_for_category(
+            category_name=request.category_name,
+            product=request.product if request.product != 'all' else None,
+            limit=4
+        )
+        
+        # If we have good queries from articles, return them
+        if len(queries) >= 3:
+            return {"queries": queries}
+        
+        # Fallback to OpenAI generation if we don't have enough pre-generated queries
         sections_text = "\n".join([f"- {section}" for section in request.sections])
         
         prompt = f"""Based on the following help center category information, generate 4 relevant and specific questions that users might ask about this category.
@@ -688,21 +850,24 @@ Return only the questions, one per line, without numbering or additional text.""
         
         # Parse the response into individual questions
         questions_text = response.choices[0].message.content.strip()
-        questions = [q.strip() for q in questions_text.split('\n') if q.strip()]
+        openai_queries = [q.strip() for q in questions_text.split('\n') if q.strip()]
         
         # Clean up questions (remove numbering if present)
-        cleaned_questions = []
-        for question in questions:
-            # Remove common numbering patterns (only numbers, not letters)
+        cleaned_queries = []
+        for question in openai_queries:
+            # Remove common numbering patterns
             question = re.sub(r'^\d+\.?\s*', '', question)
             question = question.strip()
             if question:
-                cleaned_questions.append(question)
+                cleaned_queries.append(question)
+        
+        # Combine pre-generated and OpenAI queries
+        combined_queries = queries + cleaned_queries
         
         # Ensure we have exactly 4 questions
-        if len(cleaned_questions) > 4:
-            cleaned_questions = cleaned_questions[:4]
-        elif len(cleaned_questions) < 4:
+        if len(combined_queries) > 4:
+            combined_queries = combined_queries[:4]
+        elif len(combined_queries) < 4:
             # Add fallback questions if we don't have enough
             fallback_questions = [
                 f"How do I get started with {request.category_name}?",
@@ -710,13 +875,13 @@ Return only the questions, one per line, without numbering or additional text.""
                 f"How can I troubleshoot issues with {request.category_name}?",
                 f"What are the best practices for using {request.category_name}?"
             ]
-            while len(cleaned_questions) < 4:
-                cleaned_questions.append(fallback_questions[len(cleaned_questions)])
+            while len(combined_queries) < 4:
+                combined_queries.append(fallback_questions[len(combined_queries)])
         
-        return {"queries": cleaned_questions}
+        return {"queries": combined_queries}
     
     except Exception as e:
-        # Return fallback questions if API fails
+        # Return fallback questions if everything fails
         fallback_questions = [
             f"How do I get started with {request.category_name}?",
             f"What are the main features of {request.category_name}?",
@@ -724,6 +889,58 @@ Return only the questions, one per line, without numbering or additional text.""
             f"What are the best practices for using {request.category_name}?"
         ]
         return {"queries": fallback_questions}
+
+@app.post("/refresh-queries-cache")
+async def refresh_queries_cache():
+    """Refresh the article queries cache"""
+    global ARTICLE_QUERIES_CACHE
+    try:
+        ARTICLE_QUERIES_CACHE = load_article_queries()
+        return {
+            "message": "Queries cache refreshed successfully",
+            "articles_loaded": len(ARTICLE_QUERIES_CACHE)
+        }
+    except Exception as e:
+        raise HTTPException(status_code=500, detail=f"Failed to refresh cache: {str(e)}")
+
+@app.get("/debug-article-queries")
+async def debug_article_queries():
+    """Debug endpoint to see available article queries"""
+    try:
+        article_queries = get_article_queries_cache()
+        
+        # Group by product and category
+        by_product = {}
+        for article in article_queries:
+            product = article['product']
+            if product not in by_product:
+                by_product[product] = {}
+            
+            category = article['category']
+            if category not in by_product[product]:
+                by_product[product][category] = []
+            
+            by_product[product][category].append({
+                'title': article['title'],
+                'queries': article['queries']
+            })
+        
+        return {
+            "total_articles": len(article_queries),
+            "by_product": by_product,
+            "sample_queries": [
+                {
+                    "article": article['title'],
+                    "category": article['category'],
+                    "product": article['product'],
+                    "queries": article['queries']
+                }
+                for article in article_queries[:5]  # Show first 5 as examples
+            ]
+        }
+        
+    except Exception as e:
+        return {"error": str(e), "error_type": type(e).__name__}
 
 @app.get("/debug-articles")
 async def debug_articles():

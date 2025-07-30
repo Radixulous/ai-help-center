@@ -1,0 +1,27 @@
+{
+  "name": "article-query-generator",
+  "version": "1.0.0",
+  "description": "Utility to generate suggested queries for help center articles",
+  "main": "generate-article-queries.js",
+  "scripts": {
+    "generate": "node generate-article-queries.js",
+    "test": "node test-single-article.js"
+  },
+  "dependencies": {
+    "openai": "^4.0.0",
+    "dotenv": "^16.0.0",
+    "glob": "^10.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "keywords": [
+    "help-center",
+    "articles",
+    "queries",
+    "openai",
+    "markdown"
+  ],
+  "author": "Your Name",
+  "license": "MIT"
+}
