@@ -2,9 +2,9 @@
   "name": "article-query-generator",
   "version": "1.0.0",
   "description": "Utility to generate suggested queries for help center articles",
-  "main": "generate_article_queries.js",
+  "main": "article_query_generator.js",
   "scripts": {
-    "generate": "node generate_article_queries.js",
+    "generate": "node article_query_generator.js",
     "test": "node test_single_article.js"
   },
   "dependencies": {
