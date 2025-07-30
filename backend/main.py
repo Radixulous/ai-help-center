@@ -415,7 +415,7 @@ async def search_articles(request: SearchRequest):
 
 @app.post("/chat")
 async def chat_completion(request: ChatRequest):
-    """Generate chat response with RAG context"""
+    """Generate chat response with RAG context and image monitoring"""
     try:
         # Search for relevant articles
         search_request = SearchRequest(
@@ -428,6 +428,8 @@ async def chat_completion(request: ChatRequest):
         # Build context from search results
         context = ""
         sources = []
+        available_images = []
+        
         for article in search_results["articles"]:
             context += f"Title: {article['title']}\nContent: {article['content']}\n\n"
             sources.append({
@@ -435,6 +437,46 @@ async def chat_completion(request: ChatRequest):
                 'product': article['product'],
                 'id': article['id']
             })
+            
+            # Extract images from article content
+            image_pattern = r'!\[([^\]]*)\]\(([^)]+)\)'
+            image_matches = re.findall(image_pattern, article['content'])
+            
+            for alt_text, filename in image_matches:
+                if filename.startswith(('http://', 'https://')):
+                    # Already a full URL
+                    available_images.append({
+                        'description': alt_text,
+                        'url': filename,
+                        'source_article': article['title']
+                    })
+                else:
+                    # Generate S3 URL
+                    image_url = get_image_url(filename, request.product or 'radix')
+                    if image_url:
+                        available_images.append({
+                            'description': alt_text,
+                            'url': image_url,
+                            'source_article': article['title']
+                        })
+        
+        # Build image context for AI
+        image_context = ""
+        if available_images:
+            image_context = "\n\nAVAILABLE IMAGES:\n"
+            for i, img in enumerate(available_images, 1):
+                image_context += f"{i}. {img['description']} (from: {img['source_article']})\n"
+            image_context += "\n"
+        
+        # Log what we're sending to AI (for monitoring)
+        print(f"\n=== CHAT REQUEST DEBUG ===")
+        print(f"User Query: {request.message}")
+        print(f"Product: {request.product}")
+        print(f"Available Images: {len(available_images)}")
+        for img in available_images:
+            print(f"  - {img['description']}")
+        print(f"Context Length: {len(context)} chars")
+        print(f"Image Context Length: {len(image_context)} chars")
         
         # Build conversation history
         messages = [
@@ -445,7 +487,16 @@ async def chat_completion(request: ChatRequest):
 Context from knowledge base:
 {context}
 
-Instructions:
+{image_context}
+
+IMPORTANT INSTRUCTIONS FOR IMAGE USAGE:
+- When the user asks about visual elements, interfaces, screenshots, or procedures that would benefit from visual reference, INCLUDE the relevant images
+- Look at the available images list above and determine which ones are most relevant to the user's question
+- If the user asks about UI elements, navigation, screenshots, or visual procedures, include the appropriate images
+- Use the image descriptions to match them to the user's needs
+- Include images using markdown format: ![description](image_url)
+
+General Instructions:
 - Answer based on the provided context from the knowledge base
 - Use rich formatting to make your responses more readable:
   - Use **bold text** for important terms and concepts
@@ -480,9 +531,32 @@ Instructions:
             temperature=0.3
         )
         
+        ai_response = response.choices[0].message.content
+        
+        # Log AI response analysis
+        print(f"\n=== AI RESPONSE ANALYSIS ===")
+        print(f"Response Length: {len(ai_response)} chars")
+        
+        # Check if AI used any images
+        image_usage = re.findall(r'!\[([^\]]*)\]\(([^)]+)\)', ai_response)
+        if image_usage:
+            print(f"Images Used: {len(image_usage)}")
+            for alt_text, url in image_usage:
+                print(f"  - {alt_text}")
+        else:
+            print("No images used in response")
+        
+        print(f"=== END DEBUG ===\n")
+        
         return {
-            "response": response.choices[0].message.content,
-            "product_filter": request.product
+            "response": ai_response,
+            "product_filter": request.product,
+            "debug_info": {
+                "available_images": len(available_images),
+                "images_used": len(image_usage),
+                "context_length": len(context),
+                "image_context_length": len(image_context)
+            }
         }
     
     except Exception as e:

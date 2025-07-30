@@ -510,6 +510,13 @@ const ChatInterface = () => {
     }
   };
 
+  const handleStartOver = () => {
+    setMessages([]);
+    setInput('');
+    setShowSuggestions(false);
+    setSuggestedQueries([]);
+  };
+
   const suggestedCategories = getSuggestedCategories();
 
   return (
@@ -522,18 +529,31 @@ const ChatInterface = () => {
             <h1 className="text-xl font-extrabold text-[#333333] leading-6">Help Center</h1>
           </div>
           
-          {/* Product Toggle */}
-          <div className="flex items-center space-x-2">
-            <span className="text-sm text-[#707174] font-normal">Product:</span>
-            <select 
-              value={selectedProduct} 
-              onChange={(e) => setSelectedProduct(e.target.value)}
-              className="border border-[#D5D8DB] rounded-md px-3 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-[#008CD5] focus:border-transparent bg-white text-[#333333] font-normal"
-            >
-              <option value="">All Products</option>
-              <option value="radix">Radix</option>
-              <option value="rediq">redIQ</option>
-            </select>
+          {/* Product Toggle and Start Over Button */}
+          <div className="flex items-center space-x-4">
+            <div className="flex items-center space-x-2">
+              <span className="text-sm text-[#707174] font-normal">Product:</span>
+              <select 
+                value={selectedProduct} 
+                onChange={(e) => setSelectedProduct(e.target.value)}
+                className="border border-[#D5D8DB] rounded-md px-3 py-1 text-sm focus:outline-none focus:ring-2 focus:ring-[#008CD5] focus:border-transparent bg-white text-[#333333] font-normal"
+              >
+                <option value="">All Products</option>
+                <option value="radix">Radix</option>
+                <option value="rediq">redIQ</option>
+              </select>
+            </div>
+            
+            {/* Start Over Button - only show when there are messages */}
+            {messages.length > 0 && (
+              <button
+                onClick={handleStartOver}
+                className="flex items-center space-x-2 px-3 py-1.5 text-sm font-normal text-[#707174] hover:text-[#333333] border border-[#D5D8DB] rounded-md hover:border-[#008CD5] hover:bg-[#E8F8FF] transition-all duration-200"
+              >
+                <RefreshCw className="w-4 h-4" />
+                <span>Start Over</span>
+              </button>
+            )}
           </div>
         </div>
       </div>
