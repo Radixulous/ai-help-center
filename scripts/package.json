@@ -2,11 +2,11 @@
   "name": "article-query-generator",
   "version": "1.0.0",
   "description": "Utility to generate suggested queries for help center articles",
-  "main": "article_query_generator.js",
-  "scripts": {
-    "generate": "node article_query_generator.js",
-    "test": "node test_single_article.js"
-  },
+  "main": "generate_article_queries.js",
+"scripts": {
+  "generate": "node generate_article_queries.js",
+  "test": "node test_single_article.js"
+},
   "dependencies": {
     "openai": "^4.0.0",
     "dotenv": "^16.0.0",
