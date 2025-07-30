@@ -9,7 +9,7 @@
  * Usage: node test-single-article.js [path-to-article.md]
  */
 
-const { generateSuggestedQueries, processArticleFile } = require('./generate-article-queries.js');
+const { generateSuggestedQueries, processArticleFile } = require('./generate_article_queries.js');
 const fs = require('fs').promises;
 const path = require('path');
 require('dotenv').config();
