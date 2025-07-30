@@ -239,6 +239,82 @@ def process_content_images(content: str, product: str) -> str:
     
     return processed_content
 
+def extract_frontmatter_attachments(content: str) -> List[str]:
+    """Extract attachment filenames from frontmatter"""
+    attachments = []
+    
+    # Look for frontmatter section
+    frontmatter_match = re.search(r'^---\s*\n(.*?)\n---\s*\n', content, re.DOTALL)
+    if frontmatter_match:
+        frontmatter = frontmatter_match.group(1)
+        
+        # Look for attachments section
+        attachments_match = re.search(r'attachments:\s*\n((?:\s*-\s*[^\n]+\n?)*)', frontmatter)
+        if attachments_match:
+            attachments_text = attachments_match.group(1)
+            # Extract individual attachment filenames
+            attachment_lines = re.findall(r'^\s*-\s*([^\n]+)', attachments_text, re.MULTILINE)
+            attachments.extend(attachment_lines)
+    
+    return attachments
+
+def extract_image_descriptions(content: str) -> List[dict]:
+    """Extract image descriptions and filenames from markdown content"""
+    images = []
+    
+    # Find all image references: ![description](filename)
+    image_pattern = r'!\[([^\]]*)\]\(([^)]+)\)'
+    matches = re.findall(image_pattern, content)
+    
+    for description, filename in matches:
+        images.append({
+            'description': description.strip(),
+            'filename': filename.strip(),
+            'full_reference': f'![{description}]({filename})'
+        })
+    
+    return images
+
+def build_image_context(articles: List[dict]) -> str:
+    """Build context about available images from search results"""
+    all_images = []
+    
+    for article in articles:
+        # Extract frontmatter attachments
+        attachments = extract_frontmatter_attachments(article['content'])
+        
+        # Extract image descriptions
+        image_descriptions = extract_image_descriptions(article['content'])
+        
+        # Combine both types of image information
+        for attachment in attachments:
+            all_images.append({
+                'type': 'attachment',
+                'filename': attachment,
+                'description': f'Attachment: {attachment}',
+                'article_title': article['title'],
+                'product': article['product']
+            })
+        
+        for img in image_descriptions:
+            all_images.append({
+                'type': 'inline',
+                'filename': img['filename'],
+                'description': img['description'],
+                'article_title': article['title'],
+                'product': article['product']
+            })
+    
+    if not all_images:
+        return ""
+    
+    # Build context string
+    context = "\n\nAVAILABLE IMAGES:\n"
+    for i, img in enumerate(all_images, 1):
+        context += f"{i}. {img['description']} ({img['filename']}) - from '{img['article_title']}' ({img['product']})\n"
+    
+    return context
+
 def load_articles():
     articles = []
     products = ['radix', 'rediq']
@@ -428,7 +504,6 @@ async def chat_completion(request: ChatRequest):
         # Build context from search results
         context = ""
         sources = []
-        available_images = []
         
         for article in search_results["articles"]:
             context += f"Title: {article['title']}\nContent: {article['content']}\n\n"
@@ -437,46 +512,19 @@ async def chat_completion(request: ChatRequest):
                 'product': article['product'],
                 'id': article['id']
             })
-            
-            # Extract images from article content
-            image_pattern = r'!\[([^\]]*)\]\(([^)]+)\)'
-            image_matches = re.findall(image_pattern, article['content'])
-            
-            for alt_text, filename in image_matches:
-                if filename.startswith(('http://', 'https://')):
-                    # Already a full URL
-                    available_images.append({
-                        'description': alt_text,
-                        'url': filename,
-                        'source_article': article['title']
-                    })
-                else:
-                    # Generate S3 URL
-                    image_url = get_image_url(filename, request.product or 'radix')
-                    if image_url:
-                        available_images.append({
-                            'description': alt_text,
-                            'url': image_url,
-                            'source_article': article['title']
-                        })
         
-        # Build image context for AI
-        image_context = ""
-        if available_images:
-            image_context = "\n\nAVAILABLE IMAGES:\n"
-            for i, img in enumerate(available_images, 1):
-                image_context += f"{i}. {img['description']} (from: {img['source_article']})\n"
-            image_context += "\n"
+        # Build image context using the new function
+        image_context = build_image_context(search_results["articles"])
         
         # Log what we're sending to AI (for monitoring)
         print(f"\n=== CHAT REQUEST DEBUG ===")
         print(f"User Query: {request.message}")
         print(f"Product: {request.product}")
-        print(f"Available Images: {len(available_images)}")
-        for img in available_images:
-            print(f"  - {img['description']}")
+        print(f"Articles Found: {len(search_results['articles'])}")
         print(f"Context Length: {len(context)} chars")
         print(f"Image Context Length: {len(image_context)} chars")
+        if image_context:
+            print(f"Image Context: {image_context}")
         
         # Build conversation history
         messages = [
@@ -552,7 +600,7 @@ General Instructions:
             "response": ai_response,
             "product_filter": request.product,
             "debug_info": {
-                "available_images": len(available_images),
+                "available_images": len(search_results["articles"]), # Changed to search_results["articles"]
                 "images_used": len(image_usage),
                 "context_length": len(context),
                 "image_context_length": len(image_context)
@@ -795,6 +843,51 @@ async def debug_s3_images():
             "test_content_original": test_content,
             "test_content_processed_radix": processed_radix,
             "test_content_processed_rediq": processed_rediq
+        }
+        
+    except Exception as e:
+        return {"error": str(e), "error_type": type(e).__name__}
+
+@app.get("/debug-chat-context")
+async def debug_chat_context():
+    """Debug chat context and image processing"""
+    try:
+        # Get recent chat context from memory (if available)
+        # For now, return the structure of what would be sent to AI
+        sample_context = {
+            "search_results": {
+                "query": "example query",
+                "articles_found": 3,
+                "articles": [
+                    {
+                        "title": "Sample Article",
+                        "content": "Sample content with ![image description](attachments/example.png)",
+                        "product": "radix",
+                        "score": 0.85
+                    }
+                ]
+            },
+            "image_processing": {
+                "images_found": 1,
+                "image_descriptions": ["image description"],
+                "s3_urls_generated": ["https://s3.amazonaws.com/bucket/radix/attachments/example.png"],
+                "image_context": "Available images: 1. image description (attachments/example.png)"
+            },
+            "ai_prompt_structure": {
+                "system_message": "You are a helpful assistant...",
+                "context_included": True,
+                "image_context_included": True,
+                "instructions_for_images": "When relevant to the user's question, include images using markdown format..."
+            }
+        }
+        
+        return {
+            "debug_info": sample_context,
+            "note": "This shows the structure of context sent to AI. Check server logs for actual chat context during conversations.",
+            "endpoints_to_test": [
+                "/debug-articles-with-images - to see available images",
+                "/debug-s3-images - to test image URL generation"
+            ]
         }
         
     except Exception as e:
