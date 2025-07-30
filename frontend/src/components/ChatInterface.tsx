@@ -1,6 +1,30 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { Send, MessageCircle, Search, Book, Zap, Database, Calculator, RefreshCw, Users, BarChart3, Code, HelpCircle, ChevronDown, ChevronUp, ExternalLink } from 'lucide-react';
 
+// Radix X Logo Component
+const RadixLogo = ({ className = "w-8 h-8" }: { className?: string }) => (
+  <svg 
+    className={className}
+    viewBox="0 0 96 96" 
+    fill="none" 
+    xmlns="http://www.w3.org/2000/svg"
+  >
+    <g clipPath="url(#clip0_637_805)">
+      <path d="M32.5564 13H8L35.7414 48.4752L47.9993 32.7771L32.5564 13Z" fill="#008CD5"/>
+      <path d="M88 13H63.4436L47.9994 32.7771L60.2586 48.4752L88 13Z" fill="#7AC943"/>
+      <path d="M60.2088 48.5379L60.2586 48.4752L47.9994 32.7771L35.7415 48.4752L35.7899 48.5379H60.2088Z" fill="#00B480"/>
+      <path d="M64.8691 54.3788L60.3071 48.5379H60.2088L47.9994 64.1511L55.5774 73.8424L63.5209 84H88L64.8691 54.3788Z" fill="#008CD5"/>
+      <path d="M35.7899 48.5379H35.6917L31.131 54.3788L8 84H32.4791L40.4213 73.8424L47.9993 64.1511L35.7899 48.5379Z" fill="#7AC943"/>
+      <path d="M47.9993 64.1511L60.2088 48.5379H35.7899L47.9993 64.1511Z" fill="#0076B4"/>
+    </g>
+    <defs>
+      <clipPath id="clip0_637_805">
+        <rect width="80" height="71" fill="white" transform="translate(8 13)"/>
+      </clipPath>
+    </defs>
+  </svg>
+);
+
 interface Message {
   role: 'user' | 'assistant';
   content: string;
@@ -502,10 +526,8 @@ const ChatInterface = () => {
       <div className="bg-white border-b border-[#E6E7E8] p-4">
         <div className="max-w-4xl mx-auto flex items-center justify-between">
           <div className="flex items-center space-x-3">
-            <div className="w-8 h-8 bg-[#008CD5] rounded-lg flex items-center justify-center">
-              <MessageCircle className="w-5 h-5 text-white" />
-            </div>
-            <h1 className="text-xl font-extrabold text-[#333333] leading-6">AI Help Center</h1>
+            <RadixLogo className="w-8 h-8" />
+            <h1 className="text-xl font-extrabold text-[#333333] leading-6">Help Center</h1>
           </div>
           
           {/* Product Toggle */}
