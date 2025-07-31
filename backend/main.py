@@ -226,6 +226,14 @@ def extract_frontmatter_queries(content: str) -> List[str]:
             # Extract query from list item
             if line.startswith('-'):
                 query = line[1:].strip()
+                # Handle double dash format: "- - "query""
+                if query.startswith('-'):
+                    query = query[1:].strip()
+                # Remove quotes if present (both single and double quotes)
+                if query.startswith('"') and query.endswith('"'):
+                    query = query[1:-1]
+                elif query.startswith("'") and query.endswith("'"):
+                    query = query[1:-1]
                 if query:
                     queries.append(query)
     
@@ -558,7 +566,7 @@ def load_articles():
 
 @app.get("/")
 async def root():
-    return {"message": "AI Help Center API", "status": "running"}
+    return {"message": "Radix Help Center API", "status": "running"}
 
 @app.post("/ingest")
 async def ingest_articles():
@@ -707,6 +715,19 @@ async def chat_completion(request: ChatRequest):
         "role": "system",
         "content": f"""You are an expert multifamily real estate consultant and technology advisor specializing in acquisitions, underwriting, valuation, and finance. You have deep expertise in multifamily real estate operations, market analysis, and the tools that support these activities.
 
+**IMPORTANT: You are a purpose-built bot designed specifically for Radix and redIQ products and multifamily real estate topics. You must decline to discuss or provide information on any off-topic subjects.**
+
+YOUR SCOPE OF EXPERTISE (ONLY):
+- **Radix Products**: Radix Research, RealRents, Benchmark, Reports, ProForma, API & Integrations
+- **redIQ Products**: dataIQ, valuationIQ, QuickSync
+- **Multifamily Real Estate**: Property acquisitions, underwriting, valuation, operations, market analysis, investment analysis, property management, rent optimization, financial modeling, due diligence, and related real estate topics
+
+OFF-TOPIC LIMITATIONS:
+- **Decline politely** to discuss topics outside of Radix/redIQ products or multifamily real estate
+- **Do not provide advice** on other software, general technology, politics, current events, or unrelated business topics
+- **Redirect users** back to Radix/redIQ or multifamily real estate topics when they ask off-topic questions
+- **Stay focused** on your core expertise areas
+
 Your role is to help multifamily real estate professionals understand not just how to use software tools, but how to apply them effectively in real-world scenarios for:
 - **Property Acquisitions**: Market analysis, due diligence, and deal evaluation
 - **Underwriting**: Financial modeling, risk assessment, and investment analysis  
@@ -763,7 +784,7 @@ PRODUCT-SPECIFIC GUIDANCE:
 - **ReDIQ**: Financial analysis, underwriting, and investment modeling
 - When uncertain about product context, ask: "Are you working with Radix Research for market analysis, RealRents for rent optimization, or ReDIQ for financial modeling?"
 
-Remember: You're not just a help desk - you're a strategic advisor helping real estate professionals make better investment decisions through better use of data and technology."""
+Remember: You're not just a help desk - you're a strategic advisor helping real estate professionals make better investment decisions through better use of data and technology. Stay focused on your core expertise areas and politely redirect off-topic inquiries."""
     }
 ]
         

@@ -290,7 +290,10 @@ const ChatInterface = () => {
   const [selectedProduct, setSelectedProduct] = useState('');
   const [suggestedQueries, setSuggestedQueries] = useState<string[]>([]);
   const [showSuggestions, setShowSuggestions] = useState(false);
-  const [generatingQueries, setGeneratingQueries] = useState(false);
+  // NEW: Store pre-loaded queries for each category
+  const [preloadedQueries, setPreloadedQueries] = useState<Record<string, string[]>>({});
+  const [queriesLoaded, setQueriesLoaded] = useState(false);
+  const [loadingQueries, setLoadingQueries] = useState(false);
   const messagesEndRef = useRef(null);
 
   // Radix categories and sections
@@ -398,6 +401,59 @@ const ChatInterface = () => {
     scrollToBottom();
   }, [messages]);
 
+  // NEW: Pre-load all suggested queries on component mount
+  useEffect(() => {
+    const preloadAllQueries = async () => {
+      setLoadingQueries(true);
+      const allCategories = [...radixCategories, ...rediqCategories];
+      const queriesMap: Record<string, string[]> = {};
+      
+      // Load queries for each category in parallel
+      const queryPromises = allCategories.map(async (category) => {
+        try {
+          const response = await fetch(`${API_BASE_URL}/generate-queries`, {
+            method: 'POST',
+            headers: { 'Content-Type': 'application/json' },
+            body: JSON.stringify({
+              category_name: category.name,
+              category_description: category.description,
+              sections: category.sections,
+              product: category.id.includes('radix') || category.id === 'realrents' || category.id === 'benchmark' || category.id === 'reports' || category.id === 'research' || category.id === 'proforma' || category.id === 'api' ? 'radix' : 'rediq'
+            })
+          });
+
+          const data = await response.json();
+          if (response.ok) {
+            queriesMap[category.id] = data.queries || [];
+          } else {
+            // Fallback queries
+            queriesMap[category.id] = [
+              `How do I get started with ${category.name}?`,
+              `What are the main features of ${category.name}?`,
+              `How can I troubleshoot issues with ${category.name}?`,
+              `What are the best practices for using ${category.name}?`
+            ];
+          }
+        } catch (error) {
+          // Fallback queries on error
+          queriesMap[category.id] = [
+            `How do I get started with ${category.name}?`,
+            `What are the main features of ${category.name}?`,
+            `How can I troubleshoot issues with ${category.name}?`,
+            `What are the best practices for using ${category.name}?`
+          ];
+        }
+      });
+
+      await Promise.all(queryPromises);
+      setPreloadedQueries(queriesMap);
+      setQueriesLoaded(true);
+      setLoadingQueries(false);
+    };
+
+    preloadAllQueries();
+  }, []);
+
   // Get query parameter on component mount
   useEffect(() => {
     const urlParams = new URLSearchParams(window.location.search);
@@ -414,37 +470,15 @@ const ChatInterface = () => {
     }
   }, []);
 
-  const generateSuggestedQueries = async (category: Category) => {
-    setGeneratingQueries(true);
+  // UPDATED: Use pre-loaded queries instead of generating on-demand
+  const handleCategoryClick = (category: Category) => {
     setShowSuggestions(true);
     
-    try {
-      const response = await fetch(`${API_BASE_URL}/generate-queries`, {
-        method: 'POST',
-        headers: { 'Content-Type': 'application/json' },
-        body: JSON.stringify({
-          category_name: category.name,
-          category_description: category.description,
-          sections: category.sections,
-          product: selectedProduct || 'all'
-        })
-      });
-
-      const data = await response.json();
-      
-      if (response.ok) {
-        setSuggestedQueries(data.queries || []);
-      } else {
-        // Fallback to default queries if API fails
-        setSuggestedQueries([
-          `How do I get started with ${category.name}?`,
-          `What are the main features of ${category.name}?`,
-          `How can I troubleshoot issues with ${category.name}?`,
-          `What are the best practices for using ${category.name}?`
-        ]);
-      }
-    } catch (error) {
-      // Fallback to default queries if API fails
+    // Use pre-loaded queries if available
+    if (preloadedQueries[category.id]) {
+      setSuggestedQueries(preloadedQueries[category.id]);
+    } else {
+      // Fallback to default queries if not pre-loaded
       setSuggestedQueries([
         `How do I get started with ${category.name}?`,
         `What are the main features of ${category.name}?`,
@@ -452,9 +486,9 @@ const ChatInterface = () => {
         `What are the best practices for using ${category.name}?`
       ]);
     }
-    
-    setGeneratingQueries(false);
   };
+
+  // REMOVED: The old generateSuggestedQueries function is no longer needed
 
   const handleSend = async (message = input, product = selectedProduct) => {
     if (!message.trim()) return;
@@ -497,10 +531,6 @@ const ChatInterface = () => {
     }
 
     setIsLoading(false);
-  };
-
-  const handleCategoryClick = (category: Category) => {
-    generateSuggestedQueries(category);
   };
 
   const handleSuggestedQueryClick = (query: string) => {
@@ -628,28 +658,17 @@ const ChatInterface = () => {
                                  </button>
                                </div>
                                
-                               {generatingQueries ? (
-                                 <div className="flex items-center justify-center py-4">
-                                   <div className="flex space-x-1">
-                                     <div className="w-2 h-2 bg-[#008CD5] rounded-full animate-bounce"></div>
-                                     <div className="w-2 h-2 bg-[#008CD5] rounded-full animate-bounce" style={{animationDelay: '0.1s'}}></div>
-                                     <div className="w-2 h-2 bg-[#008CD5] rounded-full animate-bounce" style={{animationDelay: '0.2s'}}></div>
+                               <div className="space-y-2">
+                                 {suggestedQueries.map((query, index) => (
+                                   <div
+                                     key={index}
+                                     onClick={() => handleSuggestedQueryClick(query)}
+                                     className="w-full text-left px-4 py-3 rounded-lg border border-[#E6E7E8] hover:border-[#008CD5] hover:bg-[#E8F8FF] transition-all duration-200 cursor-pointer"
+                                   >
+                                     <div className="text-sm text-[#333333] font-normal leading-5 break-words whitespace-normal">{query}</div>
                                    </div>
-                                   <span className="text-sm text-[#707174] font-normal ml-2">Generating questions...</span>
-                                 </div>
-                               ) : (
-                                 <div className="space-y-2">
-                                   {suggestedQueries.map((query, index) => (
-                                     <div
-                                       key={index}
-                                       onClick={() => handleSuggestedQueryClick(query)}
-                                       className="w-full text-left px-4 py-3 rounded-lg border border-[#E6E7E8] hover:border-[#008CD5] hover:bg-[#E8F8FF] transition-all duration-200 cursor-pointer"
-                                     >
-                                       <div className="text-sm text-[#333333] font-normal leading-5 break-words whitespace-normal">{query}</div>
-                                     </div>
-                                   ))}
-                                 </div>
-                               )}
+                                 ))}
+                               </div>
                              </div>
                            </div>
                          )}
@@ -670,6 +689,20 @@ const ChatInterface = () => {
                              </button>
                            ))}
                          </div>
+                         
+                         {/* Subtle loading indicator for initial query pre-loading */}
+                         {loadingQueries && (
+                           <div className="max-w-3xl mx-auto mt-4 text-center">
+                             <div className="inline-flex items-center space-x-2 text-xs text-[#707174] font-normal">
+                               <div className="flex space-x-1">
+                                 <div className="w-1.5 h-1.5 bg-[#008CD5] rounded-full animate-bounce"></div>
+                                 <div className="w-1.5 h-1.5 bg-[#008CD5] rounded-full animate-bounce" style={{animationDelay: '0.1s'}}></div>
+                                 <div className="w-1.5 h-1.5 bg-[#008CD5] rounded-full animate-bounce" style={{animationDelay: '0.2s'}}></div>
+                               </div>
+                               <span>Preparing suggestions...</span>
+                             </div>
+                           </div>
+                         )}
                        </div>
                      )}
 
